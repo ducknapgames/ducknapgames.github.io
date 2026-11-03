@@ -129,4 +129,4 @@
 .game-details a{color:var(--ink);text-underline-offset:4px}
 @media(max-width:480px){.studio-home.game-page .featured-game h1{font-size:36px}.game-details{font-size:16px}.game-details h2{font-size:27px}}
 
-.studio-home .art-feather svg{display:block;width:1em;height:1em;transform:rotate(9deg)}
+.studio-home .art-feather svg{display:block;width:1em;height:1em}

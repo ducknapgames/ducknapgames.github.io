@@ -1,0 +1,54 @@
+{
+  "name": "Duck Nap Games",
+  "website": "https://ducknapgames.github.io/",
+  "contact": "ducknapgames@gmail.com",
+  "games": [
+    {
+      "id": "whose-stuff",
+      "name": "Whose Stuff? Character Quiz",
+      "description": "Find 100 characters from their iconic belongings in Whose Stuff? Character Quiz. Play on Android, enjoy offline puzzles, and choose from 16 languages.",
+      "genre": "Character quiz",
+      "status": "Available on Google Play",
+      "features": [
+        "100 characters to find",
+        "16 languages",
+        "Offline gameplay",
+        "Contains ads and in-app purchases"
+      ],
+      "url": "https://ducknapgames.github.io/games/whose-stuff/",
+      "play_url": "https://play.google.com/store/apps/details?id=com.ducknapgames.whosestuff",
+      "platform": "Android",
+      "icon": "https://ducknapgames.github.io/assets/studio/whose-stuff-icon.webp"
+    },
+    {
+      "id": "fox-on-ice",
+      "name": "Fox on Ice",
+      "description": "Slide your fox across the ice, avoid patrolling huskies, and reach the den. Explore Fox on Ice: 50 levels, 10 chapters, daily puzzles, and a browser demo.",
+      "genre": "Sliding puzzle",
+      "status": "Browser demo available",
+      "features": [
+        "50 levels",
+        "10 chapters",
+        "Daily puzzles",
+        "Browser demo available"
+      ],
+      "url": "https://ducknapgames.github.io/games/fox-on-ice/",
+      "play_url": "https://fox-on-ice.ducknap.games/",
+      "platform": "Web browser",
+      "icon": "https://ducknapgames.github.io/assets/studio/fox-on-ice-icon.png"
+    },
+    {
+      "id": "farm-pals-forever",
+      "name": "Farm Pals Forever",
+      "description": "Meet Farm Pals Forever, a cozy farming game with 100 crops and 20 animal neighbors. Grow crops, grow friendships, and contact Duck Nap Games for availability.",
+      "genre": "Cozy farming",
+      "status": "Contact the studio for availability",
+      "features": [
+        "100 crops",
+        "20 animal neighbors"
+      ],
+      "url": "https://ducknapgames.github.io/games/farm-pals-forever/",
+      "icon": "https://ducknapgames.github.io/assets/studio/farm-pals-icon.webp"
+    }
+  ]
+}

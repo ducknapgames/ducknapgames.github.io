@@ -634,7 +634,7 @@ button[hidden] {
   line-height: 1.8;
   transform: rotate(-5deg);
 }
-.art-star {
+.art-feather {
   position: absolute;
   right: 52px;
   top: 42px;
@@ -1178,7 +1178,7 @@ button[hidden] {
     left: 12%;
     bottom: 58px;
   }
-  .art-star {
+  .art-feather {
     top: 22px;
     right: 13%;
   }
@@ -1465,7 +1465,7 @@ button[hidden] {
     left: 15px;
     bottom: 43px;
   }
-  .art-star {
+  .art-feather {
     font-size: 30px;
     right: 25px;
     top: 15px;

@@ -105,7 +105,8 @@
 
 /* A neutral backing keeps every color of the Google Play mark visible. */
 .studio-home .button-store{padding:10px 20px;min-height:54px}
-.studio-home .button-store .play-mark{width:32px;height:34px;padding:6px;object-fit:contain;background:#fff;border-radius:6px}
+.studio-home .button-store .play-mark,
+.studio-home .hero-actions .play-mark{width:32px;height:34px;padding:6px;object-fit:contain;background:#fff;border-radius:6px}
 @media(max-width:480px){.studio-home .button-store{padding:10px 14px}}
 
 /* Match the other game artwork’s hover movement without moving the screen inside its frame. */

@@ -46,6 +46,7 @@ html[data-theme="dark"] .studio-home .hero-actions .button-dark:hover { backgrou
 
 /* Keep the illustrated hero playful, with softer surfaces for night viewing. */
 html[data-theme="dark"] .studio-home .clue-world { background: #51392d; }
+html[data-theme="dark"] .studio-home .floating-icon img { box-shadow: 0 0 0 2px #d9c1f0, 0 7px 0 #21172f80, 0 12px 24px #110e1833; }
 
 
 html[data-theme="dark"] .studio-home .floating-icon span,
@@ -186,6 +187,7 @@ html:not([data-theme="light"]) .studio-home .hero-actions .button-dark:hover { b
 
 /* Keep the illustrated hero playful, with softer surfaces for night viewing. */
 html:not([data-theme="light"]) .studio-home .clue-world { background: #51392d; }
+html:not([data-theme="light"]) .studio-home .floating-icon img { box-shadow: 0 0 0 2px #d9c1f0, 0 7px 0 #21172f80, 0 12px 24px #110e1833; }
 
 
 html:not([data-theme="light"]) .studio-home .floating-icon span,

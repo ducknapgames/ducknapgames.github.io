@@ -1,0 +1,1584 @@
+@font-face {
+  font-family: Outfit;
+  src: url("/assets/studio/outfit-semibold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+}
+:root {
+  color-scheme: light;
+  --paper: #f7f5ee;
+  --ink: #253b35;
+  --muted: #65716b;
+  --line: #dedfd5;
+  --sage: #e8eddf;
+  --lavender: #e9e2f5;
+  --purple: #302543;
+  --gold: #f4c17d;
+  --max: 1240px;
+  --display: Outfit, system-ui, sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 30px;
+}
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font:
+    16px/1.65 system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    sans-serif;
+}
+img {
+  max-width: 100%;
+  display: block;
+}
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+button {
+  font: inherit;
+}
+a {
+  color: inherit;
+  text-underline-offset: 5px;
+}
+a:hover {
+  text-decoration-thickness: 2px;
+}
+button,
+a,
+input {
+  touch-action: manipulation;
+}
+a:focus-visible,
+button:focus-visible {
+  outline: 3px solid #966127;
+  outline-offset: 5px;
+}
+button:disabled {
+  cursor: default;
+}
+button[hidden] {
+  display: none !important;
+}
+.wrap {
+  width: min(var(--max), calc(100% - 96px));
+  margin-inline: auto;
+}
+.skip-link {
+  position: fixed;
+  top: -100px;
+  left: 20px;
+  z-index: 10;
+  background: var(--ink);
+  color: white;
+  padding: 12px 20px;
+}
+.skip-link:focus {
+  top: 12px;
+}
+.header {
+  height: 116px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--line);
+}
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-family: var(--display);
+  font-size: 27px;
+  letter-spacing: -1px;
+  line-height: 1;
+  text-decoration: none;
+}
+.brand img {
+  width: 58px;
+  height: 40px;
+  filter: brightness(0) saturate(100%) invert(20%) sepia(12%) saturate(977%)
+    hue-rotate(108deg);
+}
+.brand-small {
+  display: block;
+  font:
+    10px/1.7 system-ui,
+    sans-serif;
+  letter-spacing: 5px;
+  margin-top: 5px;
+}
+.nav {
+  display: flex;
+  gap: 38px;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 600;
+}
+.nav a {
+  text-decoration: none;
+  padding-block: 14px;
+}
+.nav a:hover {
+  text-decoration: underline;
+}
+.nav-contact {
+  border-bottom: 1px solid var(--ink);
+}
+.nav-contact span {
+  margin-left: 20px;
+}
+.hero {
+  display: grid;
+  grid-template-columns: 1.05fr 1fr;
+  gap: 36px;
+  padding-block: 94px 100px;
+  align-items: center;
+}
+.eyebrow {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 1.8px;
+  line-height: 1.6;
+  margin: 0 0 26px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.little-sun {
+  font-size: 25px;
+  line-height: 1;
+  color: #9b7030;
+}
+.hero h1 {
+  font-family: var(--display);
+  font-size: clamp(60px, 6.4vw, 89px);
+  font-weight: 600;
+  line-height: 1.045;
+  letter-spacing: -4.6px;
+  margin: 0 0 34px;
+}
+.love {
+  position: relative;
+  white-space: nowrap;
+}
+.love svg {
+  position: absolute;
+  left: 0;
+  bottom: -15px;
+  width: 100%;
+  height: 23px;
+  overflow: visible;
+  fill: none;
+  stroke: #d9b65a;
+  stroke-width: 6;
+  stroke-linecap: round;
+}
+.hero-description {
+  max-width: 380px;
+  color: var(--muted);
+  font-size: 18px;
+  line-height: 1.75;
+  margin-bottom: 30px;
+}
+.hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 24px;
+}
+.button {
+  display: inline-flex;
+  gap: 16px;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  border: 0;
+  border-radius: 8px;
+  padding: 16px 22px;
+  font-size: 14px;
+  font-weight: 650;
+  line-height: 1.4;
+  min-height: 54px;
+  transition:
+    transform 0.2s,
+    background 0.2s;
+}
+.button:hover {
+  transform: translateY(-3px);
+}
+.button-dark {
+  background: var(--ink);
+  color: var(--paper);
+}
+.button-dark:hover {
+  background: #38564c;
+}
+.text-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 18px;
+  font-size: 13px;
+  font-weight: 650;
+  text-decoration: none;
+}
+.text-link:hover {
+  text-decoration: underline;
+}
+.hero-note {
+  margin-top: 45px;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+.hero-note p {
+  font-size: 12px;
+  color: var(--muted);
+  line-height: 1.65;
+  margin: 0;
+}
+.note-line {
+  width: 25px;
+  height: 1px;
+  background: #a9b2a3;
+}
+.clue-world {
+  position: relative;
+  min-height: 560px;
+  isolation: isolate;
+  display: grid;
+  place-items: center;
+  padding: 42px 12px 20px;
+}
+.world-circle {
+  position: absolute;
+  background: var(--lavender);
+  width: 100%;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  z-index: -4;
+}
+.back-card {
+  position: absolute;
+  width: 74%;
+  height: 70%;
+  max-height: 410px;
+  top: 100px;
+  left: 14%;
+  border-radius: 28px;
+  z-index: -1;
+  box-shadow: 0 14px 22px #3025430a;
+}
+.back-card-one {
+  background: #e6b971;
+  transform: rotate(-15deg);
+  z-index: -3;
+}
+.back-card-two {
+  background: #779e8e;
+  transform: rotate(11deg);
+  z-index: -2;
+}
+.clue-card {
+  position: relative;
+  width: 79%;
+  background: #fffdf9;
+  border: 1px solid #e8e4d9;
+  border-radius: 24px;
+  box-shadow: 0 25px 60px #30254316;
+  transform: rotate(-3deg);
+  padding: 25px 26px 19px;
+  text-align: center;
+}
+.clue-top {
+  font-size: 9px;
+  letter-spacing: 1.5px;
+  color: #6d686f;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  font-weight: 700;
+}
+.clue-art {
+  height: 215px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 18px 0 8px;
+}
+.clue-art img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  filter: drop-shadow(0 9px 0 #30254308);
+  animation: gentle-float 7s ease-in-out infinite;
+}
+.clue-question {
+  font-family: var(--display);
+  font-size: 24px;
+  margin: 8px 0 16px;
+  color: var(--purple);
+  letter-spacing: -0.7px;
+}
+.answer-options {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 8px;
+}
+.answer-options button {
+  min-height: 46px;
+  background: transparent;
+  border: 1px solid #d9d3e3;
+  border-radius: 9px;
+  color: var(--purple);
+  font-size: 12px;
+  font-weight: 650;
+  cursor: pointer;
+  transition:
+    background 0.18s,
+    transform 0.18s;
+}
+.answer-options button:hover {
+  background: #f0eaf7;
+  transform: translateY(-2px);
+}
+.answer-options button.correct {
+  background: #d8ebde;
+  border-color: #608c6d;
+  color: #224a32;
+  animation: pop 0.4s;
+}
+.answer-options button.incorrect {
+  background: #fae4df;
+  border-color: #b66a58;
+}
+.clue-feedback {
+  color: #786e83;
+  font-size: 11px;
+  margin: 13px 0 0;
+  min-height: 19px;
+}
+.next-clue {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  justify-content: center;
+  margin: 10px auto 0;
+  border: 0;
+  background: none;
+  cursor: pointer;
+  color: var(--purple);
+  font-size: 12px;
+  font-weight: 700;
+  min-height: 36px;
+}
+.world-star {
+  position: absolute;
+  color: #b88d42;
+  z-index: 1;
+}
+.star-one {
+  font-size: 42px;
+  right: 3%;
+  top: 8%;
+  transform: rotate(12deg);
+}
+.star-two {
+  font-size: 62px;
+  left: -2%;
+  bottom: 10%;
+}
+.floating-icon {
+  position: absolute;
+  top: 5px;
+  left: 4%;
+  z-index: 2;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  transform: rotate(-7deg);
+}
+.floating-icon img {
+  width: 84px;
+  height: 84px;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px #30254321;
+}
+.floating-icon span {
+  font:
+    9px/1.65 system-ui,
+    sans-serif;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: var(--purple);
+}
+.world-caption {
+  position: absolute;
+  right: 4%;
+  bottom: -10px;
+  font-size: 12px;
+  transform: rotate(-4deg);
+  color: #756185;
+}
+.world-caption span {
+  font-size: 30px;
+  margin-right: 8px;
+}
+.no-script {
+  font-size: 11px;
+}
+.section-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  gap: 50px;
+  margin-bottom: 46px;
+}
+.section-heading .eyebrow {
+  margin-bottom: 16px;
+}
+.section-heading h2,
+.studio-section h2,
+.community-section h2 {
+  font: 600 clamp(38px, 4.6vw, 62px) / 1.07 var(--display);
+  letter-spacing: -2.5px;
+  margin: 0;
+}
+.section-heading > p {
+  font-size: 14px;
+  color: var(--muted);
+  line-height: 1.9;
+  margin: 0 0 7px;
+}
+.games-section {
+  padding-block: 75px 100px;
+  border-top: 1px solid var(--line);
+}
+.featured-game {
+  border-radius: 24px;
+  overflow: hidden;
+  background: var(--purple);
+  color: #f4effb;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  min-height: 640px;
+}
+.game-content {
+  padding: 58px 16px 48px 56px;
+  position: relative;
+  z-index: 2;
+}
+.game-heading {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  margin-bottom: 28px;
+}
+.game-icon {
+  border-radius: 18px;
+  width: 72px;
+  height: 72px;
+  box-shadow: 0 7px 20px #0002;
+}
+.game-category {
+  font-size: 9px;
+  letter-spacing: 1.7px;
+  line-height: 1.8;
+  font-weight: 600;
+  color: #c8b9df;
+}
+.game-category > span {
+  font-size: 11px;
+  letter-spacing: 0;
+  color: #e8def5;
+  font-weight: 400;
+}
+.featured-game h3 {
+  font: 600 clamp(40px, 4.2vw, 57px) / 1.1 var(--display);
+  letter-spacing: -2px;
+  margin: 0 0 8px;
+}
+.game-pitch {
+  font: 600 25px/1.4 var(--display);
+  color: var(--gold);
+  margin: 0 0 18px;
+  letter-spacing: -0.5px;
+}
+.game-description {
+  max-width: 350px;
+  color: #cfc1e0;
+  font-size: 14px;
+  line-height: 1.85;
+  margin: 0 0 30px;
+}
+.game-facts {
+  display: flex;
+  gap: 28px;
+  list-style: none;
+  padding: 0;
+  margin: 0 0 32px;
+  color: #cfc1e0;
+  font-size: 10px;
+}
+.game-facts li {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.game-facts strong {
+  font: 600 24px/1.3 var(--display);
+  color: #f7f0ff;
+  letter-spacing: -0.5px;
+}
+.button-gold {
+  background: var(--gold);
+  color: var(--purple);
+}
+.button-gold:hover {
+  background: #ffcf90;
+}
+.play-mark {
+  width: 20px;
+  height: 22px;
+  flex-shrink: 0;
+}
+.game-legal {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+  margin-top: 24px;
+  font-size: 10px;
+  color: #cfc1e0;
+}
+.game-art-scene {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  min-height: 640px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding-top: 68px;
+}
+.game-art-scene:before {
+  content: "";
+  position: absolute;
+  width: 430px;
+  height: 430px;
+  border-radius: 50%;
+  background: #493661;
+  top: 80px;
+  right: -70px;
+  z-index: -1;
+}
+.phone {
+  position: relative;
+  background: #1d1729;
+  border: 7px solid #1d1729;
+  border-radius: 33px;
+  width: 242px;
+  transform: rotate(9deg);
+  box-shadow: 12px 30px 40px #160d2640;
+  overflow: hidden;
+}
+.phone img {
+  width: 100%;
+  height: auto;
+}
+.phone-speaker {
+  position: absolute;
+  left: 34%;
+  top: 0;
+  width: 32%;
+  height: 13px;
+  border-radius: 0 0 10px 10px;
+  background: #1d1729;
+}
+.scene-item {
+  position: absolute;
+  object-fit: contain;
+  z-index: 2;
+  filter: drop-shadow(0 15px 8px #1c132b30);
+}
+.hammer {
+  width: 167px;
+  height: 167px;
+  left: -15px;
+  top: 74px;
+  transform: rotate(-20deg);
+}
+.santa {
+  width: 192px;
+  height: 170px;
+  right: -4px;
+  bottom: 62px;
+  transform: rotate(12deg);
+}
+.scene-note {
+  font-size: 11px;
+  position: absolute;
+  left: 20px;
+  bottom: 64px;
+  color: #ccb6e6;
+  line-height: 1.8;
+  transform: rotate(-5deg);
+}
+.art-star {
+  position: absolute;
+  right: 52px;
+  top: 42px;
+  font-size: 43px;
+  color: var(--gold);
+}
+.farm-game {
+  display: grid;
+  grid-template-columns: 0.65fr 1.35fr;
+  gap: 48px;
+  align-items: center;
+  margin-top: 24px;
+  padding: 48px 56px;
+  border: 1px solid #d9dfd2;
+  border-radius: 24px;
+  background: #e8eddf;
+}
+.farm-label {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.farm-label .eyebrow {
+  font-size: 9px;
+  max-width: 130px;
+  margin: 0;
+}
+.plant {
+  display: block;
+  width: 80px;
+  min-width: 70px;
+  color: #61866b;
+}
+.plant svg {
+  width: 100%;
+  height: 100%;
+  fill: #9fb792;
+  stroke: #56755b;
+  stroke-width: 3;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+}
+.farm-copy h3 {
+  font: 600 32px/1.2 var(--display);
+  letter-spacing: -1px;
+  margin: 0 0 12px;
+}
+.farm-copy p {
+  font-size: 14px;
+  line-height: 1.8;
+  margin: 0 0 18px;
+  max-width: 480px;
+  color: #596b60;
+}
+.farm-links {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 18px;
+}
+.farm-links > a:not(.text-link) {
+  font-size: 10px;
+  color: #596b60;
+}
+.studio-section {
+  padding-block: 100px 120px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 100px;
+  border-top: 1px solid var(--line);
+}
+.studio-signature {
+  display: flex;
+  gap: 13px;
+  align-items: center;
+  font-size: 11px;
+  margin-top: 36px;
+  color: var(--muted);
+}
+.studio-signature img {
+  filter: brightness(0) saturate(100%) invert(29%) sepia(9%) saturate(1060%)
+    hue-rotate(105deg);
+}
+.studio-copy > p {
+  font-size: 14px;
+  line-height: 1.9;
+  color: var(--muted);
+  margin: 0 0 22px;
+}
+.studio-copy .studio-lead {
+  font-size: 24px;
+  line-height: 1.55;
+  color: var(--ink);
+  letter-spacing: -0.5px;
+}
+.studio-principles {
+  border-top: 1px solid var(--line);
+  margin-top: 30px;
+  padding-top: 26px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+}
+.studio-principles span {
+  font-size: 10px;
+  color: #8f9b8e;
+}
+.studio-principles h3 {
+  font: 600 17px/1.4 var(--display);
+  margin: 8px 0;
+}
+.studio-principles p {
+  font-size: 12px;
+  color: var(--muted);
+  margin: 0;
+  line-height: 1.8;
+}
+.community-section {
+  background: var(--sage);
+  border-block: 1px solid #d9dfd2;
+}
+.community-inner {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 100px;
+  padding-block: 70px;
+}
+.community-section h2 {
+  font-size: 50px;
+  letter-spacing: -2px;
+}
+.community-inner > div > p:last-child {
+  font-size: 14px;
+  color: var(--muted);
+  max-width: 300px;
+  margin: 22px 0 0;
+  line-height: 1.8;
+}
+.social-links {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0 32px;
+}
+.social-links a {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 14px 0;
+  text-decoration: none;
+  border-bottom: 1px solid #cdd6c6;
+  font-size: 13px;
+  min-height: 56px;
+}
+.social-links a:hover {
+  text-decoration: underline;
+}
+.social-links a > span {
+  margin-left: auto;
+}
+.social-links img {
+  width: 21px;
+  height: 21px;
+  object-fit: contain;
+  filter: brightness(0) saturate(100%) invert(21%) sepia(10%) saturate(1000%)
+    hue-rotate(108deg);
+}
+.contact-section {
+  padding-block: 108px 115px;
+}
+.contact-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 100px;
+  align-items: end;
+}
+.contact-section h2 {
+  font: 600 clamp(44px, 5vw, 68px) / 1.1 var(--display);
+  letter-spacing: -2.5px;
+  margin: 0;
+}
+.contact-section h2 > span {
+  color: #839d76;
+}
+.contact-layout > div > p {
+  color: var(--muted);
+  font-size: 15px;
+  line-height: 1.8;
+  margin: 0 0 25px;
+}
+.contact-email {
+  font: 600 clamp(17px, 2vw, 25px) / 1.5 var(--display);
+  letter-spacing: -0.5px;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #adb7a7;
+  overflow-wrap: anywhere;
+}
+.support-link {
+  font-size: 11px;
+  color: var(--muted);
+  margin-top: 20px;
+  display: inline-flex;
+  gap: 18px;
+  text-decoration: none;
+}
+.support-link:hover {
+  text-decoration: underline;
+}
+.footer {
+  background: var(--ink);
+  color: #e8eddf;
+}
+.footer-inner {
+  padding-block: 40px 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr auto;
+  gap: 24px;
+  align-items: center;
+}
+.footer-brand {
+  font-size: 24px;
+}
+.footer-brand img {
+  filter: brightness(0) invert(94%) sepia(4%) saturate(680%) hue-rotate(30deg);
+}
+.footer-inner > p {
+  font-size: 12px;
+  color: #b5c0b1;
+  text-align: center;
+}
+.footer-links {
+  display: flex;
+  gap: 20px;
+  font-size: 11px;
+}
+.footer-links a {
+  text-decoration: none;
+}
+.footer-links a:hover {
+  text-decoration: underline;
+}
+.copyright {
+  font-size: 10px;
+  color: #adbdad;
+}
+.back-top {
+  grid-column: 3;
+  justify-self: end;
+  font-size: 11px;
+  text-decoration: none;
+}
+.back-top span {
+  margin-left: 20px;
+}
+@keyframes gentle-float {
+  0%,
+  100% {
+    transform: translateY(0) rotate(-1deg);
+  }
+  50% {
+    transform: translateY(-6px) rotate(1deg);
+  }
+}
+@keyframes pop {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  45% {
+    transform: scale(1.06);
+  }
+}
+@media (min-width: 1500px) {
+  .hero {
+    padding-block: 115px;
+  }
+  .hero h1 {
+    font-size: 94px;
+  }
+}
+@media (max-width: 1100px) {
+  .wrap {
+    width: calc(100% - 64px);
+  }
+  .hero {
+    gap: 20px;
+    padding-block: 70px;
+  }
+  .hero h1 {
+    font-size: 70px;
+    letter-spacing: -3px;
+  }
+  .hero-actions {
+    gap: 20px;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .clue-world {
+    min-height: 520px;
+    padding-inline: 0;
+  }
+  .clue-card {
+    width: 82%;
+    padding: 23px 21px;
+  }
+  .clue-art {
+    height: 190px;
+  }
+  .game-content {
+    padding: 45px 12px 40px 35px;
+  }
+  .game-description {
+    max-width: 310px;
+  }
+  .game-facts {
+    gap: 20px;
+  }
+  .phone {
+    width: 215px;
+  }
+  .game-art-scene {
+    min-height: 620px;
+  }
+  .hammer {
+    width: 130px;
+    height: 140px;
+    left: -10px;
+    top: 90px;
+  }
+  .santa {
+    width: 150px;
+    right: -10px;
+    bottom: 100px;
+  }
+  .studio-section,
+  .community-inner,
+  .contact-layout {
+    gap: 55px;
+  }
+  .farm-game {
+    padding: 38px 36px;
+    gap: 35px;
+  }
+  .footer-links {
+    gap: 14px;
+  }
+}
+@media (max-width: 800px) {
+  .wrap {
+    width: calc(100% - 48px);
+  }
+  .header {
+    height: 92px;
+  }
+  .brand {
+    font-size: 23px;
+  }
+  .brand img {
+    width: 46px;
+    height: 34px;
+  }
+  .brand-small {
+    font-size: 8px;
+  }
+  .nav {
+    gap: 24px;
+    font-size: 12px;
+  }
+  .nav-contact span {
+    margin-left: 8px;
+  }
+  .hero {
+    grid-template-columns: 1fr;
+    gap: 32px;
+    padding-block: 58px 75px;
+  }
+  .hero-copy {
+    max-width: 580px;
+  }
+  .hero h1 {
+    font-size: 78px;
+  }
+  .hero-description {
+    max-width: 450px;
+  }
+  .hero-actions {
+    flex-direction: row;
+    align-items: center;
+  }
+  .hero-note {
+    display: none;
+  }
+  .clue-world {
+    width: 470px;
+    max-width: 100%;
+    justify-self: center;
+    min-height: 555px;
+  }
+  .clue-card {
+    width: 79%;
+    padding: 25px;
+  }
+  .clue-art {
+    height: 220px;
+  }
+  .world-circle {
+    width: 100%;
+  }
+  .section-heading {
+    gap: 24px;
+  }
+  .section-heading h2 {
+    font-size: 47px;
+  }
+  .section-heading > p {
+    max-width: 230px;
+    font-size: 12px;
+  }
+  .featured-game {
+    grid-template-columns: 1fr;
+  }
+  .game-content {
+    padding: 40px;
+  }
+  .game-description {
+    max-width: 460px;
+  }
+  .game-art-scene {
+    min-height: 500px;
+    padding-top: 12px;
+  }
+  .phone {
+    width: 230px;
+    transform: rotate(7deg);
+  }
+  .hammer {
+    width: 175px;
+    height: 175px;
+    left: 10%;
+    top: 20px;
+  }
+  .santa {
+    width: 190px;
+    height: 175px;
+    right: 5%;
+    bottom: 50px;
+  }
+  .scene-note {
+    left: 12%;
+    bottom: 58px;
+  }
+  .art-star {
+    top: 22px;
+    right: 13%;
+  }
+  .farm-game {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+  .farm-label {
+    gap: 18px;
+  }
+  .farm-label .eyebrow {
+    max-width: none;
+  }
+  .plant {
+    width: 40px;
+    min-width: 40px;
+    height: 45px;
+  }
+  .farm-copy h3 {
+    font-size: 30px;
+  }
+  .studio-section {
+    grid-template-columns: 1fr;
+    gap: 40px;
+    padding-block: 70px;
+  }
+  .studio-section h2 {
+    font-size: 50px;
+  }
+  .studio-signature {
+    margin-top: 25px;
+  }
+  .studio-copy {
+    max-width: 540px;
+  }
+  .community-inner {
+    grid-template-columns: 1fr;
+    gap: 35px;
+    padding-block: 56px;
+  }
+  .community-section h2 {
+    font-size: 45px;
+  }
+  .community-inner > div > p:last-child {
+    max-width: 420px;
+  }
+  .contact-section {
+    padding-block: 75px;
+  }
+  .contact-layout {
+    grid-template-columns: 1fr;
+    gap: 34px;
+  }
+  .contact-section h2 {
+    font-size: 56px;
+  }
+  .contact-layout > div {
+    max-width: 500px;
+  }
+  .footer-inner {
+    grid-template-columns: 1fr 1fr;
+  }
+  .footer-inner > p {
+    justify-self: end;
+  }
+  .footer-links {
+    grid-column: 1/-1;
+  }
+  .copyright {
+    grid-column: 1;
+  }
+  .back-top {
+    grid-column: 2;
+  }
+  .games-section {
+    padding-block: 60px 70px;
+  }
+}
+@media (max-width: 480px) {
+  .wrap {
+    width: calc(100% - 40px);
+  }
+  .header {
+    height: 85px;
+    gap: 12px;
+  }
+  .brand {
+    gap: 6px;
+    font-size: 21px;
+  }
+  .brand img {
+    width: 37px;
+    height: 32px;
+  }
+  .brand-small {
+    font-size: 7px;
+    letter-spacing: 4px;
+  }
+  .nav {
+    gap: 16px;
+    font-size: 11px;
+  }
+  .nav > a:nth-child(2) {
+    display: none;
+  }
+  .nav a {
+    min-height: 44px;
+    display: flex;
+    align-items: center;
+  }
+  .nav-contact span {
+    margin-left: 7px;
+  }
+  .hero {
+    padding-top: 44px;
+    gap: 28px;
+  }
+  .eyebrow {
+    font-size: 8px;
+    letter-spacing: 1.4px;
+    gap: 7px;
+    margin-bottom: 22px;
+  }
+  .little-sun {
+    font-size: 21px;
+  }
+  .hero h1 {
+    font-size: clamp(52px, 14vw, 68px);
+    letter-spacing: -2.8px;
+    margin-bottom: 27px;
+  }
+  .love svg {
+    bottom: -12px;
+    height: 17px;
+  }
+  .hero-description {
+    font-size: 16px;
+    line-height: 1.75;
+    margin-bottom: 26px;
+    max-width: 325px;
+  }
+  .hero-actions {
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  .hero-actions .button {
+    font-size: 12px;
+    min-height: 50px;
+    padding: 15px 18px;
+  }
+  .hero-actions .text-link {
+    font-size: 11px;
+    gap: 12px;
+    min-height: 44px;
+  }
+  .clue-world {
+    min-height: 480px;
+    padding-top: 50px;
+  }
+  .floating-icon {
+    top: 9px;
+    left: 3%;
+    gap: 10px;
+  }
+  .floating-icon img {
+    width: 66px;
+    height: 66px;
+    border-radius: 15px;
+  }
+  .floating-icon span {
+    font-size: 8px;
+  }
+  .clue-card {
+    width: 84%;
+    border-radius: 20px;
+    padding: 20px 18px 18px;
+  }
+  .clue-art {
+    height: 180px;
+    margin-top: 15px;
+  }
+  .clue-top {
+    font-size: 8px;
+    letter-spacing: 1px;
+  }
+  .clue-question {
+    font-size: 23px;
+  }
+  .answer-options {
+    gap: 6px;
+  }
+  .answer-options button {
+    font-size: 11px;
+    min-height: 45px;
+  }
+  .clue-feedback {
+    font-size: 10px;
+  }
+  .back-card {
+    top: 103px;
+    max-height: 340px;
+    width: 78%;
+    left: 11%;
+  }
+  .star-one {
+    top: 14%;
+    right: 0;
+    font-size: 31px;
+  }
+  .star-two {
+    bottom: 8%;
+    font-size: 40px;
+  }
+  .world-caption {
+    right: 2%;
+    bottom: -4px;
+    font-size: 10px;
+  }
+  .world-caption span {
+    font-size: 24px;
+  }
+  .section-heading {
+    display: block;
+    margin-bottom: 30px;
+  }
+  .section-heading h2 {
+    font-size: 43px;
+    letter-spacing: -1.8px;
+  }
+  .section-heading > p {
+    max-width: none;
+    font-size: 13px;
+    margin-top: 20px;
+  }
+  .section-heading > p br {
+    display: none;
+  }
+  .game-content {
+    padding: 30px 26px 22px;
+  }
+  .game-heading {
+    gap: 14px;
+    margin-bottom: 23px;
+  }
+  .game-icon {
+    width: 61px;
+    height: 61px;
+    border-radius: 15px;
+  }
+  .featured-game h3 {
+    font-size: 43px;
+  }
+  .game-pitch {
+    font-size: 22px;
+  }
+  .game-description {
+    font-size: 13px;
+  }
+  .game-facts {
+    gap: 22px;
+    font-size: 9px;
+  }
+  .game-facts strong {
+    font-size: 22px;
+  }
+  .button-gold {
+    width: 100%;
+    font-size: 13px;
+    padding-inline: 14px;
+    gap: 12px;
+  }
+  .game-legal {
+    gap: 16px;
+    font-size: 10px;
+  }
+  .game-legal a {
+    min-height: 36px;
+    display: flex;
+    align-items: center;
+  }
+  .game-art-scene {
+    min-height: 430px;
+  }
+  .phone {
+    width: 190px;
+  }
+  .hammer {
+    width: 122px;
+    height: 122px;
+    left: -4px;
+    top: 25px;
+  }
+  .santa {
+    width: 138px;
+    height: 145px;
+    right: -9px;
+    bottom: 40px;
+  }
+  .scene-note {
+    font-size: 9px;
+    left: 15px;
+    bottom: 43px;
+  }
+  .art-star {
+    font-size: 30px;
+    right: 25px;
+    top: 15px;
+  }
+  .farm-game {
+    padding: 28px 25px;
+    gap: 22px;
+  }
+  .farm-copy h3 {
+    font-size: 29px;
+  }
+  .farm-copy p {
+    font-size: 13px;
+  }
+  .farm-links {
+    gap: 10px 20px;
+  }
+  .farm-links > a {
+    min-height: 40px;
+    align-items: center;
+    display: inline-flex;
+  }
+  .farm-links .text-link {
+    font-size: 12px;
+    gap: 12px;
+  }
+  .studio-section h2 {
+    font-size: 43px;
+    letter-spacing: -1.8px;
+  }
+  .studio-copy .studio-lead {
+    font-size: 21px;
+  }
+  .studio-copy > p {
+    font-size: 13px;
+  }
+  .studio-principles {
+    gap: 25px;
+  }
+  .studio-principles h3 {
+    font-size: 16px;
+  }
+  .studio-principles p {
+    font-size: 11px;
+  }
+  .community-inner {
+    padding-block: 45px;
+  }
+  .community-section h2 {
+    font-size: 42px;
+  }
+  .social-links {
+    gap: 0 23px;
+  }
+  .social-links a {
+    font-size: 12px;
+    gap: 10px;
+    min-height: 57px;
+  }
+  .social-links img {
+    width: 20px;
+    height: 20px;
+  }
+  .contact-section h2 {
+    font-size: 48px;
+    letter-spacing: -2px;
+  }
+  .contact-email {
+    font-size: 19px;
+  }
+  .contact-layout > div > p {
+    font-size: 13px;
+  }
+  .support-link {
+    font-size: 10px;
+    gap: 10px;
+    line-height: 1.8;
+    min-height: 44px;
+    align-items: center;
+  }
+  .footer-inner {
+    gap: 20px;
+  }
+  .footer-inner > p {
+    font-size: 10px;
+    max-width: 130px;
+  }
+  .footer-links {
+    gap: 24px;
+    font-size: 11px;
+  }
+  .footer-links a {
+    min-height: 36px;
+    display: flex;
+    align-items: center;
+  }
+  .copyright {
+    font-size: 9px;
+  }
+  .back-top {
+    font-size: 10px;
+  }
+  .back-top span {
+    margin-left: 10px;
+  }
+}
+@media (max-width: 350px) {
+  .wrap {
+    width: calc(100% - 32px);
+  }
+  .hero h1 {
+    font-size: 51px;
+  }
+  .hero-actions {
+    gap: 10px;
+  }
+  .hero-actions .text-link {
+    margin-top: 3px;
+  }
+  .clue-card {
+    width: 86%;
+    padding-inline: 14px;
+  }
+  .clue-world {
+    min-height: 460px;
+  }
+  .clue-art {
+    height: 160px;
+  }
+  .game-content {
+    padding-inline: 21px;
+  }
+  .game-facts {
+    gap: 16px;
+  }
+  .featured-game h3 {
+    font-size: 39px;
+  }
+  .contact-email {
+    font-size: 17px;
+  }
+  .social-links {
+    gap: 0 17px;
+  }
+  .social-links a {
+    gap: 8px;
+  }
+  .footer-links {
+    gap: 18px;
+  }
+}
+.hero > * {
+  min-width: 0;
+}
+.clue-world {
+  min-width: 0;
+}
+.studio-section > *,
+.community-inner > *,
+.contact-layout > * {
+  min-width: 0;
+}
+@media (min-width: 801px) {
+  .hero {
+    grid-template-columns: minmax(0, 1.05fr) minmax(0, 1fr);
+  }
+}
+@media (max-width: 800px) {
+  .hero {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .clue-world {
+    width: min(470px, 100%);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *:before,
+  *:after {
+    animation: none !important;
+    transition: none !important;
+  }
+  .button:hover,
+  .answer-options button:hover {
+    transform: none;
+  }
+}

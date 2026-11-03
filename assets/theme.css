@@ -294,12 +294,13 @@ html:not([data-theme="light"]) .site-main .game-card.quiz { background: #302543;
 
 /* A two-state switch; the untouched default follows the operating system. */
 :root:not([data-theme]) .theme-toggle { display:none; }
-.theme-toggle { position:relative; display:inline-flex; align-items:center; justify-content:space-between; flex-shrink:0; width:84px; height:44px; padding:0 11px; border:1px solid var(--line); border-radius:22px; background:var(--sand); color:var(--ink); cursor:pointer; }
+.theme-toggle { position:relative; display:inline-flex; align-items:center; justify-content:space-between; flex-shrink:0; width:84px; height:44px; padding:0 11px; border:1px solid #946023; border-radius:22px; background:var(--sand); color:var(--ink); cursor:pointer; }
 .theme-toggle::before { content:""; position:absolute; left:4px; top:5px; width:32px; height:32px; background:#f5bc7b; border-radius:50%; transition:transform .2s ease; }
 .theme-toggle[aria-checked="true"]::before { transform:translateX(42px); }
 .theme-toggle svg { position:relative; width:18px; height:18px; pointer-events:none; }
 .theme-toggle[aria-checked="false"] .theme-sun, .theme-toggle[aria-checked="true"] .theme-moon { color:#29272e; }
-.theme-toggle:hover { border-color:var(--muted); }
-.theme-toggle:focus-visible { outline:2px solid var(--accent); outline-offset:4px; }
+.theme-toggle[aria-checked="true"] { border-color:#f5bc7b; }
+.theme-toggle:focus-visible { outline:2px solid #946023; outline-offset:4px; }
+.theme-toggle[aria-checked="true"]:focus-visible { outline-color:#f5bc7b; }
 @media(prefers-reduced-motion:reduce) { .theme-toggle::before { transition:none; } }
 @media(max-width:600px) { .header { height:auto; min-height:85px; padding-block:20px; flex-wrap:wrap; gap:18px; } .header .nav { flex-wrap:wrap; gap:16px; } }

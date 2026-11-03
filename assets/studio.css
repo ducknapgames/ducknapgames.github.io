@@ -639,6 +639,136 @@ button[hidden] {
   font-size: 43px;
   color: var(--gold);
 }
+.fox-game {
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  align-items: center;
+  gap: 24px;
+  margin-top: 24px;
+  padding: 56px;
+  border: 1px solid #c9dfe4;
+  border-radius: 24px;
+  background: #e6f1f3;
+  overflow: hidden;
+}
+.fox-copy {
+  min-width: 0;
+  position: relative;
+  z-index: 1;
+}
+.fox-copy .eyebrow {
+  color: #4a747c;
+  font-size: 9px;
+}
+.fox-copy h3 {
+  font: 600 clamp(36px, 4.2vw, 52px) / 1.1 var(--display);
+  letter-spacing: -1.8px;
+  margin: 0 0 12px;
+}
+.fox-pitch {
+  font: 600 24px/1.4 var(--display);
+  color: #426a73;
+  margin: 0 0 16px;
+}
+.fox-description {
+  font-size: 14px;
+  line-height: 1.85;
+  color: #4c6870;
+  max-width: 400px;
+  margin: 0 0 24px;
+}
+.fox-facts {
+  display: flex;
+  gap: 12px 20px;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  margin: 0 0 30px;
+  font-size: 11px;
+  color: #426a73;
+}
+.fox-coming {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  font-size: 14px;
+  margin: 0 0 10px;
+}
+.fox-coming > span {
+  width: 7px;
+  height: 7px;
+  background: #527e88;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+.fox-follow {
+  font-size: 12px;
+  line-height: 1.7;
+  color: #4c6870;
+  max-width: 320px;
+  margin: 0 0 20px;
+}
+.fox-art {
+  position: relative;
+  isolation: isolate;
+  min-width: 0;
+}
+.fox-art:before {
+  content: "";
+  position: absolute;
+  inset: 10% -4% 0;
+  border-radius: 50%;
+  background: #d3e8ed;
+  z-index: -1;
+}
+.fox-art img {
+  display: block;
+  width: 115%;
+  max-width: none;
+  height: auto;
+  margin-left: -7.5%;
+  filter: drop-shadow(0 18px 12px #43616d18);
+}
+.fox-snow {
+  position: absolute;
+  color: #729fa8;
+  font-size: 32px;
+}
+.fox-snow-one {
+  top: 5%;
+  left: 2%;
+}
+.fox-snow-two {
+  right: -1%;
+  bottom: 6%;
+  font-size: 22px;
+}
+@media (max-width: 800px) {
+  .fox-game {
+    grid-template-columns: 1fr;
+    padding: 36px;
+    gap: 20px;
+  }
+  .fox-art {
+    grid-row: 1;
+    width: min(280px, 85%);
+    margin: 0 auto;
+  }
+}
+@media (max-width: 480px) {
+  .fox-game {
+    padding: 28px 24px;
+  }
+  .fox-facts {
+    gap: 10px 16px;
+  }
+  .fox-copy h3 {
+    font-size: 36px;
+  }
+  .fox-pitch {
+    font-size: 22px;
+  }
+}
 .farm-game {
   display: grid;
   grid-template-columns: 0.65fr 1.35fr;

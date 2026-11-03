@@ -102,3 +102,56 @@
   .studio-home .floating-icon { left: 13px; gap: 8px; }
   .studio-home .floating-icon strong { font-size: 16px; }
 }
+
+/* Mobile discovery: lead with the game artwork, keep details and links together. */
+@media (max-width: 600px) {
+  .studio-home .hero { padding-block: 20px 32px; gap: 24px; }
+  .studio-home .hero .eyebrow { margin-bottom: 14px; }
+  .studio-home .hero h1 { font-size: clamp(38px, 10.8vw, 52px); line-height: 1.08; margin-bottom: 18px; letter-spacing: -1.8px; }
+  .studio-home .hero-description { font-size: 15px; line-height: 1.6; margin-bottom: 18px; }
+  .studio-home .hero-actions { gap: 10px; }
+  .studio-home .clue-world { min-height: 0; padding: 68px 10px 18px; }
+  .studio-home .floating-icon { top: 12px; }
+  .studio-home .floating-icon img { width: 42px; height: 42px; }
+  .studio-home .play-sticker { top: 53px; }
+  .studio-home .clue-card { padding: 14px 14px 6px; }
+  .studio-home .clue-art { height: 120px; margin: 10px 0 6px; }
+  .studio-home .clue-question { font-size: 23px; margin: 6px 0 12px; }
+  .studio-home .clue-result { min-height: 66px; padding-top: 12px; }
+  .studio-home .world-caption { padding-top: 16px; }
+  .studio-home .back-card { top: 90px; height: 66%; }
+  .studio-home .featured-game { display: flex; flex-direction: column; min-height: 0; padding: 24px 0 14px; }
+  .studio-home .game-content { display: contents; }
+  .studio-home .game-content > * { margin-inline: 22px; }
+  .studio-home .game-heading { order: 1; margin-bottom: 14px; }
+  .studio-home .game-icon { width: 52px; height: 52px; }
+  .studio-home .featured-game h3,
+  .studio-home.game-page .featured-game h1 { order: 2; font-size: clamp(32px, 8.8vw, 40px); margin-bottom: 20px; }
+  .studio-home .game-art-scene { order: 3; flex: none; min-height: 0; height: 320px; margin: 0 14px 22px; padding: 22px 16px 48px; border-radius: 52px 18px 18px 18px; }
+  .studio-home .phone { width: 148px; }
+  .studio-home .cap-wrench { width: 74px; height: 66px; left: 0; top: 18px; }
+  .studio-home .santa { width: 80px; height: 80px; right: -4px; bottom: 10px; }
+  .studio-home .scene-note { font-size: 11px; left: 18px; bottom: 14px; }
+  .studio-home .character-scene { height: 270px; padding-bottom: 56px; }
+  .studio-home .showcase-character { height: 206px; width: min(250px, 100%); }
+  .studio-home .farm-showcase .farm-character { width: 184px; height: 184px; }
+  .studio-home .game-pitch { order: 4; margin-top: 0; margin-bottom: 10px; font-size: 21px; }
+  .studio-home .game-description { order: 5; margin-top: 0; margin-bottom: 0; font-size: 15px; line-height: 1.65; }
+  .studio-home .game-facts { order: 6; margin-block: 20px; gap: 20px; font-size: 12px; }
+  .studio-home .game-content > .button { order: 7; display: flex; justify-content: center; align-self: stretch; width: auto; min-height: 54px; }
+  .studio-home .game-legal { order: 8; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0 16px; margin-top: 12px; margin-bottom: 0; font-size: 12px; }
+  .studio-home .game-legal a { min-height: 44px; display: flex; align-items: center; width: fit-content; }
+}
+@media (max-width: 379px) {
+  .studio-home .game-content > * { margin-inline: 20px; }
+  .studio-home .game-facts { gap: 12px; }
+  .studio-home .game-art-scene { height: 300px; }
+  .studio-home .character-scene { height: 250px; }
+  .studio-home .phone { width: 138px; }
+}
+@media (max-width: 600px) {
+  .studio-home.game-page .featured-game h1 { margin-inline: 22px; }
+}
+@media (max-width: 379px) {
+  .studio-home.game-page .featured-game h1 { margin-inline: 20px; }
+}

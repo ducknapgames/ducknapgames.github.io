@@ -104,11 +104,11 @@ button[hidden] {
   line-height: 1;
   text-decoration: none;
 }
-.brand img {
+.brand-mark {
+  display: block;
   width: 58px;
   height: 40px;
-  filter: brightness(0) saturate(100%) invert(14%) sepia(7%) saturate(844%)
-    hue-rotate(224deg);
+  flex-shrink: 0;
 }
 .brand-small {
   display: block;
@@ -810,9 +810,8 @@ button[hidden] {
   margin-top: 36px;
   color: var(--muted);
 }
-.studio-signature img {
-  filter: brightness(0) saturate(100%) invert(14%) sepia(7%) saturate(844%)
-    hue-rotate(224deg);
+.studio-signature .brand-mark {
+  color: var(--ink);
 }
 .studio-copy > p {
   font-size: 16px;
@@ -955,8 +954,8 @@ button[hidden] {
 .footer-brand {
   font-size: 24px;
 }
-.footer-brand img {
-  filter: brightness(0) invert(97%);
+.footer-brand .brand-mark {
+  --duck-eye: var(--ink);
 }
 .footer-inner > p {
   font-size: 12px;
@@ -1086,7 +1085,7 @@ button[hidden] {
   .brand {
     font-size: 23px;
   }
-  .brand img {
+  .brand .brand-mark {
     width: 46px;
     height: 34px;
   }
@@ -1253,7 +1252,7 @@ button[hidden] {
     gap: 6px;
     font-size: 21px;
   }
-  .brand img {
+  .brand .brand-mark {
     width: 37px;
     height: 32px;
   }

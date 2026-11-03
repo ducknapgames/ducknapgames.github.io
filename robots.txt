@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://ducknapgames.github.io/sitemap.xml
+Sitemap: https://ducknap.games/sitemap.xml

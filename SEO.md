@@ -1,6 +1,6 @@
 # Search and agent discovery maintenance
 
-The production origin is https://ducknapgames.github.io/. Keep canonical URLs on that origin unless the whole site is deliberately migrated.
+The production origin is https://ducknap.games/. Keep canonical URLs on that origin unless the whole site is deliberately migrated.
 
 - Each game has an HTML landing page under `/games/<slug>/`, linked from the homepage. Keep its availability and play destination accurate.
 - Update visible game descriptions, `VideoGame` JSON-LD, `games.json`, and the corresponding `index.md` together. The validator checks description/name consistency between catalog and game schema.

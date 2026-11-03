@@ -6,14 +6,14 @@ Whose Stuff? Character Quiz is available on Android. Fox on Ice has a browser de
 
 ## Games
 
-- [Whose Stuff? Character Quiz](https://ducknapgames.github.io/games/whose-stuff/index.md): Available on Google Play.
-- [Fox on Ice](https://ducknapgames.github.io/games/fox-on-ice/index.md): Browser demo available.
-- [Farm Pals Forever](https://ducknapgames.github.io/games/farm-pals-forever/index.md): Contact the studio for availability.
+- [Whose Stuff? Character Quiz](https://ducknap.games/games/whose-stuff/index.md): Available on Google Play.
+- [Fox on Ice](https://ducknap.games/games/fox-on-ice/index.md): Browser demo available.
+- [Farm Pals Forever](https://ducknap.games/games/farm-pals-forever/index.md): Contact the studio for availability.
 
 ## Studio and support
 
-- [Studio overview](https://ducknapgames.github.io/index.md): Games and contact information.
-- [Machine-readable game catalog](https://ducknapgames.github.io/games.json): Current names, features, availability and public play links.
-- [Support](https://ducknapgames.github.io/support/): Game help and purchase questions.
-- [Privacy policies](https://ducknapgames.github.io/privacy/): Game-specific privacy information.
-- [Whose Stuff data deletion](https://ducknapgames.github.io/games/whose-stuff/delete-data/): Account and data deletion requests.
+- [Studio overview](https://ducknap.games/index.md): Games and contact information.
+- [Machine-readable game catalog](https://ducknap.games/games.json): Current names, features, availability and public play links.
+- [Support](https://ducknap.games/support/): Game help and purchase questions.
+- [Privacy policies](https://ducknap.games/privacy/): Game-specific privacy information.
+- [Whose Stuff data deletion](https://ducknap.games/games/whose-stuff/delete-data/): Account and data deletion requests.

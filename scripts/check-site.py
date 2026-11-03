@@ -7,7 +7,7 @@ import re
 import xml.etree.ElementTree as ET
 
 ROOT = Path(__file__).resolve().parents[1]
-BASE = 'https://ducknapgames.github.io'
+BASE = 'https://ducknap.games'
 
 class Page(HTMLParser):
     def __init__(self, text):
@@ -47,8 +47,8 @@ for p, page in pages.items():
     for tag, attrs in page.tags:
         for key in ['src', 'href']:
             url = urlsplit(attrs.get(key, ''))
-            if url.scheme and url.netloc != 'ducknapgames.github.io': continue
-            if url.netloc and url.netloc != 'ducknapgames.github.io': continue
+            if url.scheme and url.netloc != 'ducknap.games': continue
+            if url.netloc and url.netloc != 'ducknap.games': continue
             if not attrs.get(key) or url.scheme in ['mailto', 'tel']: continue
             target = ROOT / unquote(url.path).lstrip('/') if url.path.startswith('/') else p.parent / unquote(url.path) if url.path else p
             if target.is_dir(): target = target / 'index.html'

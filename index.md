@@ -8,7 +8,7 @@ Find 100 characters from their iconic belongings in Whose Stuff? Character Quiz.
 
 Availability: Available on Google Play.
 
-[Game details](https://ducknapgames.github.io/games/whose-stuff/)
+[Game details](https://ducknap.games/games/whose-stuff/)
 
 ## Fox on Ice
 
@@ -16,7 +16,7 @@ Slide your fox across the ice, avoid patrolling huskies, and reach the den. Expl
 
 Availability: Browser demo available.
 
-[Game details](https://ducknapgames.github.io/games/fox-on-ice/)
+[Game details](https://ducknap.games/games/fox-on-ice/)
 
 ## Farm Pals Forever
 
@@ -24,10 +24,10 @@ Meet Farm Pals Forever, a cozy farming game with 100 crops and 20 animal neighbo
 
 Availability: Contact the studio for availability.
 
-[Game details](https://ducknapgames.github.io/games/farm-pals-forever/)
+[Game details](https://ducknap.games/games/farm-pals-forever/)
 
 ## Studio contact
 
 Publishing, partnerships and support: ducknapgames@gmail.com
 
-[Support](https://ducknapgames.github.io/support/) · [Privacy policies](https://ducknapgames.github.io/privacy/)
+[Support](https://ducknap.games/support/) · [Privacy policies](https://ducknap.games/privacy/)

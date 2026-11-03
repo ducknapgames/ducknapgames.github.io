@@ -10,8 +10,8 @@ Slide your fox across the ice, avoid patrolling huskies, and reach the den. Expl
 - Daily puzzles
 - Browser demo available
 
-[Official game page](https://ducknapgames.github.io/games/fox-on-ice/)
+[Official game page](https://ducknap.games/games/fox-on-ice/)
 
 [Play Fox on Ice](https://fox-on-ice.ducknap.games/)
 
-[Support](https://ducknapgames.github.io/support/#fox-on-ice)
+[Support](https://ducknap.games/support/#fox-on-ice)

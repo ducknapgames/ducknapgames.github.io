@@ -10,8 +10,8 @@ Find 100 characters from their iconic belongings in Whose Stuff? Character Quiz.
 - Offline gameplay
 - Contains ads and in-app purchases
 
-[Official game page](https://ducknapgames.github.io/games/whose-stuff/)
+[Official game page](https://ducknap.games/games/whose-stuff/)
 
 [Play Whose Stuff? Character Quiz](https://play.google.com/store/apps/details?id=com.ducknapgames.whosestuff)
 
-[Support](https://ducknapgames.github.io/support/#whose-stuff)
+[Support](https://ducknap.games/support/#whose-stuff)

@@ -1,5 +1,13 @@
 /* Follow the operating system; there is no stored or manual theme override. */
-:root { color-scheme: light dark; }
+:root { color-scheme: light dark; --muted: #68626c; }
+
+/* Readable small copy on the warm panels, clear control edges and focus rings. */
+.studio-home .answer-options button { border-color: #886597; }
+.featured-game a:focus-visible, .footer a:focus-visible { outline-color: #f5bc7b; }
+.studio-home .answer-options button.incorrect:hover:not(:disabled) {
+  background: #fae4df;
+  color: #302543;
+}
 
 @media (prefers-color-scheme: dark) {
   :root {
@@ -54,7 +62,8 @@
     border-color: #dca366;
     box-shadow: 0 4px 0 #8a5b33;
   }
-  .studio-home .answer-options button.incorrect {
+  .studio-home .answer-options button.incorrect,
+  .studio-home .answer-options button.incorrect:hover:not(:disabled) {
     background: #713d48;
     color: #fff1f0;
     border-color: #d28e97;

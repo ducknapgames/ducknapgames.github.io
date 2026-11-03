@@ -22,7 +22,7 @@ Availability: Browser demo available.
 
 Meet Farm Pals Forever, a cozy farming game with 100 crops and 20 animal neighbors. Grow crops, grow friendships, and contact Duck Nap Games for availability.
 
-Availability: Contact the studio for availability.
+Availability: Coming soon.
 
 [Game details](https://ducknap.games/games/farm-pals-forever/)
 

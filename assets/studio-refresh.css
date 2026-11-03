@@ -130,3 +130,9 @@
 @media(max-width:480px){.studio-home.game-page .featured-game h1{font-size:36px}.game-details{font-size:16px}.game-details h2{font-size:27px}}
 
 .studio-home .art-feather svg{display:block;width:1em;height:1em}
+
+/* Release status stays beside the game identity, separate from its action button. */
+.studio-home .game-heading .game-category > .game-status { display:inline-flex; align-items:center; width:fit-content; margin-top:7px; padding:5px 10px; border-radius:999px; font-size:12px; font-weight:750; line-height:1.3; letter-spacing:0; white-space:nowrap; }
+.studio-home .game-heading .game-category > .status-live { background:#dcebdc; color:#284a34; }
+.studio-home .game-heading .game-category > .status-demo { background:#f8dfb8; color:#62411d; }
+.studio-home .game-heading .game-category > .status-soon { background:#e8e1f1; color:#493b5f; }

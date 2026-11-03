@@ -4,7 +4,7 @@ Meet Farm Pals Forever, a cozy farming game with 100 crops and 20 animal neighbo
 
 - Developer: Duck Nap Games
 - Genre: Cozy farming
-- Availability: Contact the studio for availability
+- Availability: Coming soon
 - 100 crops
 - 20 animal neighbors
 

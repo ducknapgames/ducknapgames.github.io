@@ -1,4 +1,4 @@
-/* Follow the operating system; there is no stored or manual theme override. */
+/* System preference is the default; an explicit switch choice takes priority. */
 :root { color-scheme: light dark; --muted: #68626c; }
 
 /* Readable small copy on the warm panels, clear control edges and focus rings. */
@@ -9,8 +9,13 @@
   color: #302543;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
+:root[data-theme="light"] { color-scheme: light; }
+:root[data-theme="dark"] { color-scheme: dark; }
+
+/* Explicit dark choice, including on a light system. */
+
+
+html[data-theme="dark"] {
     --paper: #1b1920;
     --ink: #f5f0e9;
     --muted: #bcb4c4;
@@ -20,70 +25,281 @@
     --duck-eye: #1b1920;
   }
 
-  a:focus-visible, button:focus-visible { outline-color: #f5bc7b; }
-  .skip-link { background: #f5bc7b; color: #29272e; }
-  .feather-icon { color: #f5bc7b; }
-  .studio-home .hero h1 .love { color: #e4c8f3; }
-  .studio-home .hero-actions .button-dark { background: #f5bc7b; color: #29272e; }
-  .studio-home .hero-actions .button-dark:hover { background: #ffd099; }
 
-  /* Keep the illustrated hero playful, with softer surfaces for night viewing. */
-  .studio-home .clue-world { background: #51392d; }
-  .studio-home .floating-icon span,
-  .studio-home .world-caption { color: #f9d7af; }
-  .studio-home .play-sticker { background: #e6c7f4; color: #302543; }
-  .studio-home .back-card-one { background: #69507d; }
-  .studio-home .back-card-two { background: #997ba6; }
-  .studio-home .clue-card {
+html[data-theme="dark"] a:focus-visible,
+html[data-theme="dark"] button:focus-visible { outline-color: #f5bc7b; }
+
+
+html[data-theme="dark"] .skip-link { background: #f5bc7b; color: #29272e; }
+
+
+html[data-theme="dark"] .feather-icon { color: #f5bc7b; }
+
+
+html[data-theme="dark"] .studio-home .hero h1 .love { color: #e4c8f3; }
+
+
+html[data-theme="dark"] .studio-home .hero-actions .button-dark { background: #f5bc7b; color: #29272e; }
+
+
+html[data-theme="dark"] .studio-home .hero-actions .button-dark:hover { background: #ffd099; }
+
+/* Keep the illustrated hero playful, with softer surfaces for night viewing. */
+html[data-theme="dark"] .studio-home .clue-world { background: #51392d; }
+
+
+html[data-theme="dark"] .studio-home .floating-icon span,
+html[data-theme="dark"] .studio-home .world-caption { color: #f9d7af; }
+
+
+html[data-theme="dark"] .studio-home .play-sticker { background: #e6c7f4; color: #302543; }
+
+
+html[data-theme="dark"] .studio-home .back-card-one { background: #69507d; }
+
+
+html[data-theme="dark"] .studio-home .back-card-two { background: #997ba6; }
+
+
+html[data-theme="dark"] .studio-home .clue-card {
     background: #2c2536;
     border-color: #786383;
     box-shadow: 0 9px 0 #110e184d, 0 25px 30px #110e1833;
   }
-  .studio-home .clue-top,
-  .studio-home .clue-feedback { color: #d6c4e1; }
-  .studio-home .clue-question { color: #f7f0ff; }
-  .studio-home .answer-options button {
+
+
+html[data-theme="dark"] .studio-home .clue-top,
+html[data-theme="dark"] .studio-home .clue-feedback { color: #d6c4e1; }
+
+
+html[data-theme="dark"] .studio-home .clue-question { color: #f7f0ff; }
+
+
+html[data-theme="dark"] .studio-home .answer-options button {
     background: #43344f;
     color: #faf3ff;
     border-color: #8b7199;
     box-shadow: 0 4px 0 #1c1526;
   }
-  .studio-home .answer-options button:hover:not(:disabled) {
+
+
+html[data-theme="dark"] .studio-home .answer-options button:hover:not(:disabled) {
     background: #584267;
     box-shadow: 0 7px 0 #1c1526;
   }
-  .studio-home .answer-options button:active:not(:disabled) { box-shadow: 0 1px 0 #1c1526; }
-  .studio-home .answer-options button:disabled,
-  .studio-home .answer-options button:disabled:hover { background: #43344f; color: #faf3ff; }
-  .studio-home .answer-options button.correct,
-  .studio-home .answer-options button.correct:disabled:hover {
+
+
+html[data-theme="dark"] .studio-home .answer-options button:active:not(:disabled) { box-shadow: 0 1px 0 #1c1526; }
+
+
+html[data-theme="dark"] .studio-home .answer-options button:disabled,
+html[data-theme="dark"] .studio-home .answer-options button:disabled:hover { background: #43344f; color: #faf3ff; }
+
+
+html[data-theme="dark"] .studio-home .answer-options button.correct,
+html[data-theme="dark"] .studio-home .answer-options button.correct:disabled:hover {
     background: #f5bc7b;
     color: #302543;
     border-color: #dca366;
     box-shadow: 0 4px 0 #8a5b33;
   }
-  .studio-home .answer-options button.incorrect,
-  .studio-home .answer-options button.incorrect:hover:not(:disabled) {
+
+
+html[data-theme="dark"] .studio-home .answer-options button.incorrect,
+html[data-theme="dark"] .studio-home .answer-options button.incorrect:hover:not(:disabled) {
     background: #713d48;
     color: #fff1f0;
     border-color: #d28e97;
     box-shadow: 0 4px 0 #41202a;
   }
-  .studio-home .next-clue { color: #f5bc7b; }
 
-  /* Game identities stay distinct instead of inheriting the page background. */
-  .studio-home .featured-game,
-  .studio-home .game-facts strong { color: #faf8f3; }
-  .studio-home .fox-showcase .game-art-scene { background: #264b5b; }
-  .studio-home .fox-showcase .scene-note,
-  .studio-home .fox-showcase .art-feather { color: #d0eaf5; }
-  .studio-home .farm-showcase .game-art-scene { background: #455b42; }
-  .studio-home .farm-showcase .scene-note,
-  .studio-home .farm-showcase .art-feather { color: #e6efd7; }
 
-  .social-links a, .contact-email { border-color: var(--line); }
-  .social-links img { filter: brightness(0) invert(1); }
-  .footer { background: #121015; color: #faf8f3; }
-  .footer-brand .brand-mark { --duck-eye: #121015; }
-  .site-main .game-card.quiz { background: #302543; }
+html[data-theme="dark"] .studio-home .next-clue { color: #f5bc7b; }
+
+/* Game identities stay distinct instead of inheriting the page background. */
+html[data-theme="dark"] .studio-home .featured-game,
+html[data-theme="dark"] .studio-home .game-facts strong { color: #faf8f3; }
+
+
+html[data-theme="dark"] .studio-home .fox-showcase .game-art-scene { background: #264b5b; }
+
+
+html[data-theme="dark"] .studio-home .fox-showcase .scene-note,
+html[data-theme="dark"] .studio-home .fox-showcase .art-feather { color: #d0eaf5; }
+
+
+html[data-theme="dark"] .studio-home .farm-showcase .game-art-scene { background: #455b42; }
+
+
+html[data-theme="dark"] .studio-home .farm-showcase .scene-note,
+html[data-theme="dark"] .studio-home .farm-showcase .art-feather { color: #e6efd7; }
+
+
+html[data-theme="dark"] .social-links a,
+html[data-theme="dark"] .contact-email { border-color: var(--line); }
+
+
+html[data-theme="dark"] .social-links img { filter: brightness(0) invert(1); }
+
+
+html[data-theme="dark"] .footer { background: #121015; color: #faf8f3; }
+
+
+html[data-theme="dark"] .footer-brand .brand-mark { --duck-eye: #121015; }
+
+
+html[data-theme="dark"] .site-main .game-card.quiz { background: #302543; }
+
+
+/* CSS fallback also works when JavaScript is unavailable. */
+@media (prefers-color-scheme: dark) {
+
+
+html:not([data-theme="light"]) {
+    --paper: #1b1920;
+    --ink: #f5f0e9;
+    --muted: #bcb4c4;
+    --line: #403947;
+    --sand: #26222c;
+    --accent: #f5bc7b;
+    --duck-eye: #1b1920;
+  }
+
+
+html:not([data-theme="light"]) a:focus-visible,
+html:not([data-theme="light"]) button:focus-visible { outline-color: #f5bc7b; }
+
+
+html:not([data-theme="light"]) .skip-link { background: #f5bc7b; color: #29272e; }
+
+
+html:not([data-theme="light"]) .feather-icon { color: #f5bc7b; }
+
+
+html:not([data-theme="light"]) .studio-home .hero h1 .love { color: #e4c8f3; }
+
+
+html:not([data-theme="light"]) .studio-home .hero-actions .button-dark { background: #f5bc7b; color: #29272e; }
+
+
+html:not([data-theme="light"]) .studio-home .hero-actions .button-dark:hover { background: #ffd099; }
+
+/* Keep the illustrated hero playful, with softer surfaces for night viewing. */
+html:not([data-theme="light"]) .studio-home .clue-world { background: #51392d; }
+
+
+html:not([data-theme="light"]) .studio-home .floating-icon span,
+html:not([data-theme="light"]) .studio-home .world-caption { color: #f9d7af; }
+
+
+html:not([data-theme="light"]) .studio-home .play-sticker { background: #e6c7f4; color: #302543; }
+
+
+html:not([data-theme="light"]) .studio-home .back-card-one { background: #69507d; }
+
+
+html:not([data-theme="light"]) .studio-home .back-card-two { background: #997ba6; }
+
+
+html:not([data-theme="light"]) .studio-home .clue-card {
+    background: #2c2536;
+    border-color: #786383;
+    box-shadow: 0 9px 0 #110e184d, 0 25px 30px #110e1833;
+  }
+
+
+html:not([data-theme="light"]) .studio-home .clue-top,
+html:not([data-theme="light"]) .studio-home .clue-feedback { color: #d6c4e1; }
+
+
+html:not([data-theme="light"]) .studio-home .clue-question { color: #f7f0ff; }
+
+
+html:not([data-theme="light"]) .studio-home .answer-options button {
+    background: #43344f;
+    color: #faf3ff;
+    border-color: #8b7199;
+    box-shadow: 0 4px 0 #1c1526;
+  }
+
+
+html:not([data-theme="light"]) .studio-home .answer-options button:hover:not(:disabled) {
+    background: #584267;
+    box-shadow: 0 7px 0 #1c1526;
+  }
+
+
+html:not([data-theme="light"]) .studio-home .answer-options button:active:not(:disabled) { box-shadow: 0 1px 0 #1c1526; }
+
+
+html:not([data-theme="light"]) .studio-home .answer-options button:disabled,
+html:not([data-theme="light"]) .studio-home .answer-options button:disabled:hover { background: #43344f; color: #faf3ff; }
+
+
+html:not([data-theme="light"]) .studio-home .answer-options button.correct,
+html:not([data-theme="light"]) .studio-home .answer-options button.correct:disabled:hover {
+    background: #f5bc7b;
+    color: #302543;
+    border-color: #dca366;
+    box-shadow: 0 4px 0 #8a5b33;
+  }
+
+
+html:not([data-theme="light"]) .studio-home .answer-options button.incorrect,
+html:not([data-theme="light"]) .studio-home .answer-options button.incorrect:hover:not(:disabled) {
+    background: #713d48;
+    color: #fff1f0;
+    border-color: #d28e97;
+    box-shadow: 0 4px 0 #41202a;
+  }
+
+
+html:not([data-theme="light"]) .studio-home .next-clue { color: #f5bc7b; }
+
+/* Game identities stay distinct instead of inheriting the page background. */
+html:not([data-theme="light"]) .studio-home .featured-game,
+html:not([data-theme="light"]) .studio-home .game-facts strong { color: #faf8f3; }
+
+
+html:not([data-theme="light"]) .studio-home .fox-showcase .game-art-scene { background: #264b5b; }
+
+
+html:not([data-theme="light"]) .studio-home .fox-showcase .scene-note,
+html:not([data-theme="light"]) .studio-home .fox-showcase .art-feather { color: #d0eaf5; }
+
+
+html:not([data-theme="light"]) .studio-home .farm-showcase .game-art-scene { background: #455b42; }
+
+
+html:not([data-theme="light"]) .studio-home .farm-showcase .scene-note,
+html:not([data-theme="light"]) .studio-home .farm-showcase .art-feather { color: #e6efd7; }
+
+
+html:not([data-theme="light"]) .social-links a,
+html:not([data-theme="light"]) .contact-email { border-color: var(--line); }
+
+
+html:not([data-theme="light"]) .social-links img { filter: brightness(0) invert(1); }
+
+
+html:not([data-theme="light"]) .footer { background: #121015; color: #faf8f3; }
+
+
+html:not([data-theme="light"]) .footer-brand .brand-mark { --duck-eye: #121015; }
+
+
+html:not([data-theme="light"]) .site-main .game-card.quiz { background: #302543; }
+
 }
+
+/* A two-state switch; the untouched default follows the operating system. */
+:root:not([data-theme]) .theme-toggle { display:none; }
+.theme-toggle { position:relative; display:inline-flex; align-items:center; justify-content:space-between; flex-shrink:0; width:84px; height:44px; padding:0 11px; border:1px solid var(--line); border-radius:22px; background:var(--sand); color:var(--ink); cursor:pointer; }
+.theme-toggle::before { content:""; position:absolute; left:4px; top:5px; width:32px; height:32px; background:#f5bc7b; border-radius:50%; transition:transform .2s ease; }
+.theme-toggle[aria-checked="true"]::before { transform:translateX(42px); }
+.theme-toggle svg { position:relative; width:18px; height:18px; pointer-events:none; }
+.theme-toggle[aria-checked="false"] .theme-sun, .theme-toggle[aria-checked="true"] .theme-moon { color:#29272e; }
+.theme-toggle:hover { border-color:var(--muted); }
+.theme-toggle:focus-visible { outline:2px solid var(--accent); outline-offset:4px; }
+@media(prefers-reduced-motion:reduce) { .theme-toggle::before { transition:none; } }
+@media(max-width:600px) { .header { height:auto; min-height:85px; padding-block:20px; flex-wrap:wrap; gap:18px; } .header .nav { flex-wrap:wrap; gap:16px; } }

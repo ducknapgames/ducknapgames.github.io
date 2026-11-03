@@ -133,7 +133,7 @@ button[hidden] {
   text-decoration: underline;
 }
 .nav-contact {
-  border-bottom: 1px solid var(--ink);
+  border-bottom: 0;
 }
 .nav-contact span {
   margin-left: 20px;
@@ -146,7 +146,7 @@ button[hidden] {
   align-items: center;
 }
 .eyebrow {
-  font-size: 10px;
+  font-size: 12px;
   font-weight: 700;
   letter-spacing: 1.8px;
   line-height: 1.6;
@@ -155,9 +155,10 @@ button[hidden] {
   align-items: center;
   gap: 10px;
 }
-.little-sun {
-  font-size: 25px;
-  line-height: 1;
+.feather-icon {
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
   color: #9b7030;
 }
 .hero h1 {
@@ -301,7 +302,7 @@ button[hidden] {
   text-align: center;
 }
 .clue-top {
-  font-size: 9px;
+  font-size: 11px;
   letter-spacing: 1.5px;
   color: #6d686f;
   display: flex;
@@ -528,7 +529,7 @@ button[hidden] {
   padding: 0;
   margin: 0 0 32px;
   color: #cfc1e0;
-  font-size: 10px;
+  font-size: 12px;
 }
 .game-facts li {
   display: flex;
@@ -610,7 +611,7 @@ button[hidden] {
   z-index: 2;
   filter: drop-shadow(0 15px 8px #1c132b30);
 }
-.hammer {
+.cap-wrench {
   width: 167px;
   height: 167px;
   left: -15px;
@@ -908,9 +909,7 @@ button[hidden] {
 }
 .contact-section h2 > span {
   color: var(--ink);
-  text-decoration: underline;
-  text-decoration-color: var(--apricot);
-  text-underline-offset: 10px;
+  text-decoration: none;
 }
 .contact-layout > div > p {
   color: var(--muted);
@@ -974,7 +973,7 @@ button[hidden] {
   text-decoration: underline;
 }
 .copyright {
-  font-size: 10px;
+  font-size: 12px;
   color: #cdc6be;
 }
 .back-top {
@@ -1055,7 +1054,7 @@ button[hidden] {
   .game-art-scene {
     min-height: 620px;
   }
-  .hammer {
+  .cap-wrench {
     width: 130px;
     height: 140px;
     left: -10px;
@@ -1090,7 +1089,7 @@ button[hidden] {
     height: 34px;
   }
   .brand-small {
-    font-size: 8px;
+    font-size: 11px;
   }
   .nav {
     gap: 24px;
@@ -1163,7 +1162,7 @@ button[hidden] {
     width: 230px;
     transform: rotate(7deg);
   }
-  .hammer {
+  .cap-wrench {
     width: 175px;
     height: 175px;
     left: 10%;
@@ -1280,13 +1279,14 @@ button[hidden] {
     gap: 28px;
   }
   .eyebrow {
-    font-size: 8px;
+    font-size: 11px;
     letter-spacing: 1.4px;
     gap: 7px;
     margin-bottom: 22px;
   }
-  .little-sun {
-    font-size: 21px;
+  .feather-icon {
+    width: 21px;
+    height: 21px;
   }
   .hero h1 {
     font-size: clamp(52px, 14vw, 68px);
@@ -1332,7 +1332,7 @@ button[hidden] {
     border-radius: 15px;
   }
   .floating-icon span {
-    font-size: 8px;
+    font-size: 11px;
   }
   .clue-card {
     width: 84%;
@@ -1344,7 +1344,7 @@ button[hidden] {
     margin-top: 15px;
   }
   .clue-top {
-    font-size: 8px;
+    font-size: 11px;
     letter-spacing: 1px;
   }
   .clue-question {
@@ -1358,7 +1358,7 @@ button[hidden] {
     min-height: 45px;
   }
   .clue-feedback {
-    font-size: 10px;
+    font-size: 12px;
   }
   .back-card {
     top: 103px;
@@ -1378,7 +1378,7 @@ button[hidden] {
   .world-caption {
     right: 2%;
     bottom: -4px;
-    font-size: 10px;
+    font-size: 12px;
   }
   .world-caption span {
     font-size: 24px;
@@ -1422,7 +1422,7 @@ button[hidden] {
   }
   .game-facts {
     gap: 22px;
-    font-size: 9px;
+    font-size: 11px;
   }
   .game-facts strong {
     font-size: 22px;
@@ -1448,7 +1448,7 @@ button[hidden] {
   .phone {
     width: 190px;
   }
-  .hammer {
+  .cap-wrench {
     width: 122px;
     height: 122px;
     left: -4px;
@@ -1461,7 +1461,7 @@ button[hidden] {
     bottom: 40px;
   }
   .scene-note {
-    font-size: 9px;
+    font-size: 11px;
     left: 15px;
     bottom: 43px;
   }
@@ -1528,7 +1528,7 @@ button[hidden] {
     gap: 20px;
   }
   .footer-inner > p {
-    font-size: 10px;
+    font-size: 12px;
     max-width: 130px;
   }
   .footer-links {
@@ -1541,10 +1541,10 @@ button[hidden] {
     align-items: center;
   }
   .copyright {
-    font-size: 9px;
+    font-size: 11px;
   }
   .back-top {
-    font-size: 10px;
+    font-size: 12px;
   }
   .back-top span {
     margin-left: 10px;
@@ -1634,3 +1634,34 @@ button[hidden] {
     transform: none;
   }
 }
+
+/* Readable small type and comfortable touch targets. */
+.eyebrow{font-size:12px;letter-spacing:1.4px}.clue-top{font-size:11px;letter-spacing:1px}.clue-feedback{font-size:13px;line-height:1.6}.answer-options button{font-size:14px}.next-clue{min-height:44px;font-size:14px}.back-top{display:inline-flex;align-items:center;min-height:44px;font-size:13px}.game-legal a,.footer-links a{display:inline-flex;align-items:center;min-height:44px}.game-facts{font-size:12px}.game-facts li{flex:1;min-width:0}.farm-wordmark{position:absolute;left:32px;top:30px;font:600 clamp(38px,4vw,58px)/1.05 var(--display);letter-spacing:-2px}.farm-wordmark em{font-style:normal;color:#66765c}.project-farm{background:#eeeade;color:var(--ink)}.project-farm .project-art-note{font-size:17px;line-height:1.5;letter-spacing:0}.answer-options button:disabled{cursor:default}.answer-options button:disabled:hover{transform:none;background:transparent}.answer-options button.correct:disabled:hover{background:#f8d5a9}
+@media(max-width:800px){.nav{font-size:13px}.hero{padding-block:44px 52px}.games-section{padding-top:42px}.section-heading{margin-bottom:28px}}
+@media(max-width:480px){.nav{gap:14px;font-size:12px}.eyebrow{font-size:11px;letter-spacing:1px}.hero{padding-block:32px 42px;gap:24px}.hero-description{margin-bottom:20px}.hero-actions{gap:8px 20px}.hero-actions .button{font-size:14px}.hero-actions .text-link{font-size:13px}.clue-top{font-size:11px;letter-spacing:.5px}.clue-card{width:88%;padding-inline:16px}.clue-feedback{font-size:12px}.answer-options button{font-size:13px}.clue-world{min-height:490px;padding-top:62px;padding-bottom:28px}.world-caption{font-size:12px;bottom:-6px}.floating-icon span{font-size:10px}.game-facts{gap:12px;font-size:12px}.game-facts strong{font-size:22px}.game-content{padding:28px 24px 20px}.game-description{font-size:14px}.game-legal{gap:4px 18px}.game-legal a{min-height:44px}.games-section{padding-top:32px}.section-heading h2{font-size:38px}.section-heading>p{margin-top:12px;font-size:14px}.back-top{font-size:12px;min-height:44px}.copyright{font-size:11px}.footer-links{font-size:12px}.footer-links a{min-height:44px}.farm-wordmark{left:24px;top:24px;font-size:44px}.project-farm .project-art-note{left:24px;bottom:24px;font-size:15px}.project-art{aspect-ratio:1.25}}
+@media(max-width:350px){.nav{gap:10px}.brand{font-size:19px}.brand .brand-mark{width:32px}.hero-actions .button{font-size:13px}.clue-card{width:90%;padding-inline:12px}.clue-top{font-size:10px}.clue-world{min-height:475px}.game-content{padding-inline:20px}.game-facts{font-size:11px;gap:10px}.game-facts strong{font-size:21px}.farm-wordmark{font-size:38px}.project-farm .project-art-note{font-size:14px}}
+
+/* Studio wordmark: Fredoka lettering with a Nunito descriptor. */
+@font-face{font-family:Fredoka;src:url('/assets/studio/fredoka-variable.ttf') format('truetype');font-weight:300 700;font-display:swap}
+@font-face{font-family:Nunito;src:url('/assets/studio/nunito-variable.ttf') format('truetype');font-weight:200 1000;font-display:swap}
+.brand{font-family:Fredoka,system-ui,sans-serif;font-weight:550;letter-spacing:-.7px}
+.brand-small{font-family:Nunito,system-ui,sans-serif;font-weight:800}
+/* The source capture has a 54px gutter on its right. Frame the 486px game canvas. */
+.phone{flex-shrink:0}
+.phone img{position:relative;width:111.111111%;max-width:none;height:auto}
+.phone-speaker{display:none}
+/* Give the interactive clue its own clearly visible stage. */
+.world-circle{background:#ead2b5;border:1px solid #d6b58f}
+.back-card-one{background:#e8a85e}
+.back-card-two{background:#b9a3cb}
+.clue-card{background:#f1eafb;border-color:#baa5ce;box-shadow:0 22px 45px #30254326}
+.clue-top,.clue-feedback,.world-caption{color:#5b426d}
+.answer-options button{background:#fffaf5;border-color:#b6a4c7}
+.clue-world{padding-bottom:38px}
+.world-caption{bottom:-3px}
+@media(max-width:480px){.clue-world{padding-bottom:42px}.world-caption{bottom:-3px}}
+
+@media(min-width:1000px){.footer-inner{grid-template-columns:auto 1fr auto}.footer-inner>p{white-space:nowrap}}
+
+/* Optical alignment of the studio wordmark. */
+.brand-small{padding-left:4px}

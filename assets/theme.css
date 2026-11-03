@@ -1,0 +1,80 @@
+/* Follow the operating system; there is no stored or manual theme override. */
+:root { color-scheme: light dark; }
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --paper: #1b1920;
+    --ink: #f5f0e9;
+    --muted: #bcb4c4;
+    --line: #403947;
+    --sand: #26222c;
+    --accent: #f5bc7b;
+    --duck-eye: #1b1920;
+  }
+
+  a:focus-visible, button:focus-visible { outline-color: #f5bc7b; }
+  .skip-link { background: #f5bc7b; color: #29272e; }
+  .feather-icon { color: #f5bc7b; }
+  .studio-home .hero h1 .love { color: #e4c8f3; }
+  .studio-home .hero-actions .button-dark { background: #f5bc7b; color: #29272e; }
+  .studio-home .hero-actions .button-dark:hover { background: #ffd099; }
+
+  /* Keep the illustrated hero playful, with softer surfaces for night viewing. */
+  .studio-home .clue-world { background: #51392d; }
+  .studio-home .floating-icon span,
+  .studio-home .world-caption { color: #f9d7af; }
+  .studio-home .play-sticker { background: #e6c7f4; color: #302543; }
+  .studio-home .back-card-one { background: #69507d; }
+  .studio-home .back-card-two { background: #997ba6; }
+  .studio-home .clue-card {
+    background: #2c2536;
+    border-color: #786383;
+    box-shadow: 0 9px 0 #110e184d, 0 25px 30px #110e1833;
+  }
+  .studio-home .clue-top,
+  .studio-home .clue-feedback { color: #d6c4e1; }
+  .studio-home .clue-question { color: #f7f0ff; }
+  .studio-home .answer-options button {
+    background: #43344f;
+    color: #faf3ff;
+    border-color: #8b7199;
+    box-shadow: 0 4px 0 #1c1526;
+  }
+  .studio-home .answer-options button:hover:not(:disabled) {
+    background: #584267;
+    box-shadow: 0 7px 0 #1c1526;
+  }
+  .studio-home .answer-options button:active:not(:disabled) { box-shadow: 0 1px 0 #1c1526; }
+  .studio-home .answer-options button:disabled,
+  .studio-home .answer-options button:disabled:hover { background: #43344f; color: #faf3ff; }
+  .studio-home .answer-options button.correct,
+  .studio-home .answer-options button.correct:disabled:hover {
+    background: #f5bc7b;
+    color: #302543;
+    border-color: #dca366;
+    box-shadow: 0 4px 0 #8a5b33;
+  }
+  .studio-home .answer-options button.incorrect {
+    background: #713d48;
+    color: #fff1f0;
+    border-color: #d28e97;
+    box-shadow: 0 4px 0 #41202a;
+  }
+  .studio-home .next-clue { color: #f5bc7b; }
+
+  /* Game identities stay distinct instead of inheriting the page background. */
+  .studio-home .featured-game,
+  .studio-home .game-facts strong { color: #faf8f3; }
+  .studio-home .fox-showcase .game-art-scene { background: #264b5b; }
+  .studio-home .fox-showcase .scene-note,
+  .studio-home .fox-showcase .art-feather { color: #d0eaf5; }
+  .studio-home .farm-showcase .game-art-scene { background: #455b42; }
+  .studio-home .farm-showcase .scene-note,
+  .studio-home .farm-showcase .art-feather { color: #e6efd7; }
+
+  .social-links a, .contact-email { border-color: var(--line); }
+  .social-links img { filter: brightness(0) invert(1); }
+  .footer { background: #121015; color: #faf8f3; }
+  .footer-brand .brand-mark { --duck-eye: #121015; }
+  .site-main .game-card.quiz { background: #302543; }
+}

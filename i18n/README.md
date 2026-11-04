@@ -31,3 +31,5 @@ Context review, 4 November 2026: all 315 source entries and all 4,725 translated
 The generated pages are published at ducknap.games. Review source and catalog changes locally, rebuild, and run the checks above before deployment.
 
 Website policy separation, 4 November 2026: added 36 contextual entries (`s316`–`s351`) for the dedicated `/privacy/website/` policy, the privacy index, and game-policy references. All 16 language versions use the same current-practices scope; this change does not install analytics. The catalog now contains 351 source entries and the site has ten routes per language. Existing translation entries were preserved.
+
+Website statistics, 4 November 2026: updated `s332` in all 16 languages to describe the nginx-based, identifier-free daily counters. Aggregates are retained for 90 days, DNT/GPC requests are excluded, and the dashboard is private. This feature measures page views, not unique visitors. Deployment and retention details are in `deploy/statistics/README.md`.

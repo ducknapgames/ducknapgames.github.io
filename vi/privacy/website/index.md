@@ -28,7 +28,7 @@ Chúng tôi không đặt cookie quảng cáo hay phân tích. Nếu bạn chọ
 
 Thống kê website
 
-Hiện chúng tôi không vận hành dịch vụ phân tích khách truy cập website hay dùng mã phân tích để đếm khách truy cập hoặc xác định lượt truy cập đến từ chiến dịch nào. Website này không dùng pixel quảng cáo, công cụ ghi lại phiên truy cập hoặc kỹ thuật lấy dấu vân tay trình duyệt. Nếu triển khai thống kê website, chúng tôi sẽ cập nhật chính sách để mô tả việc thu thập và sử dụng thực tế.
+Chúng tôi tự lập thống kê website từ các yêu cầu tải trang thành công. Trước khi tổng hợp, thông tin yêu cầu được rút gọn còn đường dẫn trang đã biết và nhóm nguồn truy cập khái quát, xác định từ thông tin website giới thiệu hoặc giá trị utm_source được nhận diện. Chúng tôi lưu tổng số theo ngày trong 90 ngày, không lưu bản ghi của từng yêu cầu. Các thống kê này không lưu địa chỉ IP, mã định danh khách truy cập, thông tin nguồn giới thiệu đầy đủ, thông tin trình duyệt thô hoặc tham số truy vấn tùy ý, và không dùng cookie hay mã theo dõi. Các bot đã biết và yêu cầu gửi Do Not Track hoặc Global Privacy Control được loại trừ. Số liệu là lượt xem trang, không phải số người không trùng lặp; tải lại trang được tính thêm và thông tin nguồn có thể không có. Bảng điều khiển được giới hạn truy cập và không công khai. Các thống kê này áp dụng cho ducknap.games, không bao gồm bản sao trên GitHub Pages.
 
 Chúng tôi có thể xem báo cáo tổng hợp của Google Search Console về cách website xuất hiện trong Google Tìm kiếm, như lượt hiển thị và lượt nhấp. Các báo cáo này không cho chúng tôi biết danh tính của từng khách truy cập và không cần mã theo dõi khách truy cập trên website này.
 

@@ -28,7 +28,7 @@ We do not set advertising or analytics cookies. If you choose light or dark mode
 
 Website statistics
 
-We do not currently run a website visitor-analytics service or use analytics scripts to count visitors or attribute visits to campaigns. We do not use advertising pixels, session recordings, or browser fingerprinting on this website. If we introduce website statistics, we will update this policy to describe the actual collection and use.
+We produce first-party website statistics from successful page requests. Before aggregation, requests are reduced to a known page path and a broad traffic-source group from the referrer or a recognised utm_source. We store daily totals for 90 days, not individual request records. These statistics do not store IP addresses, visitor identifiers, full referrers, raw browser information, or arbitrary query parameters, and use no cookies or tracking scripts. Known bots and requests sending Do Not Track or Global Privacy Control are excluded. Counts are page views, not unique people; reloads count again and source information may be missing. The dashboard is restricted to private access. These statistics cover ducknap.games, not the GitHub Pages mirror.
 
 We may view aggregate Google Search Console reports about how the website appears in Google Search, such as impressions and clicks. These reports do not give us the identities of individual visitors and do not require a visitor-tracking script on this website.
 

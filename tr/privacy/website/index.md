@@ -28,7 +28,7 @@ Reklam veya analiz çerezleri yerleştirmeyiz. Açık ya da koyu modu seçerseni
 
 Web sitesi istatistikleri
 
-Şu anda web sitesi ziyaretçilerini analiz eden bir hizmet işletmiyoruz ve ziyaretçileri saymak veya ziyaretleri kampanyalarla ilişkilendirmek için analiz betikleri kullanmıyoruz. Bu web sitesinde reklam pikselleri, oturum kayıtları veya tarayıcı parmak izi oluşturma yöntemleri kullanmayız. Web sitesi istatistikleri sunmaya başlarsak gerçekte hangi verilerin toplandığını ve nasıl kullanıldığını açıklamak için bu politikayı güncelleyeceğiz.
+Başarıyla karşılanan sayfa isteklerinden kendi web sitesi istatistiklerimizi oluşturuyoruz. İstekler toplulaştırılmadan önce, bilinen bir sayfa yoluna ve yönlendiren adresten veya tanınan bir utm_source değerinden belirlenen genel bir trafik kaynağı grubuna indirgenir. Tek tek istek kayıtlarını değil, günlük toplamları 90 gün boyunca saklarız. Bu istatistikler IP adreslerini, ziyaretçi tanımlayıcılarını, tam yönlendiren adresleri, ham tarayıcı bilgilerini veya rastgele sorgu parametrelerini saklamaz; çerez ya da takip betiği kullanmaz. Bilinen botlar ile Do Not Track veya Global Privacy Control sinyali gönderen istekler kapsam dışında tutulur. Sayılar benzersiz kişileri değil, sayfa görüntülemelerini gösterir; sayfa yeniden yüklendiğinde tekrar sayılır ve kaynak bilgisi eksik olabilir. İstatistik paneline yalnızca özel erişim yoluyla ulaşılabilir. Bu istatistikler GitHub Pages üzerindeki kopyayı değil, ducknap.games adresini kapsar.
 
 Web sitesinin Google Arama'da nasıl göründüğüne ilişkin gösterim ve tıklama sayıları gibi toplu Google Search Console raporlarını inceleyebiliriz. Bu raporlar bize tek tek ziyaretçilerin kimliklerini vermez ve bu web sitesinde ziyaretçi takibi yapan bir betik gerektirmez.
 

@@ -28,7 +28,7 @@ Não definimos cookies de publicidade ou análise de visitantes. Se você escolh
 
 Estatísticas do site
 
-Atualmente, não usamos um serviço de análise de visitantes do site nem scripts de análise para contar visitantes ou atribuir visitas a campanhas. Não usamos pixels publicitários, gravações de sessões ou técnicas de identificação por impressão digital do navegador neste site. Se introduzirmos estatísticas do site, atualizaremos esta política para descrever a coleta e o uso efetivos dos dados.
+Produzimos estatísticas próprias do site a partir de solicitações de páginas concluídas com sucesso. Antes da agregação, as solicitações são reduzidas a um caminho de página conhecido e a um grupo amplo de origem do tráfego, determinado pelo referenciador ou por um valor utm_source reconhecido. Armazenamos totais diários por 90 dias, não registros de solicitações individuais. Essas estatísticas não armazenam endereços IP, identificadores de visitantes, referenciadores completos, informações brutas do navegador ou parâmetros de consulta arbitrários, e não usam cookies nem scripts de rastreamento. Bots conhecidos e solicitações que enviam Do Not Track ou Global Privacy Control são excluídos. As contagens representam visualizações de páginas, não pessoas únicas; recarregamentos contam novamente e as informações de origem podem estar ausentes. O painel tem acesso privado e restrito. Essas estatísticas abrangem ducknap.games, não a cópia no GitHub Pages.
 
 Podemos consultar relatórios agregados do Google Search Console sobre como o site aparece na Pesquisa Google, como impressões e cliques. Esses relatórios não nos fornecem a identidade de visitantes individuais nem exigem um script de rastreamento de visitantes neste site.
 

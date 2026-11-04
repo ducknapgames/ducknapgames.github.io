@@ -28,7 +28,7 @@ We plaatsen geen advertentie- of analytische cookies. Als je de lichte of donker
 
 Websitestatistieken
 
-We gebruiken momenteel geen dienst voor bezoekersanalyse of analysescripts om bezoekers te tellen of bezoeken aan campagnes toe te schrijven. We gebruiken op deze website geen advertentiepixels, sessieopnamen of browserfingerprinting. Als we websitestatistieken invoeren, werken we dit beleid bij om de daadwerkelijke gegevensverzameling en het gebruik ervan te beschrijven.
+We maken eigen websitestatistieken op basis van geslaagde paginaverzoeken. Vóór het samenvoegen worden verzoeken teruggebracht tot een bekend paginapad en een brede categorie voor de verkeersbron, afgeleid van de verwijzende bron of een herkende utm_source-waarde. We bewaren dagtotalen gedurende 90 dagen, geen afzonderlijke verzoekgegevens. Deze statistieken bevatten geen IP-adressen, bezoekers-ID’s, volledige verwijzende adressen, onbewerkte browserinformatie of willekeurige queryparameters en gebruiken geen cookies of trackingscripts. Bekende bots en verzoeken met Do Not Track of Global Privacy Control worden uitgesloten. De aantallen zijn paginaweergaven, geen unieke personen; opnieuw laden telt opnieuw mee en broninformatie kan ontbreken. Het dashboard is alleen privé toegankelijk. Deze statistieken gelden voor ducknap.games, niet voor de kopie op GitHub Pages.
 
 We kunnen geaggregeerde Google Search Console-rapporten bekijken over hoe de website in Google Zoeken verschijnt, zoals vertoningen en klikken. Deze rapporten geven ons niet de identiteit van individuele bezoekers en vereisen geen script op deze website dat bezoekers volgt.
 

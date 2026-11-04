@@ -28,7 +28,7 @@ Nie ustawiamy reklamowych ani analitycznych plików cookie. Jeśli wybierzesz tr
 
 Statystyki witryny
 
-Obecnie nie prowadzimy usługi analizy odwiedzających witrynę ani nie używamy skryptów analitycznych do liczenia odwiedzających lub przypisywania wizyt do kampanii. Nie stosujemy w tej witrynie pikseli reklamowych, nagrywania sesji ani identyfikowania przeglądarek na podstawie ich cech (fingerprintingu). Jeśli wprowadzimy statystyki witryny, zaktualizujemy tę politykę, aby opisać rzeczywiste zbieranie i wykorzystywanie danych.
+Tworzymy własne statystyki witryny na podstawie pomyślnie obsłużonych żądań stron. Przed agregacją żądania są sprowadzane do znanej ścieżki strony i ogólnej kategorii źródła ruchu, ustalanej na podstawie adresu odsyłającego lub rozpoznanej wartości utm_source. Przechowujemy dzienne sumy przez 90 dni, a nie zapisy poszczególnych żądań. Te statystyki nie przechowują adresów IP, identyfikatorów odwiedzających, pełnych adresów odsyłających, surowych informacji o przeglądarce ani dowolnych parametrów zapytań. Nie wykorzystują też plików cookie ani skryptów śledzących. Znane boty oraz żądania wysyłające sygnały Do Not Track lub Global Privacy Control są wykluczane. Zliczamy odsłony stron, a nie liczbę różnych osób; ponowne załadowanie strony jest liczone ponownie, a informacji o źródle ruchu może brakować. Dostęp do panelu jest prywatny i ograniczony. Te statystyki obejmują ducknap.games, a nie kopię w GitHub Pages.
 
 Możemy przeglądać zbiorcze raporty Google Search Console o widoczności witryny w wyszukiwarce Google, na przykład o wyświetleniach i kliknięciach. Raporty te nie ujawniają nam tożsamości poszczególnych odwiedzających i nie wymagają skryptu śledzącego odwiedzających w tej witrynie.
 

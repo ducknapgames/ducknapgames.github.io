@@ -28,7 +28,7 @@ Kami tidak memasang cookie iklan atau analitik. Jika kamu memilih mode terang at
 
 Statistik situs
 
-Saat ini kami tidak menjalankan layanan analitik pengunjung situs atau menggunakan skrip analitik untuk menghitung pengunjung maupun mengaitkan kunjungan dengan kampanye. Kami tidak menggunakan piksel iklan, rekaman sesi, atau identifikasi berdasarkan sidik jari browser di situs ini. Jika kami memperkenalkan statistik situs, kami akan memperbarui kebijakan ini untuk menjelaskan pengumpulan dan penggunaan data yang sebenarnya.
+Kami membuat statistik situs sendiri dari permintaan halaman yang berhasil dilayani. Sebelum diagregasi, permintaan disederhanakan menjadi jalur halaman yang dikenal dan kelompok sumber trafik secara umum, berdasarkan alamat perujuk atau nilai utm_source yang dikenali. Kami menyimpan total harian selama 90 hari, bukan catatan setiap permintaan. Statistik ini tidak menyimpan alamat IP, pengenal pengunjung, alamat perujuk lengkap, informasi browser mentah, atau sembarang parameter kueri, serta tidak menggunakan cookie atau skrip pelacakan. Bot yang dikenal dan permintaan yang mengirim sinyal Do Not Track atau Global Privacy Control dikecualikan. Angka yang dihitung adalah tampilan halaman, bukan jumlah orang yang berbeda; pemuatan ulang dihitung lagi dan informasi sumber dapat tidak tersedia. Dasbor hanya dapat dibuka melalui akses privat. Statistik ini mencakup ducknap.games, bukan salinannya di GitHub Pages.
 
 Kami dapat melihat laporan agregat Google Search Console tentang kemunculan situs di Google Penelusuran, seperti tayangan dan klik. Laporan ini tidak memberi kami identitas masing-masing pengunjung dan tidak memerlukan skrip pelacak pengunjung di situs ini.
 

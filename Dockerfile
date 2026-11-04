@@ -1,5 +1,10 @@
 FROM nginx:stable-alpine
+RUN apk add --no-cache python3
+COPY deploy/statistics/nginx-statistics.conf /etc/nginx/conf.d/00-statistics.conf
 COPY deploy/nginx.conf /etc/nginx/conf.d/default.conf
+COPY deploy/statistics/server.py /opt/ducknap-statistics/server.py
+COPY deploy/statistics/40-statistics.sh /docker-entrypoint.d/40-statistics.sh
+RUN chmod 755 /docker-entrypoint.d/40-statistics.sh
 RUN rm -rf /usr/share/nginx/html/*
 COPY index.html index.md privacy.html robots.txt sitemap.xml llms.txt games.json app-ads.txt /usr/share/nginx/html/
 COPY assets/ /usr/share/nginx/html/assets/
@@ -22,5 +27,7 @@ COPY id/ /usr/share/nginx/html/id/
 COPY pl/ /usr/share/nginx/html/pl/
 COPY nl/ /usr/share/nginx/html/nl/
 COPY vi/ /usr/share/nginx/html/vi/
+# The collector accepts only existing published document routes, never arbitrary URLs.
+RUN python3 -c "import json,pathlib; r=pathlib.Path('/usr/share/nginx/html'); pathlib.Path('/opt/ducknap-statistics/routes.json').write_text(json.dumps(sorted('/'+str(p.relative_to(r)).removesuffix('index.html') for p in r.rglob('index.html'))))"
 EXPOSE 80
 HEALTHCHECK --interval=30s --timeout=3s --start-period=10s --retries=3 CMD wget -q -O /dev/null http://127.0.0.1/robots.txt || exit 1

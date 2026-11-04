@@ -1,6 +1,9 @@
 name: Check website ingress
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/check-website-ingress.yml']
 permissions:
   contents: read
 jobs:

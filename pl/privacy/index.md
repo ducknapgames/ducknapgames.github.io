@@ -2,7 +2,11 @@ Twoje informacje
 
 Polityki prywatności
 
-Wybierz grę, aby sprawdzić, jak przetwarza informacje, zapisuje postępy lokalnie i obsługuje wnioski dotyczące prywatności.
+Informacje o wizytach w tej witrynie studia znajdziesz w polityce witryny. Możesz też wybrać grę, aby dowiedzieć się więcej o rozgrywce, lokalnych zapisach, zakupach, reklamach i wnioskach dotyczących prywatności.
+
+Prywatność witryny
+
+Jak witryna studia Duck Nap Games obsługuje logi hostingu, preferencje przeglądarki, wiadomości e-mail i wnioski dotyczące prywatności. Przeczytaj politykę prywatności witryny
 
 Przytulna gra farmerska
 

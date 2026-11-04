@@ -2,7 +2,9 @@ Kebijakan Privasi
 
 Farm Pals Forever Paket Android: com.ducknapgames.farmpalsforever
 
-Tanggal berlaku: 17 Oktober 2026 Sekilas
+Tanggal berlaku: 17 Oktober 2026
+
+Diperbarui: 4 November 2026 Sekilas
 
 Pertanianmu disimpan di perangkat. Game tidak memiliki akun pemain, iklan, atau SDK analitik pihak ketiga. Pembelian opsional menggunakan Google Play, dan pengingat opsional dijadwalkan di perangkatmu. Jika kamu mengirim email, kami menerima informasi yang kamu pilih untuk dikirim. Data game lokal Pembelian Penyimpanan dan penghapusan Kontak
 
@@ -60,7 +62,9 @@ Game tidak mewajibkan pemain mengirim informasi pribadi atau membuat akun. Orang
 
 Situs ini dan tautan eksternal
 
-Situs ini tersedia di ducknap.games dan di GitHub Pages. Penyedia hosting kami dapat memproses informasi koneksi seperti alamat IP untuk penyajian situs dan keamanan. Kami tidak menambahkan analitik situs atau skrip iklan. Lihat dokumentasi hosting dan Pernyataan Privasi . Membuka tautan eksternal dari game atau halaman ini memuat layanan penyedia terkait, yang dapat menerima informasi koneksi biasa dan menerapkan kebijakan privasinya sendiri.
+Kunjungan ke situs studio tercakup dalam kebijakan privasi situs yang terpisah. Kebijakan itu menjelaskan catatan hosting, preferensi browser tersimpan, dan statistik situs. Kebijakan game ini mencakup praktik pengolahan data game itu sendiri.
+
+Baca kebijakan privasi situs
 
 Perubahan kebijakan ini
 

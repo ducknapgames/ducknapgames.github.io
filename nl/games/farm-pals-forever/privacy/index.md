@@ -2,7 +2,9 @@ Privacybeleid
 
 Farm Pals Forever Android-pakket: com.ducknapgames.farmpalsforever
 
-Ingangsdatum: 17 oktober 2026 In het kort
+Ingangsdatum: 17 oktober 2026
+
+Bijgewerkt: 4 november 2026 In het kort
 
 Je boerderij wordt op je apparaat opgeslagen. De game heeft geen spelersaccounts, advertenties of analytische SDK's van derden. Optionele aankopen verlopen via Google Play en optionele herinneringen worden op je apparaat gepland. Als je ons mailt, ontvangen we de informatie die je wilt meesturen. Lokale gamegegevens Aankopen Bewaren en verwijderen Contact
 
@@ -60,7 +62,9 @@ De game vereist niet dat spelers persoonsgegevens verstrekken of accounts maken.
 
 Deze website en externe links
 
-Deze website is beschikbaar op ducknap.games en via GitHub Pages. Onze hostingproviders kunnen verbindingsinformatie, zoals IP-adressen, verwerken om de website te leveren en te beveiligen. We voegen geen websiteanalyses of advertentiescripts toe. Zie de hostingdocumentatie en Privacyverklaring . Het openen van externe links vanuit de game of deze pagina laadt de dienst van de betreffende provider, die normale verbindingsinformatie kan ontvangen en zijn eigen privacybeleid kan toepassen.
+Bezoeken aan de studiowebsite vallen onder apart privacybeleid voor de website. Dat beschrijft hostinggegevens, opgeslagen browservoorkeuren en websitestatistieken. Dit gamebeleid geldt voor de gegevensverwerking van de game zelf.
+
+Lees het privacybeleid van de website
 
 Wijzigingen in dit beleid
 

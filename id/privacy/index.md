@@ -2,7 +2,11 @@ Informasimu
 
 Kebijakan privasi
 
-Pilih game untuk melihat cara game menangani informasi, penyimpanan lokal, dan permintaan privasi.
+Baca kebijakan situs untuk kunjungan ke situs studio ini, atau pilih gamemu untuk informasi tentang permainan, simpanan lokal, pembelian, iklan, dan permintaan privasi.
+
+Privasi situs
+
+Cara situs studio Duck Nap Games menangani log hosting, preferensi browser, pesan email, dan permintaan privasi. Baca kebijakan privasi situs
 
 Pertanian santai
 

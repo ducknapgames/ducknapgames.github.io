@@ -2,7 +2,9 @@ Gizlilik Politikası
 
 Farm Pals Forever Android paketi: com.ducknapgames.farmpalsforever
 
-Yürürlük tarihi: 17 Ekim 2026 Kısaca
+Yürürlük tarihi: 17 Ekim 2026
+
+Güncelleme: 4 Kasım 2026 Kısaca
 
 Çiftliğiniz cihazınıza kaydedilir. Oyunda oyuncu hesapları, reklamlar veya üçüncü taraf analiz SDK'ları yoktur. İsteğe bağlı satın almalar Google Play'i kullanır, isteğe bağlı hatırlatmalar cihazınızda planlanır. E-posta gönderirseniz göndermeyi seçtiğiniz bilgileri alırız. Yerel oyun verileri Satın almalar Saklama ve silme İletişim
 
@@ -60,7 +62,9 @@ Oyun, kişisel bilgi göndermeyi veya hesap oluşturmayı gerektirmez. Bir ebeve
 
 Bu web sitesi ve dış bağlantılar
 
-Bu web sitesi ducknap.games adresinde ve GitHub Pages üzerinde kullanılabilir. Barındırma sağlayıcılarımız, siteyi sunmak ve güvenliği sağlamak için IP adresleri gibi bağlantı bilgilerini işleyebilir. Web sitesi analizleri veya reklam betikleri eklemeyiz. Bkz. barındırma belgeleri ve Gizlilik Bildirimi . Oyundan veya bu sayfadan dış bağlantıları açmak, ilgili sağlayıcının hizmetini yükler; sağlayıcı olağan bağlantı bilgilerini alabilir ve kendi gizlilik politikasını uygulayabilir.
+Stüdyo web sitesi ziyaretleri, ayrı bir web sitesi gizlilik politikası kapsamındadır. Bu politika barındırma kayıtlarını, kaydedilen tarayıcı tercihlerini ve web sitesi istatistiklerini açıklar. Bu oyun politikası, oyunun kendi veri işleme uygulamalarını kapsar.
+
+Web sitesi gizlilik politikasını okuyun
 
 Bu politikadaki değişiklikler
 

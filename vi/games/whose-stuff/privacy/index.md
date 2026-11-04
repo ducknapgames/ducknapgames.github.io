@@ -2,7 +2,7 @@ Chính sách quyền riêng tư
 
 Whose Stuff? Character Quiz
 
-Cập nhật: 27 tháng 10 năm 2026
+Cập nhật: 4 tháng 11 năm 2026
 
 Bên chịu trách nhiệm
 
@@ -60,7 +60,9 @@ Người chưa thành niên lớn tuổi hơn cũng nên xem chính sách cùng 
 
 Trang web này
 
-Trang web này có tại ducknap.games và trên GitHub Pages. Các nhà cung cấp dịch vụ lưu trữ có thể xử lý thông tin kết nối như địa chỉ IP để phân phối nội dung và bảo mật. Chúng tôi không thêm công cụ phân tích website hay mã quảng cáo. Xem Tuyên bố quyền riêng tư của GitHub .
+Việc truy cập website studio này thuộc phạm vi một chính sách quyền riêng tư website riêng. Chính sách đó giải thích về nhật ký của dịch vụ lưu trữ web, tùy chọn trình duyệt đã lưu và thống kê website. Chính sách game này áp dụng cho cách xử lý dữ liệu riêng của game.
+
+Đọc chính sách quyền riêng tư của website
 
 Thay đổi và liên hệ
 

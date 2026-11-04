@@ -2,7 +2,11 @@ Deine Informationen
 
 Datenschutzerklärungen
 
-Wähle dein Spiel und erfahre, wie es mit Informationen, lokalen Spielständen und Datenschutzanfragen umgeht.
+Lies die Website-Erklärung zu Besuchen auf dieser Studio-Website oder wähle dein Spiel, um Informationen zu Spielvorgängen, lokalen Spielständen, Käufen, Werbung und Datenschutzanfragen zu erhalten.
+
+Datenschutz der Website
+
+Wie die Studio-Website von Duck Nap Games mit Hosting-Protokollen, Browsereinstellungen, E-Mails und Datenschutzanfragen umgeht. Datenschutzerklärung der Website lesen
 
 Gemütliches Farmleben
 

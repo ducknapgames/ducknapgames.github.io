@@ -2,7 +2,11 @@ Vos informations
 
 Politiques de confidentialité
 
-Choisissez votre jeu pour savoir comment il traite les informations, les sauvegardes locales et les demandes de confidentialité.
+Consultez la politique du site pour vos visites sur le site du studio, ou choisissez votre jeu pour en savoir plus sur les parties, les sauvegardes locales, les achats, la publicité et les demandes relatives à la confidentialité.
+
+Confidentialité du site web
+
+Comment le site du studio Duck Nap Games traite les journaux d’hébergement, les préférences du navigateur, les e-mails et les demandes relatives à la confidentialité. Lire la politique de confidentialité du site web
 
 Ferme cosy
 

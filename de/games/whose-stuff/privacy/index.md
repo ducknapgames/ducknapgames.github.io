@@ -2,7 +2,7 @@ Datenschutzerklärung
 
 Whose Stuff? Character Quiz
 
-Aktualisiert: 27. Oktober 2026
+Aktualisiert: 4. November 2026
 
 Wer verantwortlich ist
 
@@ -60,7 +60,9 @@ Wir fordern Spieler nicht dazu auf, im Spiel Namen, E-Mail-Adressen oder andere 
 
 Diese Website
 
-Diese Website ist unter ducknap.games und auf GitHub Pages verfügbar. Unsere Hostinganbieter können Verbindungsinformationen wie IP-Adressen für die Auslieferung und Sicherheit verarbeiten. Wir fügen keine Websiteanalysen oder Werbeskripte hinzu. Siehe die GitHub-Datenschutzerklärung .
+Besuche auf der Studio-Website fallen unter eine gesonderte Datenschutzerklärung für die Website. Sie erläutert Hostingaufzeichnungen, gespeicherte Browsereinstellungen und Website-Statistiken. Diese Datenschutzerklärung für das Spiel gilt für die Datenverarbeitung des Spiels selbst.
+
+Datenschutzerklärung der Website lesen
 
 Änderungen und Kontakt
 

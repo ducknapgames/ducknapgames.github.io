@@ -2,7 +2,11 @@ Le tue informazioni
 
 Informative sulla privacy
 
-Scegli il tuo gioco per scoprire come gestisce informazioni, salvataggi locali e richieste sulla privacy.
+Leggi l’informativa del sito per le visite a questo sito dello studio, oppure scegli il tuo gioco per informazioni su partite, salvataggi locali, acquisti, pubblicità e richieste sulla privacy.
+
+Privacy del sito web
+
+Come il sito dello studio Duck Nap Games gestisce i log di hosting, le preferenze del browser, le email e le richieste sulla privacy. Leggi l’informativa sulla privacy del sito web
 
 Fattoria rilassante
 

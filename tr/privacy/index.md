@@ -2,7 +2,11 @@ Bilgileriniz
 
 Gizlilik politikaları
 
-Bilgilerin, yerel kayıtların ve gizlilik taleplerinin nasıl ele alındığını görmek için oyununuzu seçin.
+Bu stüdyo sitesine yaptığınız ziyaretler için web sitesi politikasını okuyun veya oynanış, yerel kayıtlar, satın almalar, reklamlar ve gizlilik talepleri hakkında bilgi almak için oyununuzu seçin.
+
+Web sitesi gizliliği
+
+Duck Nap Games stüdyo web sitesinin barındırma kayıtlarını, tarayıcı tercihlerini, e-posta mesajlarını ve gizlilik taleplerini nasıl ele aldığı. Web sitesi gizlilik politikasını okuyun
 
 Huzurlu çiftlik oyunu
 

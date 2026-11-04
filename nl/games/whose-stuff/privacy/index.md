@@ -2,7 +2,7 @@ Privacybeleid
 
 Whose Stuff? Character Quiz
 
-Bijgewerkt: 27 oktober 2026
+Bijgewerkt: 4 november 2026
 
 Wie verantwoordelijk is
 
@@ -60,7 +60,9 @@ Oudere minderjarigen moeten dit beleid met een ouder of voogd doornemen. Vereist
 
 Deze website
 
-Deze website is beschikbaar op ducknap.games en via GitHub Pages. Onze hostingproviders kunnen verbindingsinformatie, zoals IP-adressen, verwerken om de website te leveren en te beveiligen. We voegen geen websiteanalyses of advertentiescripts toe. Zie de GitHub-privacyverklaring .
+Bezoeken aan de studiowebsite vallen onder apart privacybeleid voor de website. Dat beschrijft hostinggegevens, opgeslagen browservoorkeuren en websitestatistieken. Dit gamebeleid geldt voor de gegevensverwerking van de game zelf.
+
+Lees het privacybeleid van de website
 
 Wijzigingen en contact
 

@@ -15,7 +15,8 @@ Whose Stuff? Character Quiz is available on Android. Fox on Ice has a browser de
 - [Studio overview](https://ducknap.games/index.md): Games and contact information.
 - [Machine-readable game catalog](https://ducknap.games/games.json): Current names, features, availability and public play links.
 - [Support](https://ducknap.games/support/): Game help and purchase questions.
-- [Privacy policies](https://ducknap.games/privacy/): Game-specific privacy information.
+- [Website privacy](https://ducknap.games/privacy/website/index.md): Hosting records, browser preferences, correspondence, and current website statistics practices.
+- [Game privacy policies](https://ducknap.games/privacy/): Game-specific privacy and deletion information.
 - [Whose Stuff data deletion](https://ducknap.games/games/whose-stuff/delete-data/): Account and data deletion requests.
 
 ## Website languages

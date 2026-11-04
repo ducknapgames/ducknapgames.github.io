@@ -2,7 +2,11 @@ Suas informações
 
 Políticas de privacidade
 
-Escolha seu jogo para saber como ele lida com informações, partidas salvas no dispositivo e solicitações de privacidade.
+Leia a política do site para as visitas a este site do estúdio ou escolha seu jogo para obter informações sobre partidas, dados salvos no dispositivo, compras, publicidade e solicitações de privacidade.
+
+Privacidade do site
+
+Como o site do estúdio Duck Nap Games trata registros de hospedagem, preferências do navegador, e-mails e solicitações de privacidade. Ler a política de privacidade do site
 
 Fazenda aconchegante
 

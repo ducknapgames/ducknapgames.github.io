@@ -44,6 +44,12 @@ for code in codes:
         options=[a for tag,a in parsed.tags if tag=='a' and 'data-language' in a]
         assert len(options)==16 and sum(a.get('aria-current')=='true' for a in options)==1,path
         assert all(a['href']==build.localized(route,a['data-language']) for a in options),path
+        footer=re.search(r'<div class="footer-links">(.*?)</div>',text,re.S)
+        assert footer and f'href="{build.localized("/privacy/website/",code)}"' in footer[1],f'{path}: footer must link to website privacy'
+        if page=='privacy/website/index.html':
+            assert path.with_suffix('.md').exists(),f'{path}: missing readable policy alternate'
+        if page in {'games/whose-stuff/privacy/index.html','games/farm-pals-forever/privacy/index.html'}:
+            assert data[build.KEYS['Read the website privacy policy']] in parsed.text,f'{path}: missing website-policy reference'
         dictionary=json.loads(re.search(r'<script type="application/json" id="site-translations">(.*?)</script>',text,re.S)[1])
         assert dictionary['That’s {name}! You know your stuff.']==data[build.KEYS['That’s {name}! You know your stuff.']],path
         assert dictionary['Switch to light mode']==data[build.KEYS['Switch to light mode']],path

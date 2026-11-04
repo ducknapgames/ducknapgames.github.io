@@ -2,7 +2,9 @@ Chính sách quyền riêng tư
 
 Farm Pals Forever Gói Android: com.ducknapgames.farmpalsforever
 
-Ngày có hiệu lực: 17 tháng 10 năm 2026 Tóm tắt
+Ngày có hiệu lực: 17 tháng 10 năm 2026
+
+Cập nhật: 4 tháng 11 năm 2026 Tóm tắt
 
 Nông trại được lưu trên thiết bị của bạn. Game không có tài khoản người chơi, quảng cáo hoặc SDK phân tích bên thứ ba. Mua hàng tùy chọn qua Google Play; lời nhắc tùy chọn được lên lịch trên thiết bị. Nếu bạn gửi email, chúng tôi nhận thông tin bạn chọn gửi. Dữ liệu game cục bộ Mua hàng Lưu giữ và xóa Liên hệ
 
@@ -60,7 +62,9 @@ Game không yêu cầu cung cấp thông tin cá nhân hoặc tạo tài khoản
 
 Website này và liên kết ngoài
 
-Trang web này có tại ducknap.games và trên GitHub Pages. Các nhà cung cấp dịch vụ lưu trữ có thể xử lý thông tin kết nối như địa chỉ IP để phân phối nội dung và bảo mật. Chúng tôi không thêm công cụ phân tích website hay mã quảng cáo. Xem tài liệu lưu trữ website và Tuyên bố quyền riêng tư . Mở liên kết ngoài từ game hoặc trang này sẽ tải dịch vụ của nhà cung cấp tương ứng; họ có thể nhận thông tin kết nối thông thường và áp dụng chính sách riêng.
+Việc truy cập website studio này thuộc phạm vi một chính sách quyền riêng tư website riêng. Chính sách đó giải thích về nhật ký của dịch vụ lưu trữ web, tùy chọn trình duyệt đã lưu và thống kê website. Chính sách game này áp dụng cho cách xử lý dữ liệu riêng của game.
+
+Đọc chính sách quyền riêng tư của website
 
 Thay đổi chính sách
 

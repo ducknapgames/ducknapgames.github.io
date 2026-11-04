@@ -2,7 +2,11 @@ Tu información
 
 Políticas de privacidad
 
-Elige tu juego para saber cómo trata la información, las partidas locales y las solicitudes de privacidad.
+Lee la política del sitio para las visitas a este sitio del estudio, o elige tu juego para obtener información sobre las partidas, las partidas guardadas localmente, las compras, la publicidad y las solicitudes de privacidad.
+
+Privacidad del sitio web
+
+Cómo trata el sitio del estudio Duck Nap Games los registros de alojamiento, las preferencias del navegador, los correos y las solicitudes de privacidad. Leer la política de privacidad del sitio web
 
 Granja acogedora
 

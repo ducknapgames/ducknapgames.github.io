@@ -167,7 +167,7 @@ def main():
             target.parent.mkdir(parents=True,exist_ok=True)
             html=render(page,code,t,catalogs)
             target.write_text(html,encoding='utf-8')
-            if code!='en':
+            if code!='en' or page=='privacy/website/index.html':
                 plain=PlainText(); plain.feed(html)
                 target.with_suffix('.md').write_text(plain.text(),encoding='utf-8')
         if code!='en':

@@ -2,7 +2,11 @@ Thông tin của bạn
 
 Các chính sách quyền riêng tư
 
-Chọn game để xem cách xử lý thông tin, bản lưu cục bộ và yêu cầu về quyền riêng tư.
+Đọc chính sách website cho việc truy cập trang studio này, hoặc chọn game để biết thông tin về hoạt động chơi, bản lưu cục bộ, mua hàng, quảng cáo và yêu cầu về quyền riêng tư.
+
+Quyền riêng tư trên website
+
+Cách website studio Duck Nap Games xử lý nhật ký của dịch vụ lưu trữ web, tùy chọn trình duyệt, email và yêu cầu về quyền riêng tư. Đọc chính sách quyền riêng tư của website
 
 Nông trại thư giãn
 

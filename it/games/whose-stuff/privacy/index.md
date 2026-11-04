@@ -2,7 +2,7 @@ Informativa sulla privacy
 
 Whose Stuff? Character Quiz
 
-Aggiornamento: 27 ottobre 2026
+Aggiornamento: 4 novembre 2026
 
 Titolare del trattamento
 
@@ -60,7 +60,9 @@ I minori più grandi dovrebbero leggere questa informativa con un genitore o tut
 
 Questo sito web
 
-Questo sito è disponibile su ducknap.games e su GitHub Pages. I nostri fornitori di hosting possono trattare informazioni di connessione, come gli indirizzi IP, per l'erogazione del sito e la sicurezza. Non aggiungiamo analisi del sito o script pubblicitari. Consulta la Dichiarazione sulla privacy di GitHub .
+Le visite al sito dello studio sono coperte da un’informativa sulla privacy separata. Questa descrive i dati di hosting, le preferenze salvate nel browser e le statistiche del sito. La presente informativa del gioco riguarda le pratiche del gioco stesso in materia di dati.
+
+Leggi l’informativa sulla privacy del sito web
 
 Modifiche e contatti
 

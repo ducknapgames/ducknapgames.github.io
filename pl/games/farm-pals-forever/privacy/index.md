@@ -2,7 +2,9 @@ Polityką prywatności
 
 Farm Pals Forever Pakiet Android: com.ducknapgames.farmpalsforever
 
-Data wejścia w życie: 17 października 2026 r. W skrócie
+Data wejścia w życie: 17 października 2026 r.
+
+Aktualizacja: 4 listopada 2026 r. W skrócie
 
 Twoja farma jest zapisana na urządzeniu. Gra nie ma kont graczy, reklam ani zewnętrznych pakietów analitycznych SDK. Opcjonalne zakupy korzystają z Google Play, a opcjonalne przypomnienia są planowane na urządzeniu. Jeśli napiszesz do nas e-mail, otrzymamy informacje, które zdecydujesz się wysłać. Lokalne dane gry Zakupy Przechowywanie i usuwanie Kontakt
 
@@ -60,7 +62,9 @@ Gra nie wymaga podawania danych osobowych ani tworzenia kont. Rodzic lub opiekun
 
 Ta witryna i linki zewnętrzne
 
-Ta witryna jest dostępna pod adresem ducknap.games oraz w GitHub Pages. Nasi dostawcy hostingu mogą przetwarzać informacje o połączeniu, takie jak adresy IP, na potrzeby dostarczania witryny i bezpieczeństwa. Nie dodajemy analityki witryny ani skryptów reklamowych. Zobacz dokumentację hostingu i oświadczenie o prywatności . Otwarcie linków zewnętrznych z gry lub tej strony ładuje usługę danego dostawcy, który może otrzymać zwykłe informacje o połączeniu i stosować własną politykę prywatności.
+Wizyty w witrynie studia podlegają odrębnej polityce prywatności witryny. Wyjaśnia ona zasady dotyczące zapisów hostingu, zapisanych preferencji przeglądarki i statystyk witryny. Ta polityka gry dotyczy zasad przetwarzania danych w samej grze.
+
+Przeczytaj politykę prywatności witryny
 
 Zmiany tej polityki
 

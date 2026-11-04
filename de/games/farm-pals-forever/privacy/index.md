@@ -2,7 +2,9 @@ Datenschutzerklärung
 
 Farm Pals Forever Android-Paket: com.ducknapgames.farmpalsforever
 
-Gültig ab: 17. Oktober 2026 Auf einen Blick
+Gültig ab: 17. Oktober 2026
+
+Aktualisiert: 4. November 2026 Auf einen Blick
 
 Deine Farm wird auf deinem Gerät gespeichert. Das Spiel hat keine Spielerkonten, Werbung oder Analyse-SDKs von Drittanbietern. Optionale Käufe laufen über Google Play; optionale Erinnerungen werden auf deinem Gerät geplant. Wenn du uns schreibst, erhalten wir die Informationen, die du freiwillig sendest. Lokale Spieldaten Käufe Aufbewahrung und Löschung Kontakt
 
@@ -60,7 +62,9 @@ Das Spiel verlangt weder personenbezogene Angaben noch die Erstellung eines Kont
 
 Diese Website und externe Links
 
-Diese Website ist unter ducknap.games und auf GitHub Pages verfügbar. Unsere Hostinganbieter können Verbindungsinformationen wie IP-Adressen für die Auslieferung und Sicherheit verarbeiten. Wir fügen keine Websiteanalysen oder Werbeskripte hinzu. Siehe die Hosting-Dokumentation und Datenschutzerklärung . Das Öffnen externer Links aus dem Spiel oder von dieser Seite lädt den Dienst des jeweiligen Anbieters, der übliche Verbindungsinformationen erhalten und seine eigene Datenschutzerklärung anwenden kann.
+Besuche auf der Studio-Website fallen unter eine gesonderte Datenschutzerklärung für die Website. Sie erläutert Hostingaufzeichnungen, gespeicherte Browsereinstellungen und Website-Statistiken. Diese Datenschutzerklärung für das Spiel gilt für die Datenverarbeitung des Spiels selbst.
+
+Datenschutzerklärung der Website lesen
 
 Änderungen dieser Erklärung
 

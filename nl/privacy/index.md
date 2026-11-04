@@ -2,7 +2,11 @@ Jouw informatie
 
 Privacybeleid per game
 
-Kies je game om te zien hoe deze omgaat met informatie, lokale opgeslagen gegevens en privacyverzoeken.
+Lees het websitebeleid voor bezoeken aan deze studiosite, of kies je game voor informatie over gameplay, lokale opgeslagen gegevens, aankopen, advertenties en privacyverzoeken.
+
+Privacy van de website
+
+Hoe de studiowebsite van Duck Nap Games omgaat met hostinglogboeken, browservoorkeuren, e-mailberichten en privacyverzoeken. Lees het privacybeleid van de website
 
 Knusse boerderijgame
 

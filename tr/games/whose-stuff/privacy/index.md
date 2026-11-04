@@ -2,7 +2,7 @@ Gizlilik politikası
 
 Whose Stuff? Character Quiz
 
-Güncelleme: 27 Ekim 2026
+Güncelleme: 4 Kasım 2026
 
 Sorumlu kişi
 
@@ -60,7 +60,9 @@ Daha büyük yaştaki reşit olmayan kişiler bu politikayı ebeveyn veya vasile
 
 Bu web sitesi
 
-Bu web sitesi ducknap.games adresinde ve GitHub Pages üzerinde kullanılabilir. Barındırma sağlayıcılarımız, siteyi sunmak ve güvenliği sağlamak için IP adresleri gibi bağlantı bilgilerini işleyebilir. Web sitesi analizleri veya reklam betikleri eklemeyiz. Bkz. GitHub Gizlilik Bildirimi .
+Stüdyo web sitesi ziyaretleri, ayrı bir web sitesi gizlilik politikası kapsamındadır. Bu politika barındırma kayıtlarını, kaydedilen tarayıcı tercihlerini ve web sitesi istatistiklerini açıklar. Bu oyun politikası, oyunun kendi veri işleme uygulamalarını kapsar.
+
+Web sitesi gizlilik politikasını okuyun
 
 Değişiklikler ve iletişim
 

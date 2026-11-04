@@ -66,7 +66,6 @@ html:has(.language-dialog[open]) { overflow: hidden; }
 .language-option[aria-current] { border-color: var(--apricot); background: var(--sand); }
 .language-name { font-weight: 700; font-size: 16px; }
 .language-description, .language-recommendation { color: var(--muted); font-size: 12px; }
-.language-check { position: absolute; inset-inline-end: 14px; top: 15px; color: var(--ink); }
 html:not([lang="en"]) .hero h1 { font-size: clamp(48px,5.3vw,76px); letter-spacing: -1.7px; line-height: 1.12; }
 html:not([lang="en"]) .hero-actions { flex-wrap: wrap; }
 html:not([lang="en"]) .game-facts { flex-wrap: wrap; }
@@ -116,7 +115,6 @@ html[dir="rtl"] .contact-layout,html[dir="rtl"] .studio-copy { text-align: start
   .language-option { padding: 12px 26px 12px 10px; min-height: 76px; }
   .language-name { font-size: 15px; }
   .language-description,.language-recommendation { font-size: 11px; }
-  .language-check { inset-inline-end: 8px; }
   html:not([lang="en"]) .hero h1 { font-size: clamp(36px,10vw,52px); letter-spacing: -1px; }
   html:not([lang="en"]) .studio-home .hero-actions { display: flex; flex-direction: column; align-items: stretch; }
   html:not([lang="en"]) .studio-home .hero-actions .button,html:not([lang="en"]) .studio-home .hero-actions .text-link { white-space: normal; text-align: center; }

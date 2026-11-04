@@ -69,7 +69,7 @@ def picker(code,route,t):
     for lc,native,label,_ in LANGUAGES:
         selected=lc==code
         flag=f'<span class="language-flag" aria-hidden="true"><img src="/assets/language-flags/{FLAGS[lc]}.svg" width="30" height="22" alt=""></span>'
-        items.append(f'<a class="language-option" href="{localized(route,lc)}" hreflang="{lc}" lang="{lc}" data-language="{lc}" data-search="{escape(native+" "+label+" "+t[KEYS[label]],quote=True)}"'+(' aria-current="true"' if selected else '')+f'>{flag}<span class="language-copy"><span class="language-name" dir="auto">{escape(native)}</span><span class="language-description" lang="{code}">{tr(label)}</span></span>'+('<span class="language-check" aria-hidden="true">✓</span>' if selected else '')+'</a>')
+        items.append(f'<a class="language-option" href="{localized(route,lc)}" hreflang="{lc}" lang="{lc}" data-language="{lc}" data-search="{escape(native+" "+label+" "+t[KEYS[label]],quote=True)}"'+(' aria-current="true"' if selected else '')+f'>{flag}<span class="language-copy"><span class="language-name" dir="auto">{escape(native)}</span><span class="language-description" lang="{code}">{tr(label)}</span></span>'+'</a>')
     dialog=f'<dialog class="language-dialog" id="language-dialog" aria-labelledby="language-title"><div class="language-dialog-header"><h2 id="language-title">{tr("Choose your language")}</h2><button class="language-close" type="button" aria-label="{tr("Close language picker")}"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18"/></svg></button></div><div class="language-grid">'+''.join(items)+f'</div></dialog>'
     return button,dialog
 def render(page,code,t,available):

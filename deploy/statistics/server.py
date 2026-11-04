@@ -10,9 +10,12 @@ from pathlib import Path
 import socket
 import sqlite3
 import threading
-from urllib.parse import parse_qs, urlsplit
+from urllib.parse import parse_qs, urlsplit, unquote
 
 BASE = '/website-statistics/'
+UI_ROOT = Path(__file__).resolve().parent
+ASSETS = Path(os.environ.get('STATISTICS_ASSETS', '/usr/share/nginx/html/assets'))
+LANGUAGES = ('en','ja','ko','de','zh-Hant','fr','es','pt-BR','it','ar','th','tr','id','pl','nl','vi')
 SOURCES = ('Direct / unknown', 'Internal navigation', 'Google', 'Bing', 'Instagram',
            'Facebook', 'TikTok', 'YouTube', 'X', 'LinkedIn', 'GitHub', 'Other referral')
 DATA = Path(os.environ.get('STATISTICS_DATA', '/var/lib/ducknap-statistics'))
@@ -73,53 +76,54 @@ class Counters:
         return rows, started
 
 
-def dashboard(rows, started, days):
+def dashboard(rows, started, days, language='en'):
+    language = language if language in LANGUAGES else 'en'
+    copy = json.loads((UI_ROOT/'translations'/f'{language}.json').read_text(encoding='utf-8'))
+    t = lambda key: escape(copy[key])
+    number = lambda count: f'<span data-count="{count}">{count:,}</span>'
+    date_text = lambda value: f'<time datetime="{value}">{value}</time>'
     total = sum(row[3] for row in rows)
     entries = sum(row[3] for row in rows if row[2] != 'Internal navigation')
     daily, sources, pages = {}, {}, {}
+    labels = {'Direct / unknown': copy['direct'], 'Internal navigation': copy['internal'], 'Other referral': copy['other']}
     for day, page, source, count in rows:
         daily[day] = daily.get(day, 0) + count
+        source = labels.get(source, source)
         sources[source] = sources.get(source, 0) + count
         pages[page] = pages.get(page, 0) + count
 
-    def table(values, heading):
+    def table(values, heading, paths=False):
         ordered = sorted(values.items(), key=lambda pair: (-pair[1], pair[0]))
         if not ordered:
-            return '<p class="muted">No page views recorded in this period.</p>'
-        return '<table><thead><tr><th>'+heading+'</th><th>Page views</th></tr></thead><tbody>' + ''.join(
-            '<tr><td>'+escape(label)+'</td><td>'+format(count, ',')+'</td></tr>'
-            for label, count in ordered[:160]) + '</tbody></table>'
+            return '<p>'+t('empty')+'</p>'
+        cells = []
+        for label, count in ordered[:160]:
+            label = '<bdi dir="ltr">'+escape(label)+'</bdi>' if paths else escape(label)
+            cells.append('<tr><td>'+label+'</td><td>'+number(count)+'</td></tr>')
+        return '<table><thead><tr><th scope="col">'+t(heading)+'</th><th scope="col">'+t('page_views')+'</th></tr></thead><tbody>'+''.join(cells)+'</tbody></table>'
 
     today = datetime.now(timezone.utc).date()
     dates = [today - timedelta(days=i) for i in reversed(range(days))]
     maximum = max(daily.values(), default=1)
-    bars = ''.join('<div class="day"><div class="bar" style="--height:'+str(round(100*daily.get(str(day),0)/maximum,2))+
-                   '%" title="'+str(day)+': '+str(daily.get(str(day),0))+' page views"></div></div>' for day in dates)
-    daily_rows = ''.join('<tr><td>'+str(day)+'</td><td>'+format(daily.get(str(day), 0), ',')+'</td></tr>' for day in reversed(dates))
-    options = ''.join('<option value="'+str(n)+'"'+(' selected' if n==days else '')+'>'+str(n)+' days</option>' for n in (7,30,90))
-    return '''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="robots" content="noindex,nofollow,noarchive"><title>Website statistics · Duck Nap Games</title>
-    <style>
-    :root{color-scheme:light dark;--bg:#19171d;--panel:#25212b;--text:#f5f1e9;--muted:#c7bdcc;--line:#514857;--accent:#f5bd79}
-    @media(prefers-color-scheme:light){:root{--bg:#faf7f1;--panel:#fff;--text:#29252e;--muted:#665b6e;--line:#c4b7c7;--accent:#9d5620}}
-    *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font:16px/1.6 system-ui,sans-serif}
-    main{max-width:1120px;margin:auto;padding:40px 24px}header{display:flex;align-items:flex-start;justify-content:space-between;gap:24px;flex-wrap:wrap}
-    h1{font-size:clamp(28px,5vw,42px);line-height:1.15;margin:8px 0 14px}h2{font-size:20px;margin:0 0 18px}p{margin:8px 0}.eyebrow{color:var(--accent);font-size:12px;font-weight:750;letter-spacing:.1em}
-    .muted,small{color:var(--muted)}a{color:var(--accent);text-underline-offset:4px}select,button{font:inherit;background:var(--panel);color:var(--text);border:1px solid var(--line);border-radius:8px;padding:9px 14px}
-    button{cursor:pointer}label{display:block;font-size:13px;margin-bottom:6px}.metrics,.grid{display:grid;grid-template-columns:1fr 1fr;gap:20px;margin:28px 0}.card{padding:26px;background:var(--panel);border:1px solid var(--line);border-radius:18px}
-    .value{display:block;font-size:38px;font-weight:750;line-height:1.3}.chart{height:190px;display:flex;gap:3px;align-items:flex-end;border-bottom:1px solid var(--line);margin-top:24px}.day{height:100%;flex:1;display:flex;align-items:flex-end}.bar{width:100%;height:var(--height);background:var(--accent);border-radius:4px 4px 0 0}.dates{display:flex;justify-content:space-between;font-size:12px;margin-top:8px;color:var(--muted)}
-    table{width:100%;border-collapse:collapse;font-variant-numeric:tabular-nums}th,td{padding:12px 0;border-bottom:1px solid var(--line);text-align:left;overflow-wrap:anywhere}td:first-child{padding-right:18px}th{font-size:12px;color:var(--muted)}th:last-child,td:last-child{text-align:right;white-space:nowrap}summary{cursor:pointer;margin-top:20px;color:var(--accent)}.foot{border-top:1px solid var(--line);padding-top:24px;margin-top:28px}details table{margin-top:12px}
-    @media(max-width:680px){main{padding:24px 16px}.grid,.metrics{grid-template-columns:1fr;gap:14px;margin:20px 0}.card{padding:20px}.chart{height:145px}}
-    </style></head><body><main><header><div><p class="eyebrow">DUCK NAP GAMES · PRIVATE</p><h1>Website statistics</h1><p class="muted">ducknap.games · Daily totals in UTC · Started '''+escape(started)+'''</p></div>
-    <form method="get"><label for="days">Reporting period</label><select name="days" id="days">'''+options+'''</select> <button>Apply</button></form></header>
-    <div class="metrics"><section class="card"><span class="muted">Page views</span><strong class="value">'''+format(total,',')+'''</strong><small>Successful page loads, including repeat views.</small></section>
-    <section class="card"><span class="muted">Views without an internal referrer</span><strong class="value">'''+format(entries,',')+'''</strong><small>External referrals and direct / unknown source. These are not unique visitors or sessions.</small></section></div>
-    <section class="card"><h2>Daily page views</h2><p class="muted">Known bots, assets, errors and privacy opt-out headers are excluded.</p><div class="chart" aria-hidden="true">'''+bars+'''</div><div class="dates"><span>'''+str(dates[0])+'''</span><span>'''+str(today)+'''</span></div>
-    <details><summary>Exact daily counts</summary><table><thead><tr><th>Date (UTC)</th><th>Page views</th></tr></thead><tbody>'''+daily_rows+'''</tbody></table></details></section>
-    <div class="grid"><section class="card"><h2>Traffic sources</h2>'''+table(sources,'Source')+'''<p class="muted">Sources are broad groups from the referrer or a recognised utm_source. Apps may hide referrers; unrecognised campaign values are ignored.</p></section>
-    <section class="card"><h2>Pages viewed</h2>'''+table(pages,'Page')+'''</section></div>
-    <p><a href="?days='''+str(days)+'''&amp;format=csv">Download daily totals (CSV)</a></p><div class="foot"><p>No cookies, visitor IDs, IP addresses, full referrers, raw browser strings or individual browsing histories are stored in these statistics.</p>
-    <p class="muted">Daily aggregates are kept for 90 days. Page views are not people. Reloads count again, and bot filtering is approximate. Collection is best effort and excludes the GitHub Pages mirror. Refresh this page for current totals.</p></div></main></body></html>'''
+    bars = ''.join('<div class="statistics-day"><div class="statistics-bar" style="--height:'+str(round(100*daily.get(str(day),0)/maximum,2))+
+                   '%" title="'+str(day)+': '+str(daily.get(str(day),0))+' '+t('page_views')+'"></div></div>' for day in dates)
+    daily_rows = ''.join('<tr><td>'+date_text(str(day))+'</td><td>'+number(daily.get(str(day), 0))+'</td></tr>' for day in reversed(dates))
+    options = ''.join('<option value="'+str(n)+'"'+(' selected' if n==days else '')+'>'+t('days').replace('{n}',str(n))+'</option>' for n in (7,30,90))
+    content = f'''<main class="statistics-main wrap" id="main">
+      <div class="statistics-heading"><div><p class="eyebrow"><svg class="feather-icon" viewBox="0 0 64 64" aria-hidden="true"><use href="{BASE}assets/studio/feather-symbol.svg#feather"></use></svg>{t('private')}</p>
+      <h1>{t('title')}</h1><p class="lead">{t('intro')}</p></div>
+      <form class="statistics-period" method="get"><input type="hidden" name="lang" value="{language}"><label for="days">{t('period')}</label><span class="statistics-select"><select name="days" id="days">{options}</select><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" aria-hidden="true"><path d="m4 6 4 4 4-4"/></svg></span><button>{t('apply')}</button></form></div>
+      <div class="statistics-meta"><span>ducknap.games</span><span>{t('timezone')}</span><span>{t('started').replace('{date}',date_text(started))}</span></div>
+      <div class="statistics-metrics"><section class="statistics-card"><span class="statistics-label">{t('page_views')}</span><strong class="statistics-value">{number(total)}</strong><p>{t('page_views_note')}</p></section>
+      <section class="statistics-card"><span class="statistics-label">{t('entry_views')}</span><strong class="statistics-value">{number(entries)}</strong><p>{t('entry_views_note')}</p></section></div>
+      <section class="statistics-card"><h2>{t('daily_title')}</h2><p>{t('daily_note')}</p><div class="statistics-chart" aria-hidden="true">{bars}</div><div class="statistics-dates"><span>{date_text(str(dates[0]))}</span><span>{date_text(str(today))}</span></div>
+      <details><summary>{t('daily_details')}</summary><table><thead><tr><th scope="col">{t('date')}</th><th scope="col">{t('page_views')}</th></tr></thead><tbody>{daily_rows}</tbody></table></details></section>
+      <div class="statistics-grid"><section class="statistics-card"><h2>{t('sources_title')}</h2>{table(sources,'source')}<p>{t('sources_note')}</p></section>
+      <section class="statistics-card"><h2>{t('pages_title')}</h2>{table(pages,'page',True)}</section></div>
+      <a class="statistics-download" href="?days={days}&amp;lang={language}&amp;format=csv"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12m-4-4 4 4 4-4M4 16v5h16v-5"/></svg>{t('download')}</a>
+      <section class="statistics-privacy"><h2>{t('privacy_title')}</h2><p>{t('privacy_note')}</p><p>{t('limitations')}</p></section></main>'''
+    shell = (UI_ROOT/'shells'/f'{language}.html.template').read_text(encoding='utf-8')
+    return shell.replace('<!--STATISTICS_TITLE-->',t('title')+' · Duck Nap Games').replace('<!--STATISTICS_CONTENT-->',content).replace('<!--STATISTICS_DAYS-->',str(days))
 
 
 def handler(counters):
@@ -133,6 +137,9 @@ def handler(counters):
                 self.send_response(200)
                 self.end_headers()
                 self.wfile.write(b'ok')
+                return
+            if url.path.startswith(BASE+'assets/'):
+                self.asset(url.path.removeprefix(BASE+'assets/'))
                 return
             if url.path != BASE:
                 self.send_response(404)
@@ -154,7 +161,8 @@ def handler(counters):
                 writer.writerows(rows)
                 body = text.getvalue().encode()
             else:
-                body = dashboard(rows, started, days).encode()
+                language = query.get('lang', ['en'])[0]
+                body = dashboard(rows, started, days, language).encode()
             self.send_response(200)
             self.send_header('Content-Type', 'text/csv; charset=utf-8' if is_csv else 'text/html; charset=utf-8')
             self.send_header('Content-Length', str(len(body)))
@@ -162,9 +170,34 @@ def handler(counters):
             self.send_header('X-Robots-Tag','noindex, nofollow, noarchive')
             self.send_header('X-Content-Type-Options','nosniff')
             self.send_header('Referrer-Policy','no-referrer')
-            self.send_header('Content-Security-Policy', "default-src 'none'; style-src 'unsafe-inline'; form-action 'self'; frame-ancestors 'none'; base-uri 'none'")
+            self.send_header('Content-Security-Policy', "default-src 'none'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; form-action 'self'; frame-ancestors 'none'; base-uri 'none'")
             if is_csv:
                 self.send_header('Content-Disposition','attachment; filename="website-statistics.csv"')
+            self.end_headers()
+            self.wfile.write(body)
+        def asset(self, name):
+            types = {'.css':'text/css; charset=utf-8','.js':'text/javascript; charset=utf-8',
+                     '.svg':'image/svg+xml','.ttf':'font/ttf','.woff2':'font/woff2',
+                     '.png':'image/png','.webp':'image/webp','.jpg':'image/jpeg'}
+            name = unquote(name)
+            root = UI_ROOT if name in {'statistics.css','statistics.js'} else ASSETS
+            path = (root/name).resolve()
+            try:
+                if not path.is_relative_to(root.resolve()) or path.suffix not in types:
+                    raise FileNotFoundError
+                body = path.read_bytes()
+            except (OSError, ValueError):
+                self.send_response(404)
+                self.end_headers()
+                return
+            if path.suffix == '.css':
+                body = body.replace(b'/assets/', (BASE+'assets/').encode())
+            self.send_response(200)
+            self.send_header('Content-Type',types[path.suffix])
+            self.send_header('Content-Length',str(len(body)))
+            self.send_header('Cache-Control','private, max-age=300')
+            self.send_header('X-Content-Type-Options','nosniff')
+            self.send_header('X-Robots-Tag','noindex, nofollow, noarchive')
             self.end_headers()
             self.wfile.write(body)
     return Handler

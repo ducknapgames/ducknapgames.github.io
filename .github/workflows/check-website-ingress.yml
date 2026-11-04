@@ -26,6 +26,8 @@ jobs:
           check 200 https://ducknap.games/
           check 200 https://ducknap.games/privacy/website/
           check 404 https://ducknap.games/website-statistics/
+          check 404 https://ducknap.games/website-statistics/assets/theme.js
           check 403 https://dokploy.ducknap.games/website-statistics/
+          check 403 https://dokploy.ducknap.games/website-statistics/assets/theme.js
           check 403 http://dokploy.ducknap.games/website-statistics/
           check 403 https://dokploy.ducknap.games/website-statistics/ -H 'X-Forwarded-For: 100.64.0.1'

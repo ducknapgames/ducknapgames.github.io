@@ -6,6 +6,7 @@ from datetime import date, timedelta
 import tempfile
 import threading
 import unittest
+import re
 import urllib.request
 from http.server import ThreadingHTTPServer
 
@@ -64,6 +65,24 @@ class StatisticsTests(unittest.TestCase):
         self.assertIn('not unique visitors or sessions', html)
         self.assertNotIn('<script>', html)
 
+    def test_all_locales_reuse_the_website_header_and_preserve_filters(self):
+        english = json.loads((stats.UI_ROOT/'translations/en.json').read_text(encoding='utf-8'))
+        for code in stats.LANGUAGES:
+            with self.subTest(language=code):
+                copy = json.loads((stats.UI_ROOT/'translations'/f'{code}.json').read_text(encoding='utf-8'))
+                self.assertEqual(set(copy),set(english))
+                for key, text in english.items():
+                    self.assertEqual(set(re.findall(r'\{\w+\}',text)),set(re.findall(r'\{\w+\}',copy[key])))
+                html = stats.dashboard([], '2026-11-04', 90, code)
+                self.assertIn('class="header wrap"', html)
+                self.assertIn('class="theme-toggle"', html)
+                self.assertIn('id="language-dialog"', html)
+                self.assertIn('dir="rtl"' if code=='ar' else 'dir="ltr"',html)
+                self.assertIn('name="lang" value="'+code+'"',html)
+                self.assertIn('?lang=pl&amp;days=90',html)
+                self.assertIn('/website-statistics/assets/theme.js',html)
+                self.assertNotIn('<!--STATISTICS_',html)
+
     def test_http_report_is_private_no_store_and_csv_is_aggregate_only(self):
         self.send(page='/', source='YouTube')
         server = ThreadingHTTPServer(('127.0.0.1',0), stats.handler(self.counters))
@@ -79,6 +98,13 @@ class StatisticsTests(unittest.TestCase):
             with urllib.request.urlopen(base+stats.BASE+'?days=7&format=csv') as response:
                 self.assertEqual(response.read().decode().splitlines(),
                                  ['day_utc,page,source,page_views','2026-11-04,/,YouTube,1'])
+            with urllib.request.urlopen(base+stats.BASE+'assets/statistics.css') as response:
+                self.assertIn('text/css',response.headers['Content-Type'])
+            for path in ['assets/../server.py','assets/%2e%2e/server.py','assets/%2e%2e/%2e%2e/counters.sqlite3']:
+                with self.assertRaises(urllib.error.HTTPError) as error:
+                    urllib.request.urlopen(base+stats.BASE+path)
+                self.assertEqual(error.exception.code,404)
+                error.exception.close()
             with self.assertRaises(urllib.error.HTTPError) as error:
                 urllib.request.urlopen(base+'/counters.sqlite3')
             self.assertEqual(error.exception.code,404)

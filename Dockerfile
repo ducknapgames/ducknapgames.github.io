@@ -3,6 +3,9 @@ RUN apk add --no-cache python3
 COPY deploy/statistics/nginx-statistics.conf /etc/nginx/conf.d/00-statistics.conf
 COPY deploy/nginx.conf /etc/nginx/conf.d/default.conf
 COPY deploy/statistics/server.py /opt/ducknap-statistics/server.py
+COPY deploy/statistics/shells/ /opt/ducknap-statistics/shells/
+COPY deploy/statistics/translations/ /opt/ducknap-statistics/translations/
+COPY deploy/statistics/statistics.css deploy/statistics/statistics.js /opt/ducknap-statistics/
 COPY deploy/statistics/40-statistics.sh /docker-entrypoint.d/40-statistics.sh
 RUN chmod 755 /docker-entrypoint.d/40-statistics.sh
 RUN rm -rf /usr/share/nginx/html/*

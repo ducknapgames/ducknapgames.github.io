@@ -1,0 +1,39 @@
+/* Dashboard layout; all colours and shared components come from the studio site. */
+.statistics-main{padding-block:56px 72px;max-width:1120px}
+.statistics-heading{display:flex;justify-content:space-between;align-items:flex-end;gap:28px;margin-bottom:30px}
+.statistics-heading h1{font-family:var(--display);font-size:clamp(32px,4.5vw,52px);letter-spacing:-.045em;margin:0 0 14px}
+.statistics-heading .eyebrow{display:flex;align-items:center;gap:10px;color:var(--accent);margin-bottom:18px}
+.statistics-heading .eyebrow svg{width:22px;height:22px;flex:none;fill:currentColor}
+.statistics-heading .lead{font-size:17px;max-width:560px}
+.statistics-period{flex:none;display:flex;flex-wrap:wrap;align-items:center;gap:10px;max-width:100%}
+.statistics-period label{width:100%;font-size:13px;color:var(--muted)}
+.statistics-period select,.statistics-period button{font:inherit;font-size:14px;min-height:44px;border:1px solid var(--line);border-radius:10px;color:var(--ink);background:var(--paper);padding:9px 16px}
+.statistics-period select{padding-inline-end:36px;appearance:none;}
+.statistics-select{position:relative;display:inline-flex}.statistics-select svg{position:absolute;inset-inline-end:12px;top:50%;transform:translateY(-50%);width:16px;height:16px;pointer-events:none;color:var(--ink)}
+.statistics-period button{background:var(--ink);color:var(--paper);cursor:pointer}
+.statistics-meta{display:flex;flex-wrap:wrap;gap:8px 24px;font-size:13px;color:var(--muted);margin:0 0 26px;padding-bottom:24px;border-bottom:1px solid var(--line)}
+.statistics-metrics,.statistics-grid{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin:24px 0}
+.statistics-card{min-width:0;padding:28px;border:1px solid var(--line);border-radius:22px;background:var(--sand)}
+.statistics-card h2{font-family:var(--display);font-size:23px;line-height:1.25;margin:0 0 12px}
+.statistics-card p{margin:8px 0;color:var(--muted);font-size:14px;line-height:1.65}
+.statistics-value{display:block;font-family:var(--display);font-size:52px;line-height:1.25;margin:12px 0;color:var(--ink);font-variant-numeric:tabular-nums}
+.statistics-label{font-size:15px;font-weight:650}
+.statistics-chart{height:190px;display:flex;gap:4px;align-items:flex-end;border-bottom:1px solid var(--line);margin-top:28px;direction:ltr}
+.statistics-day{height:100%;flex:1;display:flex;align-items:flex-end}
+.statistics-bar{width:100%;height:var(--height);background:var(--accent);border-radius:5px 5px 0 0}
+.statistics-dates{display:flex;justify-content:space-between;direction:ltr;gap:16px;font-size:12px;margin-top:10px;color:var(--muted)}
+.statistics-main table{width:100%;border-collapse:collapse;font-variant-numeric:tabular-nums;font-size:14px}
+.statistics-main th,.statistics-main td{padding:13px 0;border-bottom:1px solid var(--line);text-align:start;overflow-wrap:anywhere}
+.statistics-main td:first-child{padding-inline-end:20px}
+.statistics-main th{font-size:12px;color:var(--muted);font-weight:600}
+.statistics-main th:last-child,.statistics-main td:last-child{text-align:end;white-space:nowrap}
+.statistics-main td bdi{font-size:13px}
+.statistics-main summary{cursor:pointer;margin-top:20px;color:var(--accent);font-size:14px}
+.statistics-main details table{margin-top:14px}
+.statistics-download{display:inline-flex;align-items:center;gap:10px;font-size:14px;font-weight:650;margin:0 0 32px}
+.statistics-download svg{width:18px;height:18px}
+.statistics-privacy{border-top:1px solid var(--line);padding-top:26px}
+.statistics-privacy h2{font-family:var(--display);font-size:21px;margin:0 0 12px}
+.statistics-privacy p{font-size:14px;line-height:1.75;color:var(--muted);max-width:900px;margin:8px 0}
+@media(max-width:800px){.statistics-heading{align-items:flex-start;flex-direction:column;gap:24px}.statistics-period{width:100%}.statistics-metrics,.statistics-grid{gap:16px}.statistics-card{padding:24px}}
+@media(max-width:600px){.statistics-main{padding-block:32px 48px}.statistics-heading{margin-bottom:24px}.statistics-heading h1{font-size:36px}.statistics-heading .lead{font-size:16px}.statistics-metrics,.statistics-grid{grid-template-columns:1fr;gap:16px;margin-block:20px}.statistics-card{padding:22px}.statistics-card h2{font-size:22px}.statistics-value{font-size:46px}.statistics-chart{height:155px;gap:3px}.statistics-meta{gap:6px 18px;margin-bottom:20px;padding-bottom:20px}}

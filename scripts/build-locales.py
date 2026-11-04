@@ -7,7 +7,7 @@ from pathlib import Path
 from html.parser import HTMLParser
 from html import escape, unescape
 from urllib.parse import urlsplit
-import json, re, argparse
+import json, re, argparse, runpy
 import xml.etree.ElementTree as ET
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -197,4 +197,6 @@ def main():
                 ET.SubElement(url,'{'+xh+'}link',{'rel':'alternate','hreflang':other,'href':BASE+localized(route,'en' if other=='x-default' else other)})
     ET.indent(tree,space='  '); ET.ElementTree(tree).write(ROOT/'sitemap.xml',encoding='utf-8',xml_declaration=True)
     print(f'Generated {len(PAGES)*len(catalogs)} pages in {len(catalogs)} languages.')
+    if len(catalogs)==len(LANGUAGES):
+        runpy.run_path(str(ROOT/'scripts/build-statistics-shell.py'))['build']()
 if __name__=='__main__': main()

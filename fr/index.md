@@ -36,7 +36,7 @@ Fox on Ice
 
 Vous glissez. Ils marchent.
 
-Un glissement de doigt et votre renard file sur la glace. Anticipez les patrouilles des huskies, trouvez le chemin du terrier et faites compter chaque déplacement.
+Un glissement de doigt et votre renard file sur la glace. Anticipez les patrouilles des huskies, trouvez le chemin du terrier et choisissez chaque déplacement avec soin.
 
 50 niveaux
 

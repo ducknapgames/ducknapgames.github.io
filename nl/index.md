@@ -2,7 +2,7 @@ ONAFHANKELIJKE GAMES MET KARAKTER
 
 Even spelen. Volop genieten.
 
-Nieuwsgierig makende aanwijzingen. Knusse werelden. We maken kleine games voor je welverdiende pauze. Speel Whose Stuff? ↗ Ontdek onze games ↓ Whose Stuff? ÉÉN VOORWERP. WELK PERSONAGE? JOUW BEURT ↙ JE EERSTE AANWIJZING 01 / 03
+Intrigerende aanwijzingen. Knusse werelden. We maken kleine games voor je welverdiende pauze. Speel Whose Stuff? ↗ Ontdek onze games ↓ Whose Stuff? ÉÉN VOORWERP. WELK PERSONAGE? JOUW BEURT ↙ JE EERSTE AANWIJZING 01 / 03
 
 Van wie is dit? Thor Mario Luigi
 
@@ -58,7 +58,7 @@ Een knusse kleine wereld met 100 gewassen en 20 dierenburen om te ontdekken.
 
 DE MENSEN ACHTER DE GAMES
 
-Kleine studio. Groot oog voor detail. Dat is Duck Nap Games.
+Kleine studio. Veel oog voor detail. Dat is Duck Nap Games.
 
 We houden van games waar je zo in zit, die karakter hebben en waar je graag naar terugkeert.
 
@@ -82,4 +82,4 @@ GOEDE GAMES BEGINNEN MET EEN HALLO
 
 Laten we iets moois maken.
 
-Uitgeven, partnerschappen, samenwerken, of een goed idee dat je wilt delen. ducknapgames@gmail.com ↗ Hulp nodig bij een game? We staan voor je klaar. →
+Uitgeven, partnerschappen, samenwerkingen, of een goed idee dat je wilt delen. ducknapgames@gmail.com ↗ Hulp nodig bij een game? We staan voor je klaar. →

@@ -12,7 +12,7 @@ Mirheydar Badirov, geschäftlich tätig als Duck Nap Games, veröffentlicht Farm
 
 Spielfortschritt und Einstellungen
 
-Das Spiel speichert Farmfortschritt, Pflanzen, Münzen, Inventar, Lieferungen, Freundschaften, Kaufberechtigungen und Einstellungen auf deinem Gerät. Auch Übungsfarm, Sprachwahl, Toneinstellungen und Erinnerungseinstellungen werden lokal gespeichert. Das Spiel liest Gerätesprache und grundlegende Bildschirm- und Plattforminformationen, um die Sprache auszuwählen und die Oberfläche darzustellen.
+Das Spiel speichert Farmfortschritt, Pflanzen, Münzen, Inventar, Lieferungen, Freundschaften, Berechtigungen für gekaufte Inhalte und Einstellungen auf deinem Gerät. Auch Übungsfarm, Sprachwahl, Toneinstellungen und Erinnerungseinstellungen werden lokal gespeichert. Das Spiel liest Gerätesprache und grundlegende Bildschirm- und Plattforminformationen, um die Sprache auszuwählen und die Oberfläche darzustellen.
 
 Wir betreiben keinen Spielserver und kein Spielerkontensystem, das diese Spielstände empfängt. Farm Pals Forever enthält keine Werbung, keine Integration einer Werbekennung, keine Anmeldung über soziale Dienste, keine Drittanbieteranalyse und keinen vom Entwickler betriebenen Absturzmeldedienst. Zum Spielen musst du weder einen Namen noch eine E-Mail-Adresse angeben. Das Spiel greift nicht auf Kontakte, genauen Standort, Kamera, Mikrofon oder Telefonanrufinformationen zu.
 
@@ -48,7 +48,7 @@ Aufbewahrung und Löschung
 
 Lokale Spielstände bleiben erhalten, bis du den betreffenden Fortschritt zurücksetzt, den App-Speicher in den Android-Einstellungen leerst oder das Spiel deinstallierst, vorbehaltlich einer Betriebssystemsicherung oder späteren Wiederherstellung. Die Spieloption Neu anfangen setzt den Fortschritt der ausgewählten Farm zurück und erhält Käufe; sie löscht nicht alle gespeicherten Einstellungen oder die Kaufunterlagen bei Google Play. Um alle lokalen App-Daten zu entfernen, nutze die Android-Option zum Leeren des Speichers. Gerätesicherungen lassen sich über die Geräte- oder Google-Kontoeinstellungen verwalten.
 
-Wir bewahren Supportkorrespondenz so lange auf, wie dies vernünftigerweise zur Bearbeitung der Anfrage, zur Führung relevanter Supportunterlagen und zur Einhaltung geltender gesetzlicher Pflichten erforderlich ist. Über Google zugängliche Kaufunterlagen müssen gegebenenfalls aus Buchhaltungs-, Betrugspräventions- oder rechtlichen Gründen aufbewahrt werden. Du kannst uns per E-Mail bitten, Informationen in unserem Einflussbereich zu löschen. Wir löschen sie, sofern kein rechtmäßiger Aufbewahrungsgrund besteht, und erklären etwaige Einschränkungen. Wir können unabhängig von Google oder GitHub gespeicherte Daten nicht direkt löschen; ihre Erklärungen erläutern die verfügbaren Möglichkeiten.
+Wir bewahren Supportkorrespondenz so lange auf, wie dies vernünftigerweise zur Bearbeitung der Anfrage, zur Führung relevanter Supportunterlagen und zur Einhaltung geltender gesetzlicher Pflichten erforderlich ist. Über Google zugängliche Kaufunterlagen müssen gegebenenfalls aus Buchhaltungs-, Betrugspräventions- oder rechtlichen Gründen aufbewahrt werden. Du kannst uns per E-Mail bitten, Informationen in unserem Einflussbereich zu löschen. Wir löschen sie, sofern kein rechtmäßiger Aufbewahrungsgrund besteht, und erklären etwaige Einschränkungen. Wir können Daten, die Google oder GitHub eigenständig speichern, nicht direkt löschen; ihre Erklärungen erläutern die verfügbaren Möglichkeiten.
 
 Deine Wahlmöglichkeiten und Rechte
 
@@ -68,6 +68,6 @@ Wir können diese Erklärung aktualisieren, wenn sich das Spiel oder unsere Verf
 
 Kontakt und Datenschutzanfragen
 
-Sende eine E-Mail an ducknapgames@gmail.com mit „Farm Pals Forever Datenschutz“ im Betreff. Bitte beschreibe deine Anfrage ohne unnötige sensible Informationen.
+Sende eine E-Mail an ducknapgames@gmail.com mit „Farm Pals Forever privacy“ im Betreff. Bitte beschreibe deine Anfrage ohne unnötige sensible Informationen.
 
 Englisches Original lesen

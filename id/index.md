@@ -2,7 +2,7 @@ GAME INDEPENDEN DENGAN CIRI KHAS
 
 Main sebentar. Senangnya lama.
 
-Petunjuk yang bikin penasaran. Dunia yang hangat. Kami membuat game kecil untuk waktu rehat yang kamu nantikan. Mainkan Whose Stuff? ↗ Jelajahi game kami ↓ Whose Stuff? SATU BENDA. KARAKTER SIAPA? GILIRANMU ↙ PETUNJUK PERTAMAMU 01 / 03
+Petunjuk yang bikin penasaran. Dunia yang hangat. Kami membuat game kecil untuk waktu rehat yang kamu nantikan. Mainkan Whose Stuff? ↗ Jelajahi game kami ↓ Whose Stuff? SATU BENDA. SIAPA KARAKTERNYA? GILIRANMU ↙ PETUNJUK PERTAMAMU 01 / 03
 
 Ini punya siapa? Thor Mario Luigi
 
@@ -14,7 +14,7 @@ PILIH SELINGAN KECILMU
 
 Game kami.
 
-Kuis karakter, puzzle di atas es, dan pertanian yang hangat.
+Kuis karakter, puzzle di atas es, dan game bertani yang santai.
 
 KUIS KARAKTER Sudah rilis
 
@@ -48,7 +48,7 @@ PERTANIAN SANTAI Segera hadir
 
 Farm Pals Forever
 
-Tanam hasil bumi. Tumbuhkan persahabatan.
+Bercocok tanam. Jalin persahabatan.
 
 Dunia kecil yang hangat dengan 100 tanaman dan 20 tetangga hewan untuk dikenal.
 

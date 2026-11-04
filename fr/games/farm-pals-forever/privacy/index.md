@@ -52,7 +52,7 @@ Nous conservons les échanges d'assistance aussi longtemps que raisonnablement n
 
 Vos choix et vos droits
 
-Vous pouvez jouer sans créer de compte, refuser les achats facultatifs, désactiver les rappels et effacer les données locales. Selon votre lieu de résidence, vous pouvez avoir des droits d'accès, de rectification, de suppression, de limitation, d'opposition au traitement ou d'obtention d'une copie des données personnelles que nous détenons à votre sujet. Contactez-nous pour faire une demande. Nous pouvons avoir besoin d'informations limitées pour vérifier qu'elle vous concerne. Vous pouvez aussi avoir le droit de déposer une réclamation auprès de votre autorité locale de protection des données.
+Vous pouvez jouer sans créer de compte, refuser les achats facultatifs, désactiver les rappels et effacer les données locales. Selon votre lieu de résidence, vous pouvez avoir des droits d'accès, de rectification, de suppression, de limitation du traitement, d'opposition à celui-ci ou d'obtention d'une copie des données personnelles que nous détenons à votre sujet. Contactez-nous pour faire une demande. Nous pouvons avoir besoin d'informations limitées pour vérifier qu'elle vous concerne. Vous pouvez aussi avoir le droit de déposer une réclamation auprès de votre autorité locale de protection des données.
 
 Enfants et familles
 

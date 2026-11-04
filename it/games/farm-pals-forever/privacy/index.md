@@ -6,7 +6,7 @@ Data di entrata in vigore: 17 ottobre 2026 In breve
 
 La fattoria viene salvata sul tuo dispositivo. Il gioco non ha account giocatore, pubblicità o SDK di analisi di terze parti. Gli acquisti facoltativi usano Google Play e i promemoria facoltativi vengono programmati sul dispositivo. Se ci scrivi, riceviamo le informazioni che scegli di inviare. Dati locali del gioco Acquisti Conservazione ed eliminazione Contatti
 
-Chi è il responsabile
+Titolare del trattamento
 
 Mirheydar Badirov, che opera con il nome Duck Nap Games, pubblica Farm Pals Forever ed è responsabile dei dati personali gestiti dall'editore. Questa informativa si applica a Farm Pals Forever e alla pagina web della sua informativa sulla privacy. Gli altri nostri giochi possono avere informative diverse.
 
@@ -52,7 +52,7 @@ Conserviamo la corrispondenza con l'assistenza per il tempo ragionevolmente nece
 
 Le tue scelte e i tuoi diritti
 
-Puoi giocare senza creare un account giocatore, rifiutare gli acquisti facoltativi, disattivare i promemoria e cancellare i dati locali. A seconda del luogo di residenza, puoi avere il diritto di accedere, correggere, eliminare, limitare o opporti al trattamento, oppure ottenere una copia dei dati personali che conserviamo su di te. Contattaci per presentare una richiesta. Possiamo aver bisogno di informazioni limitate per verificare che ti riguardi. Puoi anche avere il diritto di presentare un reclamo alla tua autorità locale per la protezione dei dati.
+Puoi giocare senza creare un account giocatore, rifiutare gli acquisti facoltativi, disattivare i promemoria e cancellare i dati locali. A seconda del luogo di residenza, puoi avere il diritto di accedere ai dati personali che conserviamo su di te, correggerli, eliminarli, limitarne il trattamento od opporti a esso, oppure ottenerne una copia. Contattaci per presentare una richiesta. Possiamo aver bisogno di informazioni limitate per verificare che ti riguardi. Puoi anche avere il diritto di presentare un reclamo alla tua autorità locale per la protezione dei dati.
 
 Bambini e famiglie
 

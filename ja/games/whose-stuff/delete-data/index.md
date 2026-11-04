@@ -4,7 +4,7 @@ Whose Stuff? Character Quiz Duck Nap Gamesの名称で事業を行うMirheydar B
 
 申請方法
 
-送信先： ducknapgames@gmail.com 。件名は、 Whose Stuff — データ削除申請 .
+送信先： ducknapgames@gmail.com 。件名： Whose Stuff — データ削除申請 .
 
 Whose Stuffのゲームサービスアカウントと関連データの削除か、特定データのみの削除かを明記してください。連携済みゲームアカウントの場合、記録を特定できるよう、Play Gamesのプロフィール名と、可能であれば購入注文IDまたはおおよそのプレイ日をお知らせください。アカウント削除前には、必要相応の本人確認を行います。サポートのやり取りについては、同じメールアドレスから、該当するメッセージまたはおおよその日付をお知らせください。
 

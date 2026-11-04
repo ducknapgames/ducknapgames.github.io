@@ -28,7 +28,7 @@ Kapelusz. Różdżka. Bardzo znajomy młot. Rozpoznawaj postacie po ich kultowyc
 
 16 języków
 
-Offline graj we własnym tempie Zagraj z Google Play ↗ O grze Polityka prywatności Usuwanie danych Pomoc Rozpoznaj przedmioty. Odgadnij postać.
+Offline graj we własnym tempie Pobierz z Google Play ↗ O grze Polityka prywatności Usuwanie danych Pomoc Rozpoznaj przedmioty. Odgadnij postać.
 
 ŁAMIGŁÓWKA Z POŚLIZGIEM Demo
 
@@ -36,13 +36,13 @@ Fox on Ice
 
 Ty się ślizgasz. One chodzą.
 
-Jeden ruch wysyła Twojego lisa w ślizg po lodzie. Omijaj patrolujące husky, znajdź drogę do nory i dobrze zaplanuj każdy ślizg.
+Przesuń palcem, a Twój lis pomknie po lodzie. Omijaj patrolujące husky, znajdź drogę do nory i dobrze zaplanuj każdy ślizg.
 
 50 poziomów
 
 10 rozdziałów
 
-Codzienne łamigłówki Zagraj w demo w przeglądarce ↗ O grze Pomoc Dołącz na Discordzie ↗ Śledź rozwój gry Trochę lodu. Sprytna ucieczka.
+Codzienne łamigłówki Zagraj w demo w przeglądarce ↗ O grze Pomoc Dołącz do nas na Discordzie ↗ Śledź rozwój gry Trochę lodu. Sprytna ucieczka.
 
 PRZYTULNA FARMA Wkrótce
 
@@ -66,7 +66,7 @@ Od pierwszej wskazówki po najdrobniejszy szczegół tworzymy gry, na które zna
 
 Zabawa przede wszystkim.
 
-Proste pomysły, w które od razu wskoczysz.
+Proste pomysły, dzięki którym od razu zaczniesz zabawę.
 
 Charakter ma znaczenie.
 

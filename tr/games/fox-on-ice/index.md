@@ -4,7 +4,7 @@ KAYDIRMA BULMACASI Demo
 
 Fox on Ice
 
-Sen kayarsın. Onlar yürür.
+Sen kaydırırsın. Onlar yürür.
 
 Tek bir kaydırmayla tilkin buzda süzülür. Devriye gezen husky'leri hesaba kat, ine giden yolu bul ve her kayışını iyi planla.
 
@@ -16,9 +16,9 @@ Günlük bulmacalar Tarayıcı demosunu oyna ↗ Destek Discord'a katıl ↗ Gel
 
 Fox on Ice hakkında
 
-Tilkinizle buzda kayın, devriye gezen husky'lerden kaçının ve ine ulaşın. Fox on Ice'ı keşfedin: 50 bölüm, 10 kısım, günlük bulmacalar ve tarayıcı demosu.
+Tilkinle buzda kay, devriye gezen husky'lerden kaçın ve ine ulaş. Fox on Ice'ı keşfet: 50 bölüm, 10 kısım, günlük bulmacalar ve tarayıcı demosu.
 
-Erişilebilirlik: Tarayıcı demosu mevcut.
+Yayın durumu: Tarayıcı demosu mevcut.
 
 Duck Nap Games'ten diğer oyunlar
 

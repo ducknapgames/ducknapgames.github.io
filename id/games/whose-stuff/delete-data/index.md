@@ -6,7 +6,7 @@ Cara mengajukan permintaan
 
 Kirim email ke ducknapgames@gmail.com dengan subjek Whose Stuff — Permintaan penghapusan data .
 
-Jelaskan apakah kamu ingin menghapus akun layanan game Whose Stuff beserta data terkait, atau hanya data tertentu. Untuk akun game terhubung, sertakan nama profil Play Games dan, jika tersedia, ID pesanan pembelian atau perkiraan tanggal bermain agar kami dapat menemukan catatannya. Kami akan melakukan verifikasi yang sebanding sebelum menghapus akun. Untuk korespondensi bantuan, tulis dari alamat email yang sama dan sebutkan pesan terkait atau perkiraan tanggalnya.
+Jelaskan apakah kamu ingin menghapus akun layanan game Whose Stuff beserta data terkait, atau hanya data tertentu. Untuk akun game terhubung, sertakan nama profil Play Games dan, jika tersedia, ID pesanan pembelian atau perkiraan tanggal bermain agar kami dapat menemukan catatannya. Kami akan melakukan verifikasi yang sesuai dan tidak berlebihan sebelum menghapus akun. Untuk korespondensi bantuan, tulis dari alamat email yang sama dan sebutkan pesan terkait atau perkiraan tanggalnya.
 
 Kami akan meninjau permintaanmu dan menjelaskan data yang dapat dihapus, verifikasi yang diperlukan, serta pengecualian penyimpanan. Kamu tidak perlu menginstal ulang game atau membuat akun.
 

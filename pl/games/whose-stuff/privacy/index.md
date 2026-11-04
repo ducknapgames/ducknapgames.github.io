@@ -46,13 +46,13 @@ Twoje prawa
 
 Wniosek o usunięcie danych: kroki, zakres danych i szczegóły przechowywania .
 
-W zależności od obowiązującego prawa możesz żądać dostępu do swoich informacji, ich sprostowania, usunięcia, ograniczenia przetwarzania lub przeniesienia, sprzeciwić się przetwarzaniu i wycofać zgodę. Aby skorzystać z praw dotyczących posiadanych przez nas informacji, napisz do nas. Wnioski dotyczące informacji posiadanych przez Google mogą wymagać skierowania do Google. Możemy potrzebować proporcjonalnych informacji do weryfikacji wniosku.
+W zależności od obowiązującego prawa możesz żądać dostępu do swoich informacji, ich sprostowania, usunięcia, ograniczenia przetwarzania lub przeniesienia, sprzeciwić się przetwarzaniu i wycofać zgodę. Aby skorzystać z praw dotyczących posiadanych przez nas informacji, napisz do nas. Wnioski dotyczące informacji posiadanych przez Google mogą wymagać skierowania do Google. Do weryfikacji wniosku możemy potrzebować informacji w odpowiednim zakresie.
 
 Możesz złożyć skargę do lokalnego organu ochrony danych, w tym polskiego Urzędu Ochrony Danych Osobowych . Nie wykorzystujemy informacji z korespondencji z pomocą do podejmowania decyzji opartych wyłącznie na automatycznym przetwarzaniu, które wywołują skutki prawne lub podobnie istotne skutki.
 
 Odbiorcy i dzieci
 
-Whose Stuff? Character Quiz jest przeznaczone dla nastolatków i dorosłych, którzy lubią rozpoznawać znajome fikcyjne postacie. Gra nie została zaprojektowana dla dzieci poniżej 13 lat ani nie jest do nich kierowana. Klasyfikacja wiekowa w sklepie opisuje odpowiedniość treści gry i nie zastępuje tego oświadczenia o zamierzonych odbiorcach.
+Gra Whose Stuff? Character Quiz jest przeznaczona dla nastolatków i dorosłych, którzy lubią rozpoznawać znajome fikcyjne postacie. Gra nie została zaprojektowana dla dzieci poniżej 13 lat ani nie jest do nich kierowana. Klasyfikacja wiekowa w sklepie określa, dla kogo odpowiednie są treści gry, i nie zastępuje tego oświadczenia o zamierzonych odbiorcach.
 
 Nie prosimy graczy o podawanie imienia, adresu e-mail ani innych danych kontaktowych w grze. Jeśli rodzic lub opiekun uważa, że dziecko poniżej 13 lat przekazało dane osobowe za pośrednictwem gry lub pomocy, prosimy o kontakt. Zbadamy sprawę i w stosownych przypadkach usuniemy informacje pod naszą kontrolą oraz pomożemy skierować wnioski dotyczące danych posiadanych przez usługodawców.
 
@@ -60,7 +60,7 @@ Starsi niepełnoletni powinni zapoznać się z tą polityką razem z rodzicem lu
 
 Ta witryna
 
-Ta witryna jest dostępna pod adresem ducknap.games oraz w GitHub Pages. Nasi dostawcy hostingu mogą przetwarzać informacje o połączeniu, takie jak adresy IP, na potrzeby dostarczania witryny i bezpieczeństwa. Nie dodajemy analityki witryny ani skryptów reklamowych. Zobacz Oświadczeniem o prywatności GitHub .
+Ta witryna jest dostępna pod adresem ducknap.games oraz w GitHub Pages. Nasi dostawcy hostingu mogą przetwarzać informacje o połączeniu, takie jak adresy IP, na potrzeby dostarczania witryny i bezpieczeństwa. Nie dodajemy analityki witryny ani skryptów reklamowych. Zobacz oświadczenie o prywatności GitHub .
 
 Zmiany i kontakt
 

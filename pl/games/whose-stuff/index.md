@@ -12,7 +12,7 @@ Kapelusz. Różdżka. Bardzo znajomy młot. Rozpoznawaj postacie po ich kultowyc
 
 16 języków
 
-Offline graj we własnym tempie Zagraj z Google Play ↗ Polityka prywatności Usuwanie danych Pomoc Rozpoznaj przedmioty. Odgadnij postać.
+Offline graj we własnym tempie Pobierz z Google Play ↗ Polityka prywatności Usuwanie danych Pomoc Rozpoznaj przedmioty. Odgadnij postać.
 
 O Whose Stuff? Character Quiz
 

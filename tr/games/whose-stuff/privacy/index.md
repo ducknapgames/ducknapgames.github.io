@@ -14,7 +14,7 @@ Oyun; çevrimdışı oynayabilmeniz için ilerlemeyi, jeton bakiyesini, kullanı
 
 Reklamlar ve onay
 
-Oyun, isteğe bağlı ödüllü reklamlar sunmak için Unity Ads dahil Google AdMob arabuluculuğunu kullanır. Reklam izlemeyi seçmek oyun içi jeton kazandırabilir. Google'ın User Messaging Platform hizmeti, yapılandırılmış reklam ortakları için geçerli gizlilik tercihlerini toplar ve yönetir.
+Oyun, isteğe bağlı ödüllü reklamlar sunmak için Google AdMob'un Unity Ads'i de kapsayan reklam aracılığı hizmetini kullanır. Reklam izlemeyi seçmek oyun içi jeton kazandırabilir. Google'ın User Messaging Platform hizmeti, yapılandırılmış reklam ortakları için geçerli gizlilik tercihlerini toplar ve yönetir.
 
 Google'ın reklam SDK'sı; yaklaşık konumu gösterebilen IP adresinizi, mevcut olduğunda reklam kimliği ve uygulama grubu kimliği gibi cihaz ve hesap tanımlayıcılarını, uygulama ve reklam etkileşimlerini ve tanılama bilgilerini toplayabilir. Google bu bilgileri reklam, ölçüm ve sahtekarlığı önleme için kullanır. Oyun GPS konumuna, kişilere veya kameraya erişim istemez.
 

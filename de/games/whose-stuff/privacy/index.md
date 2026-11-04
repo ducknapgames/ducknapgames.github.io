@@ -6,7 +6,7 @@ Aktualisiert: 27. Oktober 2026
 
 Wer verantwortlich ist
 
-Mirheydar Badirov, geschäftlich tätig als Duck Nap Games, veröffentlicht dieses Spiel und ist für die vom Herausgeber verarbeiteten personenbezogenen Daten verantwortlich. Kontakt: ducknapgames@gmail.com .
+Mirheydar Badirov, geschäftlich tätig als Duck Nap Games, veröffentlicht dieses Spiel und ist der datenschutzrechtlich Verantwortliche für die vom Herausgeber verarbeiteten personenbezogenen Daten. Kontakt: ducknapgames@gmail.com .
 
 Spielfortschritt auf deinem Gerät
 
@@ -24,7 +24,7 @@ Soweit eine Einwilligung erforderlich ist, werden die entsprechenden Entscheidun
 
 Supportnachrichten
 
-Wenn du uns eine E-Mail sendest, erhalten wir deine E-Mail-Adresse, deine Nachricht und alle Informationen, die du freiwillig hinzufügst. Wir nutzen diese Daten, um dir zu antworten, Probleme zu lösen und Datenschutzanfragen zu bearbeiten. Bitte vermeide sensible oder unnötige Informationen über Kinder.
+Wenn du uns eine E-Mail sendest, erhalten wir deine E-Mail-Adresse, deine Nachricht und alle Informationen, die du freiwillig hinzufügst. Wir nutzen diese Daten, um dir zu antworten, Probleme zu lösen und Datenschutzanfragen zu bearbeiten. Bitte sende keine sensiblen Informationen und keine unnötigen Informationen über Kinder.
 
 Zwecke und Rechtsgrundlagen
 
@@ -48,7 +48,7 @@ Datenlöschung anfordern: Schritte, betroffene Daten und Aufbewahrung .
 
 Je nach geltendem Recht kannst du Auskunft, Berichtigung, Löschung, Einschränkung oder Übertragbarkeit deiner Informationen verlangen, der Verarbeitung widersprechen und eine Einwilligung widerrufen. Um Rechte bezüglich der von uns gespeicherten Informationen auszuüben, sende uns eine E-Mail. Anfragen zu Informationen bei Google müssen gegebenenfalls an Google gerichtet werden. Zur Prüfung einer Anfrage können wir angemessene Informationen benötigen.
 
-Du kannst dich bei deiner örtlichen Datenschutzaufsichtsbehörde beschweren, einschließlich der polnischen Urząd Ochrony Danych Osobowych . Wir verwenden Supportinformationen nicht für ausschließlich automatisierte Entscheidungen mit rechtlichen oder ähnlich erheblichen Auswirkungen.
+Du kannst dich bei deiner örtlichen Datenschutzaufsichtsbehörde beschweren, einschließlich der polnischen Behörde Urząd Ochrony Danych Osobowych . Wir verwenden Supportinformationen nicht für ausschließlich automatisierte Entscheidungen mit rechtlichen oder ähnlich erheblichen Auswirkungen.
 
 Zielgruppe und Kinder
 

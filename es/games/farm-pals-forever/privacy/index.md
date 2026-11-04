@@ -32,7 +32,7 @@ Google puede facilitarnos registros de pedidos e informes agregados de ventas, i
 
 La biblioteca Google Play Billing también envía diagnósticos técnicos de facturación a Google mediante su componente de transporte de datos. Estos informes incluyen eventos y errores de la API de facturación, información de versiones de la aplicación y la biblioteca, características de Android y del dispositivo, información de red y configuración regional, información temporal y un identificador de sesión de facturación generado aleatoriamente. Ayudan a Google a operar y diagnosticar el servicio de facturación. Estas transmisiones utilizan HTTPS. Duck Nap Games no recibe el flujo bruto de eventos de diagnóstico ni lo utiliza para publicidad o perfiles de jugadores. Google trata esta información conforme a su Política de privacidad.
 
-Cuando contactas con ayuda
+Cuando contactas con el servicio de ayuda
 
 Si nos escribes, recibimos tu dirección de correo, tu mensaje y cualquier información o archivo que decidas enviar, como un número de pedido o una captura de pantalla. Utilizamos esta información para responder a tu solicitud, investigar problemas y resolver cuestiones de compras o privacidad. No envíes contraseñas, datos de tarjetas de pago ni información ajena a tu solicitud.
 
@@ -52,7 +52,7 @@ Conservamos los mensajes de ayuda durante el tiempo razonablemente necesario par
 
 Tus opciones y derechos
 
-Puedes jugar sin crear una cuenta, rechazar compras opcionales, desactivar recordatorios y borrar datos locales. Según donde vivas, puedes tener derecho a acceder, rectificar, eliminar, limitar u oponerte al tratamiento, u obtener una copia de la información personal que conservamos sobre ti. Contacta con nosotros para enviar una solicitud. Podemos necesitar información limitada para verificar que te concierne. También puedes tener derecho a reclamar ante tu autoridad local de protección de datos.
+Puedes jugar sin crear una cuenta, rechazar compras opcionales, desactivar recordatorios y borrar datos locales. Según donde vivas, puedes tener derecho a acceder a la información personal que conservamos sobre ti, rectificarla, eliminarla, limitar su tratamiento u oponerte a él, u obtener una copia. Contacta con nosotros para enviar una solicitud. Podemos necesitar información limitada para verificar que te concierne. También puedes tener derecho a reclamar ante tu autoridad local de protección de datos.
 
 Menores y familias
 

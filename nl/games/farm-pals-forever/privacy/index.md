@@ -60,7 +60,7 @@ De game vereist niet dat spelers persoonsgegevens verstrekken of accounts maken.
 
 Deze website en externe links
 
-Deze website is beschikbaar op ducknap.games en via GitHub Pages. Onze hostingproviders kunnen verbindingsinformatie, zoals IP-adressen, verwerken om de website te leveren en te beveiligen. We voegen geen websiteanalyses of advertentiebestanden toe. Zie de hostingdocumentatie en Privacyverklaring . Het openen van externe links vanuit de game of deze pagina laadt de dienst van de betreffende provider, die normale verbindingsinformatie kan ontvangen en zijn eigen privacybeleid kan toepassen.
+Deze website is beschikbaar op ducknap.games en via GitHub Pages. Onze hostingproviders kunnen verbindingsinformatie, zoals IP-adressen, verwerken om de website te leveren en te beveiligen. We voegen geen websiteanalyses of advertentiescripts toe. Zie de hostingdocumentatie en Privacyverklaring . Het openen van externe links vanuit de game of deze pagina laadt de dienst van de betreffende provider, die normale verbindingsinformatie kan ontvangen en zijn eigen privacybeleid kan toepassen.
 
 Wijzigingen in dit beleid
 

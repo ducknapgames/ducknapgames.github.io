@@ -6,7 +6,7 @@ Fox on Ice
 
 Tu scivoli. Loro camminano.
 
-Basta scorrere un dito per far scivolare la tua volpe sul ghiaccio. Studia le pattuglie degli husky, raggiungi la tana e fai contare ogni mossa.
+Basta scorrere un dito per far scivolare la tua volpe sul ghiaccio. Studia le pattuglie degli husky, raggiungi la tana e scegli con cura ogni mossa.
 
 50 livelli
 

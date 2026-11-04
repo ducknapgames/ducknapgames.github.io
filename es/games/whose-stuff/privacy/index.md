@@ -46,7 +46,7 @@ Tus derechos
 
 Solicitar la eliminación de datos: pasos, datos incluidos y conservación .
 
-Según la legislación aplicable, puedes solicitar el acceso, la rectificación, la supresión, la limitación o la portabilidad de tu información, oponerte al tratamiento y retirar el consentimiento. Escríbenos para ejercer tus derechos sobre la información que conservamos. Las solicitudes sobre información de Google pueden tener que dirigirse a Google. Podemos necesitar información adecuada y proporcional para verificar una solicitud.
+Según la legislación aplicable, puedes solicitar el acceso, la rectificación, la supresión o la portabilidad de tu información, así como la limitación de su tratamiento, oponerte al tratamiento y retirar el consentimiento. Escríbenos para ejercer tus derechos sobre la información que conservamos. Las solicitudes sobre información de Google pueden tener que dirigirse a Google. Podemos necesitar información adecuada y proporcional para verificar una solicitud.
 
 Puedes reclamar ante tu autoridad local de protección de datos, incluida la autoridad polaca Urząd Ochrony Danych Osobowych . No utilizamos la información de ayuda para tomar decisiones exclusivamente automatizadas con efectos legales o de importancia similar.
 

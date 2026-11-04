@@ -12,7 +12,7 @@ Một chiếc mũ. Một cây đũa phép. Một chiếc búa rất quen. Nhận
 
 16 ngôn ngữ
 
-Ngoại tuyến chơi theo nhịp của bạn Chơi trên Google Play ↗ Chính sách quyền riêng tư Xóa dữ liệu Hỗ trợ Nhận ra món đồ. Tìm ra nhân vật.
+Ngoại tuyến chơi theo nhịp độ của bạn Chơi trên Google Play ↗ Chính sách quyền riêng tư Xóa dữ liệu Hỗ trợ Nhận ra món đồ. Tìm ra nhân vật.
 
 Về Whose Stuff? Character Quiz
 

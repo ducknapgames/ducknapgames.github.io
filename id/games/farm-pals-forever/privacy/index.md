@@ -12,7 +12,7 @@ Mirheydar Badirov, yang menjalankan usaha dengan nama Duck Nap Games, menerbitka
 
 Progres dan pengaturan game
 
-Game menyimpan progres pertanian, tanaman, koin, inventaris, pengiriman, persahabatan, hak pembelian, dan preferensi di perangkat. Pertanian latihan, pilihan bahasa, setelan suara, dan setelan pengingat juga disimpan secara lokal. Game membaca bahasa perangkat dan informasi dasar layar/platform untuk memilih bahasa dan menampilkan antarmuka.
+Game menyimpan progres pertanian, tanaman, koin, inventaris, pengiriman, persahabatan, hak atas konten yang dibeli, dan preferensi di perangkat. Pertanian latihan, pilihan bahasa, setelan suara, dan setelan pengingat juga disimpan secara lokal. Game membaca bahasa perangkat dan informasi dasar layar/platform untuk memilih bahasa dan menampilkan antarmuka.
 
 Kami tidak mengoperasikan server game atau sistem akun pemain yang menerima simpanan ini. Farm Pals Forever tidak menyertakan iklan, integrasi pengenal iklan, login sosial, analitik pihak ketiga, atau layanan pelaporan crash yang dioperasikan pengembang. Game tidak memintamu memberikan nama atau alamat email untuk bermain. Game tidak mengakses kontak, lokasi presisi, kamera, mikrofon, atau informasi panggilan telepon.
 
@@ -30,7 +30,7 @@ Aplikasi berkomunikasi dengan Google Play untuk memperoleh harga produk, melakuk
 
 Google dapat menyediakan catatan pesanan dan laporan agregat penjualan, instalasi, kualitas, serta kinerja melalui Play Console. Kami menggunakannya untuk mengelola game, menangani pertanyaan pembelian, dan memahami operasinya. Google menentukan praktik pengumpulan dan penyimpanan sendiri untuk layanannya.
 
-Library Google Play Billing juga mengirim diagnostik penagihan teknis ke Google melalui komponen pengiriman datanya. Laporan ini mencakup peristiwa dan error API penagihan, informasi versi aplikasi dan library, karakteristik Android dan perangkat, informasi jaringan dan lokal, informasi waktu, serta pengenal sesi penagihan yang dibuat secara acak. Laporan membantu Google mengoperasikan dan mendiagnosis layanan penagihan. Pengiriman menggunakan HTTPS. Duck Nap Games tidak menerima aliran peristiwa diagnostik mentah atau menggunakannya untuk iklan maupun pemrofilan pemain. Google menangani informasi ini berdasarkan Kebijakan Privasinya.
+Library Google Play Billing juga mengirim diagnostik penagihan teknis ke Google melalui komponen pengiriman datanya. Laporan ini mencakup peristiwa dan error API penagihan, informasi versi aplikasi dan library, karakteristik Android dan perangkat, informasi jaringan dan setelan wilayah/bahasa, informasi waktu, serta pengenal sesi penagihan yang dibuat secara acak. Laporan membantu Google mengoperasikan dan mendiagnosis layanan penagihan. Pengiriman menggunakan HTTPS. Duck Nap Games tidak menerima aliran peristiwa diagnostik mentah atau menggunakannya untuk iklan maupun pemrofilan pemain. Google menangani informasi ini berdasarkan Kebijakan Privasinya.
 
 Saat menghubungi bantuan
 

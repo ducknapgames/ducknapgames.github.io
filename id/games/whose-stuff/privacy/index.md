@@ -10,7 +10,7 @@ Mirheydar Badirov, yang menjalankan usaha dengan nama Duck Nap Games, adalah pen
 
 Progres game di perangkatmu
 
-Game menyimpan progres, saldo koin, petunjuk yang digunakan, dan preferensi di perangkat agar kamu dapat bermain offline. Fitur Google Play Games yang opsional mendukung login, pencapaian, papan peringkat, dan pencadangan progres. Saat terhubung, layanan game kami memproses pengenal akun dan instalasi, operasi permainan dan hadiah, transaksi dompet, catatan verifikasi pembelian, serta peristiwa iklan untuk menyinkronkan game, memberikan pembelian dan hadiah, mengukur monetisasi, dan mencegah klaim ganda atau curang. Menghapus penyimpanan aplikasi menghapus simpanan lokal; pemulihan bergantung pada akun terhubung dan cadangan yang tersedia. Visibilitas profil dan aktivitas Google Play Games juga dikendalikan melalui setelan Google.
+Game menyimpan progres, saldo koin, petunjuk yang digunakan, dan preferensi di perangkat agar kamu dapat bermain offline. Fitur Google Play Games yang opsional mendukung login, pencapaian, papan peringkat, dan pencadangan progres. Saat terhubung, layanan game kami memproses pengenal akun dan instalasi, operasi permainan dan hadiah, transaksi dompet, catatan verifikasi pembelian, serta peristiwa iklan untuk menyinkronkan game, menyerahkan konten yang dibeli dan hadiah, mengukur monetisasi, dan mencegah klaim ganda atau curang. Menghapus penyimpanan aplikasi menghapus simpanan lokal; pemulihan bergantung pada akun terhubung dan cadangan yang tersedia. Visibilitas profil dan aktivitas Google Play Games juga dikendalikan melalui setelan Google.
 
 Iklan dan persetujuan
 
@@ -46,7 +46,7 @@ Hakmu
 
 Permintaan penghapusan data: langkah, cakupan data, dan rincian penyimpanan .
 
-Bergantung pada hukum yang berlaku, kamu dapat meminta akses, koreksi, penghapusan, pembatasan, atau portabilitas informasi, menolak pemrosesan, dan menarik persetujuan. Kirim email untuk menggunakan hak atas informasi yang kami simpan. Permintaan tentang informasi yang disimpan Google mungkin harus ditujukan kepada Google. Kami mungkin memerlukan informasi yang sebanding untuk memverifikasi permintaan.
+Bergantung pada hukum yang berlaku, kamu dapat meminta akses, koreksi, penghapusan, pembatasan, atau portabilitas informasi, menolak pemrosesan, dan menarik persetujuan. Kirim email untuk menggunakan hak atas informasi yang kami simpan. Permintaan tentang informasi yang disimpan Google mungkin harus ditujukan kepada Google. Kami mungkin memerlukan informasi secukupnya untuk memverifikasi permintaan.
 
 Kamu dapat mengajukan keluhan kepada otoritas perlindungan data setempat, termasuk otoritas Polandia, Urząd Ochrony Danych Osobowych . Kami tidak menggunakan informasi bantuan untuk membuat keputusan yang sepenuhnya otomatis dengan dampak hukum atau dampak penting serupa.
 
@@ -56,7 +56,7 @@ Whose Stuff? Character Quiz ditujukan bagi remaja dan orang dewasa yang senang m
 
 Kami tidak meminta pemain memberikan nama, alamat email, atau informasi kontak lainnya di dalam game. Jika orang tua atau wali menduga anak di bawah 13 tahun telah memberikan informasi pribadi melalui game atau bantuan, hubungi kami. Kami akan menyelidiki dan menghapus informasi di bawah kendali kami jika sesuai, serta membantu mengarahkan permintaan tentang informasi yang disimpan penyedia layanan kami.
 
-Pemain yang masih di bawah umur tetapi lebih tua sebaiknya meninjau kebijakan ini bersama orang tua atau wali. Persyaratan persetujuan dan iklan dapat berbeda menurut negara dan usia; pernyataan audiens ini tidak mengesampingkan persyaratan tersebut.
+Pemain remaja yang belum dewasa sebaiknya meninjau kebijakan ini bersama orang tua atau wali. Persyaratan persetujuan dan iklan dapat berbeda menurut negara dan usia; pernyataan audiens ini tidak mengesampingkan persyaratan tersebut.
 
 Situs ini
 

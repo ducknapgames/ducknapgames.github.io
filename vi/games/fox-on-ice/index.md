@@ -12,7 +12,7 @@ Một lần vuốt là cáo nhỏ lướt trên mặt băng. Tính đường tr�
 
 10 chương
 
-Hằng ngày câu đố Chơi thử trên trình duyệt ↗ Hỗ trợ Tham gia Discord ↗ Theo dõi quá trình phát triển Một chút băng. Một lối thoát thông minh.
+Câu đố hằng ngày Chơi thử trên trình duyệt ↗ Hỗ trợ Tham gia Discord ↗ Theo dõi quá trình phát triển Một chút băng. Một lối thoát thông minh.
 
 Về Fox on Ice
 

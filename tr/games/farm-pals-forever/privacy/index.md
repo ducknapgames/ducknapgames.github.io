@@ -12,7 +12,7 @@ Duck Nap Games adıyla faaliyet gösteren Mirheydar Badirov, Farm Pals Forever'�
 
 Oyun ilerlemesi ve ayarlar
 
-Oyun; çiftlik ilerlemesini, ekinleri, jetonları, envanteri, teslimatları, dostlukları, satın alma haklarını ve tercihleri cihazınızda saklar. Deneme çiftliğiniz, dil seçiminiz, ses ve hatırlatma ayarlarınız da yerel olarak saklanır. Oyun, dili seçmek ve arayüzü göstermek için cihaz dilini ve temel ekran/platform bilgilerini okur.
+Oyun; çiftlik ilerlemesini, ekinleri, jetonları, envanteri, teslimatları, dostlukları, satın alınan içeriklere erişim haklarını ve tercihleri cihazınızda saklar. Deneme çiftliğiniz, dil seçiminiz, ses ve hatırlatma ayarlarınız da yerel olarak saklanır. Oyun, dili seçmek ve arayüzü göstermek için cihaz dilini ve temel ekran/platform bilgilerini okur.
 
 Bu kayıtları alan bir oyun sunucusu veya oyuncu hesabı sistemi işletmeyiz. Farm Pals Forever; reklam, reklam tanımlayıcısı entegrasyonu, sosyal giriş, üçüncü taraf analiz veya geliştirici tarafından işletilen çökme raporlama hizmeti içermez. Oynamak için ad veya e-posta adresi istemez. Oyun kişilerinize, kesin konumunuza, kameraya, mikrofona veya telefon araması bilgilerine erişmez.
 
@@ -26,7 +26,7 @@ Google Play satın almaları
 
 Android oyunu, isteğe bağlı tek seferlik satın almalar için Google Play Billing kullanır. Google; satın almayı, ödeme bilgilerini, Google hesabı bilgilerini ve ödeme hizmetlerini yürütmek için gerekli bilgileri kendi Gizlilik Politikası uyarınca işler. Ödeme kartı bilgilerinizi almayız.
 
-Uygulama; ürün fiyatlarını almak, satın alma yapmak ve bunları onaylamak ve sahip olunan içerikleri geri yüklemek için Google Play ile iletişim kurar. Google Play; ürün kimlikleri, satın alma belirteçleri veya makbuzlar, sipariş kimlikleri, satın alma durumu ve onay durumu gibi ürün ve işlem bilgilerini döndürür. Uygulama bu bilgileri satın almaları açmak ve geri yüklemek için kullanır, sahiplik ve ilgili oyun ödüllerini yerel olarak kaydeder. Mevcut oyun bu işlemleri bir Duck Nap Games sunucusuna göndermez.
+Uygulama; ürün fiyatlarını almak, satın alma yapmak ve bunları onaylamak ve sahip olunan içerikleri geri yüklemek için Google Play ile iletişim kurar. Google Play; ürün kimlikleri, satın alma belirteçleri veya makbuzlar, sipariş kimlikleri, satın alma durumu ve onay durumu gibi ürün ve işlem bilgilerini döndürür. Uygulama bu bilgileri satın alınan içerikleri kullanıma açmak ve geri yüklemek için kullanır, sahiplik ve ilgili oyun ödüllerini yerel olarak kaydeder. Mevcut oyun bu işlemleri bir Duck Nap Games sunucusuna göndermez.
 
 Google, Play Console üzerinden sipariş kayıtlarını ve toplu satış, yükleme, kalite ve performans raporlarını bize sağlayabilir. Bunları oyunu yönetmek, satın alma sorularını yanıtlamak ve işleyişini anlamak için kullanırız. Google, hizmetlerinin veri toplama ve saklama uygulamalarını kendisi belirler.
 
@@ -68,6 +68,6 @@ Oyun veya uygulamalarımız değiştiğinde bu politikayı güncelleyebiliriz. B
 
 İletişim ve gizlilik talepleri
 
-E-posta adresi: ducknapgames@gmail.com adresine, konu satırında “Farm Pals Forever privacy” yazarak ulaşın. Talebinizi gereksiz hassas bilgi eklemeden açıklayın.
+E-posta adresi: ducknapgames@gmail.com (konu: “Farm Pals Forever privacy”). Talebinizi gereksiz hassas bilgi eklemeden açıklayın.
 
 İngilizce aslını oku

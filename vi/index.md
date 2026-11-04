@@ -8,7 +8,7 @@ Manh mối thú vị. Thế giới ấm áp. Chúng tôi làm những game nhỏ
 
 Nào, đoán thử đi. Manh mối tiếp theo →
 
-Là Mario! Tìm thêm nhiều nhân vật trong Whose Stuff? nhé. Nếm thử một chút Whose Stuff? Nào, cùng chơi thôi.
+Là Mario! Tìm thêm nhiều nhân vật trong Whose Stuff? nhé. Trải nghiệm một chút Whose Stuff? Nào, cùng chơi thôi.
 
 CHỌN MỘT CHÚT THƯ GIÃN
 
@@ -28,7 +28,7 @@ Một chiếc mũ. Một cây đũa phép. Một chiếc búa rất quen. Nhận
 
 16 ngôn ngữ
 
-Ngoại tuyến chơi theo nhịp của bạn Chơi trên Google Play ↗ Giới thiệu game Chính sách quyền riêng tư Xóa dữ liệu Hỗ trợ Nhận ra món đồ. Tìm ra nhân vật.
+Ngoại tuyến chơi theo nhịp độ của bạn Chơi trên Google Play ↗ Giới thiệu game Chính sách quyền riêng tư Xóa dữ liệu Hỗ trợ Nhận ra món đồ. Tìm ra nhân vật.
 
 GIẢI ĐỐ TRƯỢT Chơi thử
 
@@ -42,7 +42,7 @@ Một lần vuốt là cáo nhỏ lướt trên mặt băng. Tính đường tr�
 
 10 chương
 
-Hằng ngày câu đố Chơi thử trên trình duyệt ↗ Giới thiệu game Hỗ trợ Tham gia Discord ↗ Theo dõi quá trình phát triển Một chút băng. Một lối thoát thông minh.
+Câu đố hằng ngày Chơi thử trên trình duyệt ↗ Giới thiệu game Hỗ trợ Tham gia Discord ↗ Theo dõi quá trình phát triển Một chút băng. Một lối thoát thông minh.
 
 NÔNG TRẠI THƯ GIÃN Sắp ra mắt
 

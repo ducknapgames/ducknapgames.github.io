@@ -6,7 +6,7 @@ Fox on Ice
 
 Du rutschst. Sie laufen.
 
-Ein Wisch lässt deinen Fuchs über das Eis gleiten. Plane um patrouillierende Huskys herum, finde den Weg zum Bau und mach jeden Zug zu einem guten Zug.
+Ein Wisch lässt deinen Fuchs über das Eis gleiten. Plane deine Route an patrouillierenden Huskys vorbei, finde den Weg zum Bau und lass jeden Zug zählen.
 
 50 Level
 

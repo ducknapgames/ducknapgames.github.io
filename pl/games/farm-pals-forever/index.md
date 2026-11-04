@@ -16,7 +16,7 @@ O Farm Pals Forever
 
 Poznaj Farm Pals Forever, przytulną grę farmerską ze 100 uprawami i 20 zwierzęcymi sąsiadami. Uprawiaj rośliny, pielęgnuj przyjaźnie i zapytaj Duck Nap Games o dostępność.
 
-Dostępność: Wkrótce. Skontaktuj się ze studiem po aktualności.
+Dostępność: Wkrótce. Skontaktuj się ze studiem, aby poznać najnowsze informacje.
 
 Więcej od Duck Nap Games
 

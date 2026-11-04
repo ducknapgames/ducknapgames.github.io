@@ -46,7 +46,7 @@ Vos droits
 
 Demander la suppression des données : étapes, données concernées et conservation .
 
-Selon le droit applicable, vous pouvez demander l'accès, la rectification, la suppression, la limitation ou la portabilité de vos informations, vous opposer au traitement et retirer votre consentement. Écrivez-nous pour exercer vos droits sur les informations que nous détenons. Les demandes relatives aux informations détenues par Google devront parfois être adressées à Google. Nous pouvons avoir besoin d'informations proportionnées pour vérifier une demande.
+Selon le droit applicable, vous pouvez demander l'accès, la rectification, la suppression ou la portabilité de vos informations, ainsi que la limitation de leur traitement, vous opposer au traitement et retirer votre consentement. Écrivez-nous pour exercer vos droits sur les informations que nous détenons. Les demandes relatives aux informations détenues par Google devront parfois être adressées à Google. Nous pouvons avoir besoin d'informations proportionnées pour vérifier une demande.
 
 Vous pouvez déposer une réclamation auprès de votre autorité locale de protection des données, notamment l'autorité polonaise Urząd Ochrony Danych Osobowych . Nous n'utilisons pas les informations d'assistance pour prendre des décisions exclusivement automatisées produisant des effets juridiques ou tout aussi importants.
 

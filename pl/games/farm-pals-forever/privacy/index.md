@@ -12,7 +12,7 @@ Mirheydar Badirov, działający pod nazwą Duck Nap Games, wydaje Farm Pals Fore
 
 Postępy i ustawienia gry
 
-Gra przechowuje na urządzeniu postępy farmy, uprawy, monety, ekwipunek, dostawy, przyjaźnie, uprawnienia do zakupów i preferencje. Farma treningowa, wybrany język, ustawienia dźwięku i przypomnień również są przechowywane lokalnie. Gra odczytuje język urządzenia i podstawowe informacje o ekranie i platformie, aby wybrać język i wyświetlić interfejs.
+Gra przechowuje na urządzeniu postępy farmy, uprawy, monety, ekwipunek, dostawy, przyjaźnie, prawa do zakupionej zawartości i preferencje. Farma treningowa, wybrany język, ustawienia dźwięku i przypomnień również są przechowywane lokalnie. Gra odczytuje język urządzenia i podstawowe informacje o ekranie i platformie, aby wybrać język i wyświetlić interfejs.
 
 Nie prowadzimy serwera gry ani systemu kont graczy, który otrzymywałby te zapisy. Farm Pals Forever nie zawiera reklam, integracji identyfikatora reklamowego, logowania społecznościowego, zewnętrznej analityki ani prowadzonej przez twórcę usługi raportowania awarii. Nie wymaga imienia ani adresu e-mail do gry. Gra nie uzyskuje dostępu do kontaktów, dokładnej lokalizacji, aparatu, mikrofonu ani informacji o połączeniach telefonicznych.
 
@@ -26,7 +26,7 @@ Zakupy w Google Play
 
 Gra na Androida używa Google Play Billing do opcjonalnych zakupów jednorazowych. Google przetwarza zakup, dane płatności, informacje konta Google oraz informacje potrzebne do działania usług płatniczych zgodnie ze swoją Polityką prywatności . Nie otrzymujemy danych Twojej karty płatniczej.
 
-Aplikacja łączy się z Google Play, aby uzyskać ceny produktów, dokonać i potwierdzić zakupy oraz przywrócić posiadaną zawartość. Google Play zwraca informacje o produktach i transakcjach, które mogą obejmować identyfikatory produktów, tokeny zakupu lub potwierdzenia, identyfikatory zamówień, status zakupu i potwierdzenia. Aplikacja wykorzystuje te informacje do odblokowywania i przywracania zakupów oraz lokalnie zapisuje posiadanie i powiązane nagrody w grze. Obecna gra nie wysyła tych transakcji na serwer Duck Nap Games.
+Aplikacja łączy się z Google Play, aby uzyskać ceny produktów, dokonać i potwierdzić zakupy oraz przywrócić posiadaną zawartość. Google Play zwraca informacje o produktach i transakcjach, które mogą obejmować identyfikatory produktów, tokeny zakupu lub potwierdzenia, identyfikatory zamówień, status zakupu i potwierdzenia. Aplikacja wykorzystuje te informacje do odblokowywania i przywracania zakupów oraz lokalnie zapisuje informacje o posiadanej zawartości i powiązanych nagrodach w grze. Obecna gra nie wysyła tych transakcji na serwer Duck Nap Games.
 
 Google może udostępniać nam przez Play Console zapisy zamówień i zbiorcze raporty sprzedaży, instalacji, jakości i wydajności. Używamy ich do administrowania grą, obsługi pytań o zakupy i zrozumienia jej działania. Google samodzielnie określa zasady zbierania i przechowywania danych swoich usług.
 
@@ -60,7 +60,7 @@ Gra nie wymaga podawania danych osobowych ani tworzenia kont. Rodzic lub opiekun
 
 Ta witryna i linki zewnętrzne
 
-Ta witryna jest dostępna pod adresem ducknap.games oraz w GitHub Pages. Nasi dostawcy hostingu mogą przetwarzać informacje o połączeniu, takie jak adresy IP, na potrzeby dostarczania witryny i bezpieczeństwa. Nie dodajemy analityki witryny ani skryptów reklamowych. Zobacz dokumentacją hostingu i Oświadczeniem o prywatności . Otwarcie linków zewnętrznych z gry lub tej strony ładuje usługę danego dostawcy, który może otrzymać zwykłe informacje o połączeniu i stosować własną politykę prywatności.
+Ta witryna jest dostępna pod adresem ducknap.games oraz w GitHub Pages. Nasi dostawcy hostingu mogą przetwarzać informacje o połączeniu, takie jak adresy IP, na potrzeby dostarczania witryny i bezpieczeństwa. Nie dodajemy analityki witryny ani skryptów reklamowych. Zobacz dokumentację hostingu i oświadczenie o prywatności . Otwarcie linków zewnętrznych z gry lub tej strony ładuje usługę danego dostawcy, który może otrzymać zwykłe informacje o połączeniu i stosować własną politykę prywatności.
 
 Zmiany tej polityki
 

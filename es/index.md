@@ -58,7 +58,7 @@ Un pequeño mundo acogedor con 100 cultivos y 20 vecinos animales por descubrir.
 
 QUIÉNES ESTÁN DETRÁS DE LOS JUEGOS
 
-Un estudio pequeño. Grandes en los detalles. Así es Duck Nap Games.
+Un estudio pequeño. Gran atención a los detalles. Así es Duck Nap Games.
 
 Nos gustan los juegos fáciles de empezar, llenos de personalidad y a los que apetece volver.
 

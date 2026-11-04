@@ -26,7 +26,7 @@ Mua hàng trên Google Play
 
 Game Android dùng Google Play Billing cho các giao dịch mua một lần tùy chọn. Google xử lý giao dịch, thông tin thanh toán, tài khoản Google và thông tin cần để vận hành dịch vụ thanh toán theo Chính sách quyền riêng tư . Chúng tôi không nhận thông tin thẻ thanh toán của bạn.
 
-Ứng dụng liên lạc với Google Play để lấy giá sản phẩm, thực hiện và xác nhận mua hàng, khôi phục nội dung đã sở hữu. Google Play trả thông tin sản phẩm và giao dịch, có thể gồm mã sản phẩm, mã mua hàng hoặc biên nhận, mã đơn, trạng thái mua và trạng thái xác nhận. Ứng dụng dùng thông tin này để mở khóa, khôi phục giao dịch mua và lưu quyền sở hữu cùng phần thưởng liên quan ở cục bộ. Game hiện tại không gửi các giao dịch này đến máy chủ Duck Nap Games.
+Ứng dụng liên lạc với Google Play để lấy giá sản phẩm, thực hiện và xác nhận mua hàng, khôi phục nội dung đã sở hữu. Google Play trả thông tin sản phẩm và giao dịch, có thể gồm mã sản phẩm, mã mua hàng hoặc biên nhận, mã đơn, trạng thái mua và trạng thái xác nhận. Ứng dụng dùng thông tin này để mở khóa và khôi phục nội dung đã mua, đồng thời lưu quyền sở hữu cùng phần thưởng liên quan trên thiết bị. Game hiện tại không gửi các giao dịch này đến máy chủ Duck Nap Games.
 
 Google có thể cung cấp hồ sơ đơn hàng và báo cáo tổng hợp về doanh thu, lượt cài đặt, chất lượng, hiệu suất qua Play Console. Chúng tôi dùng để quản lý game, xử lý câu hỏi mua hàng và hiểu hoạt động của game. Google tự quyết định cách thu thập và lưu giữ cho dịch vụ của mình.
 

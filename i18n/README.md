@@ -26,4 +26,6 @@ The build emits reciprocal HTML/sitemap alternates, localized canonical/OG URLs,
 
 Translation provenance: the first set was produced by three AI translation agents with the English text, element context, game facts and studio tone. These are context-adapted AI translations, not a claim of certified legal or native-speaker review. English policy originals remain linked from translated policy pages.
 
-This branch is a local preview until the owner approves deployment.
+Context review, 4 November 2026: all 315 source entries and all 4,725 translated entries were checked against the templates and game context. The review corrected 147 entries across the 15 translation catalogs, including purchase unlocking, third-party deletion limits, controller terminology, linked-sentence grammar, gender-neutral quiz feedback, and natural game descriptions. Quiz character names were checked against the canonical game's locale catalogs. Facts, dates, placeholders, brands, and policy scope were preserved. This was an AI-assisted translation review, not native-speaker or legal certification.
+
+The generated pages are published at ducknap.games. Review source and catalog changes locally, rebuild, and run the checks above before deployment.

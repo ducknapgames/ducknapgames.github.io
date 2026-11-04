@@ -1,6 +1,7 @@
 """Check localization coverage, crawlable alternates and translated dynamic UI."""
 from pathlib import Path
 from html.parser import HTMLParser
+from html import unescape
 from urllib.parse import urlsplit
 import json,re,importlib.util
 ROOT=Path(__file__).resolve().parents[1]
@@ -28,6 +29,12 @@ for code in codes:
     for page,route in zip(build.PAGES,build.ROUTES):
         path=ROOT/(page if code=='en' else code+'/'+page)
         text=path.read_text(encoding='utf-8'); parsed=Page(text)
+        # Translated postpositions can replace source punctuation after a link.
+        # Languages that separate words must retain that boundary in the HTML.
+        if code in {'en','de','fr','es','pt-BR','it','nl','pl','tr','id','vi','ar'}:
+            for tail in re.findall(r'</a>([^<]+)',text):
+                tail=unescape(tail)
+                assert not tail[0].isalpha(),f'{path}: missing word separator after link: {tail[:50]}'
         html=next(a for tag,a in parsed.tags if tag=='html')
         assert html['lang']==code and html['dir']==('rtl' if code=='ar' else 'ltr'),path
         alternates={a['hreflang']:a['href'] for tag,a in parsed.tags if tag=='link' and 'hreflang' in a}

@@ -10,7 +10,7 @@ Mirheydar Badirov, kinh doanh dưới tên Duck Nap Games, là nhà phát hành 
 
 Tiến trình game trên thiết bị của bạn
 
-Game lưu tiến trình, số dư xu, manh mối đã dùng và tùy chọn trên thiết bị để bạn có thể chơi ngoại tuyến. Các tính năng Google Play Games tùy chọn hỗ trợ đăng nhập, thành tích, bảng xếp hạng và sao lưu tiến trình. Khi có kết nối, dịch vụ game của chúng tôi xử lý mã định danh tài khoản và bản cài đặt, thao tác chơi và nhận thưởng, giao dịch ví, hồ sơ xác minh mua hàng và sự kiện quảng cáo để đồng bộ game, cung cấp hàng mua và phần thưởng, đo lường hoạt động kiếm tiền, ngăn yêu cầu trùng lặp hoặc gian lận. Xóa bộ nhớ ứng dụng sẽ xóa bản lưu cục bộ; khả năng khôi phục phụ thuộc vào tài khoản đã kết nối và các bản sao lưu có sẵn. Khả năng hiển thị hồ sơ và hoạt động Google Play Games cũng được kiểm soát qua cài đặt Google của bạn.
+Game lưu tiến trình, số dư xu, manh mối đã dùng và tùy chọn trên thiết bị để bạn có thể chơi ngoại tuyến. Các tính năng Google Play Games tùy chọn hỗ trợ đăng nhập, thành tích, bảng xếp hạng và sao lưu tiến trình. Khi có kết nối, dịch vụ game của chúng tôi xử lý mã định danh tài khoản và bản cài đặt, thao tác chơi và nhận thưởng, giao dịch ví, hồ sơ xác minh mua hàng và sự kiện quảng cáo để đồng bộ game, cung cấp nội dung đã mua và phần thưởng, đo lường hoạt động kiếm tiền, ngăn yêu cầu trùng lặp hoặc gian lận. Xóa bộ nhớ ứng dụng sẽ xóa bản lưu cục bộ; khả năng khôi phục phụ thuộc vào tài khoản đã kết nối và các bản sao lưu có sẵn. Khả năng hiển thị hồ sơ và hoạt động Google Play Games cũng được kiểm soát qua cài đặt Google của bạn.
 
 Quảng cáo và sự đồng ý
 

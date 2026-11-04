@@ -46,7 +46,7 @@ Seus direitos
 
 Solicitar exclusão de dados: etapas, dados abrangidos e retenção .
 
-Dependendo da legislação aplicável, você pode solicitar acesso, correção, exclusão, restrição ou portabilidade das suas informações, opor-se ao tratamento e retirar o consentimento. Envie um e-mail para exercer direitos sobre as informações que mantemos. Solicitações sobre informações em poder do Google podem precisar ser dirigidas ao Google. Podemos precisar de informações proporcionais para verificar uma solicitação.
+Dependendo da legislação aplicável, você pode solicitar acesso, correção, exclusão ou portabilidade das suas informações, restrição do tratamento, opor-se ao tratamento e retirar o consentimento. Envie um e-mail para exercer direitos sobre as informações que mantemos. Solicitações sobre informações em poder do Google podem precisar ser dirigidas ao Google. Podemos precisar de informações proporcionais para verificar uma solicitação.
 
 Você pode reclamar à autoridade local de proteção de dados, incluindo a autoridade polonesa Urząd Ochrony Danych Osobowych . Não usamos informações de suporte para tomar decisões exclusivamente automatizadas com efeitos legais ou de importância semelhante.
 

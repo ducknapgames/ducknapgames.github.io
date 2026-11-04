@@ -52,7 +52,7 @@ Mantemos as mensagens de suporte pelo tempo razoavelmente necessário para resol
 
 Suas escolhas e seus direitos
 
-Você pode jogar sem criar uma conta, recusar compras opcionais, desativar lembretes e limpar dados locais. Dependendo de onde mora, você pode ter direitos de acesso, correção, exclusão, restrição, oposição ao tratamento ou obtenção de uma cópia das informações pessoais que mantemos sobre você. Entre em contato para fazer uma solicitação. Podemos precisar de informações limitadas para verificar que ela se refere a você. Você também pode ter o direito de reclamar à autoridade local de proteção de dados.
+Você pode jogar sem criar uma conta, recusar compras opcionais, desativar lembretes e limpar dados locais. Dependendo de onde mora, você pode ter direitos de acesso, correção, exclusão, restrição do tratamento, oposição a ele ou obtenção de uma cópia das informações pessoais que mantemos sobre você. Entre em contato para fazer uma solicitação. Podemos precisar de informações limitadas para verificar que ela se refere a você. Você também pode ter o direito de reclamar à autoridade local de proteção de dados.
 
 Crianças e famílias
 

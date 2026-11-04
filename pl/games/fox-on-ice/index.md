@@ -6,13 +6,13 @@ Fox on Ice
 
 Ty się ślizgasz. One chodzą.
 
-Jeden ruch wysyła Twojego lisa w ślizg po lodzie. Omijaj patrolujące husky, znajdź drogę do nory i dobrze zaplanuj każdy ślizg.
+Przesuń palcem, a Twój lis pomknie po lodzie. Omijaj patrolujące husky, znajdź drogę do nory i dobrze zaplanuj każdy ślizg.
 
 50 poziomów
 
 10 rozdziałów
 
-Codzienne łamigłówki Zagraj w demo w przeglądarce ↗ Pomoc Dołącz na Discordzie ↗ Śledź rozwój gry Trochę lodu. Sprytna ucieczka.
+Codzienne łamigłówki Zagraj w demo w przeglądarce ↗ Pomoc Dołącz do nas na Discordzie ↗ Śledź rozwój gry Trochę lodu. Sprytna ucieczka.
 
 O Fox on Ice
 

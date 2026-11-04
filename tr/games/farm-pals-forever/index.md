@@ -10,13 +10,13 @@ Keşfedilecek 100 ekin ve 20 hayvan komşuyla sıcacık küçük bir dünya.
 
 100 ekin
 
-20 hayvan komşu Farm Pals'ı bize sor ↗ Gizlilik politikası Destek Sıcacık küçük bir dünya. Her köşede yeni bir dost.
+20 hayvan komşu Farm Pals hakkında bize yaz ↗ Gizlilik politikası Destek Sıcacık küçük bir dünya. Her köşede yeni bir dost.
 
 Farm Pals Forever hakkında
 
-100 ekin ve 20 hayvan komşulu huzurlu çiftlik oyunu Farm Pals Forever ile tanışın. Ekinler yetiştirin, dostluklar büyütün ve erişim bilgisi için Duck Nap Games'e ulaşın.
+100 ekin ve 20 hayvan komşunun olduğu huzurlu çiftlik oyunu Farm Pals Forever ile tanış. Ekinler yetiştir, dostluklar büyüt ve ne zaman oynayabileceğini öğrenmek için Duck Nap Games'e ulaş.
 
-Erişilebilirlik: Yakında. Gelişmeler için stüdyoyla iletişime geçin.
+Yayın durumu: Yakında. Gelişmeler için stüdyoyla iletişime geç.
 
 Duck Nap Games'ten diğer oyunlar
 

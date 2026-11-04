@@ -4,7 +4,7 @@ Whose Stuff? Character Quiz
 
 Aggiornamento: 27 ottobre 2026
 
-Chi è il responsabile
+Titolare del trattamento
 
 Mirheydar Badirov, che opera con il nome Duck Nap Games, è l'editore di questo gioco e il titolare del trattamento dei dati personali gestiti dall'editore. Contatto: ducknapgames@gmail.com .
 
@@ -46,7 +46,7 @@ I tuoi diritti
 
 Richiedere l'eliminazione dei dati: passaggi, dati inclusi e conservazione .
 
-A seconda della legge applicabile, puoi richiedere accesso, rettifica, cancellazione, limitazione o portabilità delle informazioni, opporti al trattamento e revocare il consenso. Scrivici per esercitare i diritti sulle informazioni in nostro possesso. Le richieste relative alle informazioni detenute da Google potrebbero dover essere rivolte a Google. Possiamo aver bisogno di informazioni proporzionate per verificare una richiesta.
+A seconda della legge applicabile, puoi richiedere accesso, rettifica, cancellazione o portabilità delle informazioni, nonché la limitazione del loro trattamento, opporti al trattamento e revocare il consenso. Scrivici per esercitare i diritti sulle informazioni in nostro possesso. Le richieste relative alle informazioni detenute da Google potrebbero dover essere rivolte a Google. Possiamo aver bisogno di informazioni proporzionate per verificare una richiesta.
 
 Puoi presentare un reclamo alla tua autorità locale per la protezione dei dati, inclusa quella polacca Urząd Ochrony Danych Osobowych . Non usiamo le informazioni dell'assistenza per prendere decisioni esclusivamente automatizzate con effetti giuridici o di analoga rilevanza.
 

@@ -46,7 +46,7 @@ Jouw rechten
 
 Gegevensverwijdering aanvragen: stappen, betrokken gegevens en bewaartermijnen .
 
-Afhankelijk van de toepasselijke wetgeving kun je verzoeken om inzage, correctie, verwijdering, beperking of overdraagbaarheid van je informatie, bezwaar maken tegen verwerking en toestemming intrekken. Mail ons om rechten uit te oefenen met betrekking tot informatie die wij bewaren. Verzoeken over informatie die Google bewaart, moeten mogelijk aan Google worden gericht. We kunnen evenredige informatie nodig hebben om een verzoek te verifiëren.
+Afhankelijk van de toepasselijke wetgeving kun je verzoeken om inzage, correctie, verwijdering of overdraagbaarheid van je informatie en beperking van de verwerking ervan, bezwaar maken tegen verwerking en toestemming intrekken. Mail ons om rechten uit te oefenen met betrekking tot informatie die wij bewaren. Verzoeken over informatie die Google bewaart, moeten mogelijk aan Google worden gericht. We kunnen evenredige informatie nodig hebben om een verzoek te verifiëren.
 
 Je kunt een klacht indienen bij je lokale gegevensbeschermingsautoriteit, waaronder de Poolse Urząd Ochrony Danych Osobowych . We gebruiken ondersteuningsinformatie niet voor uitsluitend geautomatiseerde beslissingen met rechtsgevolgen of vergelijkbaar ingrijpende gevolgen.
 
@@ -60,7 +60,7 @@ Oudere minderjarigen moeten dit beleid met een ouder of voogd doornemen. Vereist
 
 Deze website
 
-Deze website is beschikbaar op ducknap.games en via GitHub Pages. Onze hostingproviders kunnen verbindingsinformatie, zoals IP-adressen, verwerken om de website te leveren en te beveiligen. We voegen geen websiteanalyses of advertentiebestanden toe. Zie de GitHub-privacyverklaring .
+Deze website is beschikbaar op ducknap.games en via GitHub Pages. Onze hostingproviders kunnen verbindingsinformatie, zoals IP-adressen, verwerken om de website te leveren en te beveiligen. We voegen geen websiteanalyses of advertentiescripts toe. Zie de GitHub-privacyverklaring .
 
 Wijzigingen en contact
 

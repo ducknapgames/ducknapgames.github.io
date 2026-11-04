@@ -2,6 +2,16 @@
 
 The production origin is https://ducknap.games/. Keep canonical URLs on that origin unless the whole site is deliberately migrated.
 
+## GitHub Pages is a redirect, not a second website
+
+Dokploy builds the full website from `main`. GitHub Pages publishes only the generated `pages-redirect` branch. Do not point Pages back at `main`: serving both complete sites caused Google to choose the old GitHub address as canonical despite the correct canonical tags.
+
+Generate the Pages artifact into a new empty location with `python scripts/build-pages-redirects.py --output <new-output-directory>`, then publish its contents to `pages-redirect`. It derives every localized HTML destination from the canonical sitemap, preserves the legacy privacy URL, the public verification tag and app-ads.txt, and keeps crawling allowed. Update this branch after adding or moving public routes. No production HTML is rewritten by this build.
+
+GitHub Pages cannot issue application-configured HTTP 301 responses. These HTML pages use a zero-delay meta refresh, which Google treats as a permanent redirect, plus JavaScript that preserves query strings and fragments. Do not describe the HTML response itself as a 301. See [Google's redirect guidance](https://developers.google.com/search/docs/crawling-indexing/301-redirects).
+
+Run `python scripts/test-pages-redirects.py` before publishing. Check the root, a locale, a game privacy page and app-ads.txt on the deployed Pages domain. The canonical Dokploy site should still serve the full pages.
+
 - Each game has an HTML landing page under `/games/<slug>/`, linked from the homepage. Keep its availability and play destination accurate.
 - Update visible game descriptions, `VideoGame` JSON-LD, `games.json`, and the corresponding `index.md` together. The validator checks description/name consistency between catalog and game schema.
 - Add new canonical HTML pages to `sitemap.xml`. Do not include fragment URLs, query variants or the legacy `privacy.html` redirect.

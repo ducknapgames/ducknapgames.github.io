@@ -2,11 +2,6 @@ name: Check Pages redirects
 on:
   push:
     branches: [main]
-    paths:
-      - 'scripts/build-pages-redirects.py'
-      - 'scripts/test-pages-redirects.py'
-      - 'sitemap.xml'
-      - '.github/workflows/check-pages-redirects.yml'
   pull_request:
   workflow_dispatch:
 permissions:
@@ -24,3 +19,4 @@ jobs:
       - run: python scripts/check-site.py
       - run: python scripts/check-locales.py
       - run: python scripts/test-pages-redirects.py
+      - run: python scripts/check-search-appearance.py

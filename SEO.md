@@ -2,6 +2,12 @@
 
 The production origin is https://ducknap.games/. Keep canonical URLs on that origin unless the whole site is deliberately migrated.
 
+Homepage search titles and descriptions use keys `s002` and `s001` in the source/translation catalogs. Update these together with the English homepage template, then rebuild all locales. The stable `WebSite.name` remains Duck Nap Games. Google may rewrite titles, descriptions, site names and thumbnails; these are hints, not a controlled search-result layout or a promised click-through improvement.
+
+The public favicon is a stable 192px PNG at `/assets/studio/favicon.png`, with an ICO fallback. New preview derivatives are `search-preview-v2.jpg` (1200x630) and `search-square-v2.jpg` (800x800). The homepage offers the wide version in Open Graph/Twitter metadata and the square version through its page image schema. Original artwork and editable composition masters are preserved in the studio asset archive; do not build new revisions from these compressed JPEGs. Previous preview assets remain available.
+
+Run `python scripts/check-search-appearance.py` to check consistent metadata in all locales. After deployment, verify the live page/assets and request a fresh crawl if appropriate. Compare clicks and impressions over comparable periods in Search Console before claiming a result.
+
 ## GitHub Pages is a redirect, not a second website
 
 Dokploy builds the full website from `main`. GitHub Pages publishes only the generated `pages-redirect` branch. Do not point Pages back at `main`: serving both complete sites caused Google to choose the old GitHub address as canonical despite the correct canonical tags.

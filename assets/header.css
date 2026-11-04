@@ -2,7 +2,7 @@
 html { scroll-padding-top: 112px; }
 .header-space { position: relative; }
 .header.scroll-header {
-  position: fixed;
+  position: absolute;
   inset-inline: 0;
   top: 0;
   z-index: 60;
@@ -11,6 +11,7 @@ html { scroll-padding-top: 112px; }
   will-change: transform;
 }
 .header.scroll-header.header-floating {
+  position: fixed;
   top: 12px;
   width: min(var(--max), calc(100% - 48px));
   height: 80px;

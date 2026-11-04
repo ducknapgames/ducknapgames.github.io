@@ -16,7 +16,10 @@
   let direction = 0;
   let distance = 0;
   let pending = false;
-  const reveal = () => header.classList.remove('header-away');
+  const reveal = () => {
+    if (window.scrollY > space.offsetHeight) header.classList.add('header-floating');
+    header.classList.remove('header-away');
+  };
   const update = () => {
     pending = false;
     const maximum = Math.max(0, document.documentElement.scrollHeight - innerHeight);
@@ -24,9 +27,14 @@
     const delta = y - last;
     last = y;
     const nearTop = y <= space.offsetHeight;
-    header.classList.toggle('header-floating', !nearTop);
     const panelOpen = header.querySelector('.preferences-panel:not([hidden])');
-    if (nearTop || panelOpen || document.querySelector('.language-dialog[open]') || header.querySelector(':focus-visible')) {
+    if (nearTop) {
+      header.classList.remove('header-floating', 'header-away');
+      direction = 0;
+      distance = 0;
+      return;
+    }
+    if (panelOpen || document.querySelector('.language-dialog[open]') || header.querySelector(':focus-visible')) {
       reveal();
       distance = 0;
       return;
@@ -36,7 +44,8 @@
     if (next !== direction) { direction = next; distance = 0; }
     distance += Math.abs(delta);
     if (distance >= (next > 0 ? 30 : 12)) {
-      header.classList.toggle('header-away', next > 0);
+      if (next < 0) reveal();
+      else if (header.classList.contains('header-floating')) header.classList.add('header-away');
       distance = 0;
     }
   };

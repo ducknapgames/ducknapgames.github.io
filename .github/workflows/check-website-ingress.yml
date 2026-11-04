@@ -1,0 +1,28 @@
+name: Check website ingress
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  external-ingress:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - name: Public website is available and statistics remain private
+        shell: bash
+        run: |
+          set -euo pipefail
+          check() {
+            local expected="$1" url="$2"
+            shift 2
+            local actual
+            actual=$(curl --silent --show-error --max-time 20 --output /dev/null --write-out '%{http_code}' "$@" "$url")
+            echo "$url -> $actual (expected $expected)"
+            test "$actual" = "$expected"
+          }
+          check 200 https://ducknap.games/
+          check 200 https://ducknap.games/privacy/website/
+          check 404 https://ducknap.games/website-statistics/
+          check 403 https://dokploy.ducknap.games/website-statistics/
+          check 403 http://dokploy.ducknap.games/website-statistics/
+          check 403 https://dokploy.ducknap.games/website-statistics/ -H 'X-Forwarded-For: 100.64.0.1'

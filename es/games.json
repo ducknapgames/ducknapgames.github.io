@@ -1,0 +1,54 @@
+{
+  "name": "Duck Nap Games",
+  "website": "https://ducknap.games/es/",
+  "contact": "ducknapgames@gmail.com",
+  "games": [
+    {
+      "id": "whose-stuff",
+      "name": "Whose Stuff? Character Quiz",
+      "description": "Encuentra 100 personajes por sus objetos más reconocibles en Whose Stuff? Character Quiz. Juega en Android, disfruta de los puzles sin conexión y elige entre 16 idiomas.",
+      "genre": "Adivina el personaje",
+      "status": "Disponible en Google Play.",
+      "features": [
+        "100 personajes por descubrir",
+        "16 idiomas",
+        "Sin conexión juega a tu ritmo",
+        "El juego de Android contiene anuncios y compras integradas opcionales. Puedes jugar sin conexión; los anuncios, las compras y los servicios en línea necesitan conexión."
+      ],
+      "url": "https://ducknap.games/es/games/whose-stuff/",
+      "play_url": "https://play.google.com/store/apps/details?id=com.ducknapgames.whosestuff",
+      "platform": "Android",
+      "icon": "https://ducknap.games/assets/studio/whose-stuff-icon.webp"
+    },
+    {
+      "id": "fox-on-ice",
+      "name": "Fox on Ice",
+      "description": "Desliza a tu zorro por el hielo, esquiva a los huskies que patrullan y llega a la madriguera. Descubre Fox on Ice: 50 niveles, 10 capítulos, puzles diarios y una demo para navegador.",
+      "genre": "Puzle deslizante",
+      "status": "Demo disponible para navegador.",
+      "features": [
+        "50 niveles",
+        "10 capítulos",
+        "Cada día nuevos puzles"
+      ],
+      "url": "https://ducknap.games/es/games/fox-on-ice/",
+      "play_url": "https://fox-on-ice.ducknap.games/",
+      "platform": "Navegador web",
+      "icon": "https://ducknap.games/assets/studio/fox-on-ice-icon.png"
+    },
+    {
+      "id": "farm-pals-forever",
+      "name": "Farm Pals Forever",
+      "description": "Conoce Farm Pals Forever, un juego de granja acogedor con 100 cultivos y 20 vecinos animales. Cultiva la tierra y las amistades, y contacta con Duck Nap Games para conocer su disponibilidad.",
+      "genre": "Granja acogedora",
+      "status": "Próximamente",
+      "features": [
+        "100 cultivos",
+        "20 vecinos animales"
+      ],
+      "url": "https://ducknap.games/es/games/farm-pals-forever/",
+      "icon": "https://ducknap.games/assets/studio/farm-pals-icon.webp"
+    }
+  ],
+  "language": "es"
+}

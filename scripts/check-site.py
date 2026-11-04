@@ -22,7 +22,7 @@ class Page(HTMLParser):
         if 'id' in a: self.ids.append(a['id'])
         if tag == 'h1': self.h1s += 1
 
-pages = {p: Page(p.read_text(encoding='utf-8')) for p in ROOT.rglob('*.html') if '.git' not in p.parts}
+pages = {p: Page(p.read_text(encoding='utf-8')) for p in ROOT.rglob('*.html') if '.git' not in p.parts and 'i18n' not in p.relative_to(ROOT).parts}
 canonicals = []
 for p, page in pages.items():
     text = p.read_text(encoding='utf-8')

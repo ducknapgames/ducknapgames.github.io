@@ -6,5 +6,21 @@ COPY assets/ /usr/share/nginx/html/assets/
 COPY games/ /usr/share/nginx/html/games/
 COPY privacy/ /usr/share/nginx/html/privacy/
 COPY support/ /usr/share/nginx/html/support/
+# Keep locale directories separate so every translated route remains addressable.
+COPY ja/ /usr/share/nginx/html/ja/
+COPY ko/ /usr/share/nginx/html/ko/
+COPY de/ /usr/share/nginx/html/de/
+COPY zh-Hant/ /usr/share/nginx/html/zh-Hant/
+COPY fr/ /usr/share/nginx/html/fr/
+COPY es/ /usr/share/nginx/html/es/
+COPY pt-BR/ /usr/share/nginx/html/pt-BR/
+COPY it/ /usr/share/nginx/html/it/
+COPY ar/ /usr/share/nginx/html/ar/
+COPY th/ /usr/share/nginx/html/th/
+COPY tr/ /usr/share/nginx/html/tr/
+COPY id/ /usr/share/nginx/html/id/
+COPY pl/ /usr/share/nginx/html/pl/
+COPY nl/ /usr/share/nginx/html/nl/
+COPY vi/ /usr/share/nginx/html/vi/
 EXPOSE 80
 HEALTHCHECK --interval=30s --timeout=3s --start-period=10s --retries=3 CMD wget -q -O /dev/null http://127.0.0.1/robots.txt || exit 1

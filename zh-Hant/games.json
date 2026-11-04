@@ -1,0 +1,54 @@
+{
+  "name": "Duck Nap Games",
+  "website": "https://ducknap.games/zh-Hant/",
+  "contact": "ducknapgames@gmail.com",
+  "games": [
+    {
+      "id": "whose-stuff",
+      "name": "Whose Stuff? Character Quiz",
+      "description": "在 Whose Stuff? Character Quiz 中，從招牌物品猜出 100 個角色。在 Android 上享受離線解謎，並可選擇 16 種語言。",
+      "genre": "角色猜謎",
+      "status": "已於 Google Play 推出。",
+      "features": [
+        "100 個角色等你找出",
+        "16 種語言",
+        "離線遊玩 照自己的步調玩",
+        "Android 版含廣告及選擇性應用程式內購買。可離線遊玩；廣告、購買與線上服務需要網路連線。"
+      ],
+      "url": "https://ducknap.games/zh-Hant/games/whose-stuff/",
+      "play_url": "https://play.google.com/store/apps/details?id=com.ducknapgames.whosestuff",
+      "platform": "Android",
+      "icon": "https://ducknap.games/assets/studio/whose-stuff-icon.webp"
+    },
+    {
+      "id": "fox-on-ice",
+      "name": "Fox on Ice",
+      "description": "讓小狐狸滑過冰面、避開巡邏的哈士奇，回到洞穴。探索 Fox on Ice 的 50 個關卡、10 個章節、每日謎題與瀏覽器試玩版。",
+      "genre": "滑行解謎",
+      "status": "瀏覽器試玩版已開放。",
+      "features": [
+        "50 個關卡",
+        "10 個章節",
+        "每日 謎題"
+      ],
+      "url": "https://ducknap.games/zh-Hant/games/fox-on-ice/",
+      "play_url": "https://fox-on-ice.ducknap.games/",
+      "platform": "網頁瀏覽器",
+      "icon": "https://ducknap.games/assets/studio/fox-on-ice-icon.png"
+    },
+    {
+      "id": "farm-pals-forever",
+      "name": "Farm Pals Forever",
+      "description": "認識 Farm Pals Forever：有 100 種作物和 20 位動物鄰居的療癒農耕遊戲。種下作物，培養友誼，並向 Duck Nap Games 詢問推出資訊。",
+      "genre": "療癒農耕",
+      "status": "即將推出",
+      "features": [
+        "100 種作物",
+        "20 位動物鄰居"
+      ],
+      "url": "https://ducknap.games/zh-Hant/games/farm-pals-forever/",
+      "icon": "https://ducknap.games/assets/studio/farm-pals-icon.webp"
+    }
+  ],
+  "language": "zh-Hant"
+}

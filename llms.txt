@@ -17,3 +17,23 @@ Whose Stuff? Character Quiz is available on Android. Fox on Ice has a browser de
 - [Support](https://ducknap.games/support/): Game help and purchase questions.
 - [Privacy policies](https://ducknap.games/privacy/): Game-specific privacy information.
 - [Whose Stuff data deletion](https://ducknap.games/games/whose-stuff/delete-data/): Account and data deletion requests.
+
+## Website languages
+
+English pages remain at the root. These languages provide the same studio, game, support and privacy pages, with matching localized game catalogs at `/<locale>/games.json`. Preserve the reader's language when following internal links.
+
+- [日本語](https://ducknap.games/ja/index.md)
+- [한국어](https://ducknap.games/ko/index.md)
+- [Deutsch](https://ducknap.games/de/index.md)
+- [繁體中文](https://ducknap.games/zh-Hant/index.md)
+- [Français](https://ducknap.games/fr/index.md)
+- [Español](https://ducknap.games/es/index.md)
+- [Português (Brasil)](https://ducknap.games/pt-BR/index.md)
+- [Italiano](https://ducknap.games/it/index.md)
+- [العربية](https://ducknap.games/ar/index.md)
+- [ไทย](https://ducknap.games/th/index.md)
+- [Türkçe](https://ducknap.games/tr/index.md)
+- [Bahasa Indonesia](https://ducknap.games/id/index.md)
+- [Polski](https://ducknap.games/pl/index.md)
+- [Nederlands](https://ducknap.games/nl/index.md)
+- [Tiếng Việt](https://ducknap.games/vi/index.md)

@@ -1,0 +1,54 @@
+{
+  "name": "Duck Nap Games",
+  "website": "https://ducknap.games/vi/",
+  "contact": "ducknapgames@gmail.com",
+  "games": [
+    {
+      "id": "whose-stuff",
+      "name": "Whose Stuff? Character Quiz",
+      "description": "Đoán 100 nhân vật qua đồ vật đặc trưng trong Whose Stuff? Character Quiz. Chơi trên Android, giải đố ngoại tuyến và chọn trong 16 ngôn ngữ.",
+      "genre": "Đố nhân vật",
+      "status": "Đã có trên Google Play.",
+      "features": [
+        "100 nhân vật để khám phá",
+        "16 ngôn ngữ",
+        "Ngoại tuyến chơi theo nhịp của bạn",
+        "Game Android có quảng cáo và mua hàng trong ứng dụng tùy chọn. Có thể chơi ngoại tuyến; quảng cáo, mua hàng và dịch vụ trực tuyến cần kết nối mạng."
+      ],
+      "url": "https://ducknap.games/vi/games/whose-stuff/",
+      "play_url": "https://play.google.com/store/apps/details?id=com.ducknapgames.whosestuff",
+      "platform": "Android",
+      "icon": "https://ducknap.games/assets/studio/whose-stuff-icon.webp"
+    },
+    {
+      "id": "fox-on-ice",
+      "name": "Fox on Ice",
+      "description": "Cho cáo lướt trên băng, tránh husky đi tuần và tìm về hang. Khám phá Fox on Ice với 50 màn, 10 chương, câu đố hằng ngày và bản chơi thử trên trình duyệt.",
+      "genre": "Giải đố trượt",
+      "status": "Đã có bản chơi thử trên trình duyệt.",
+      "features": [
+        "50 màn chơi",
+        "10 chương",
+        "Hằng ngày câu đố"
+      ],
+      "url": "https://ducknap.games/vi/games/fox-on-ice/",
+      "play_url": "https://fox-on-ice.ducknap.games/",
+      "platform": "Trình duyệt web",
+      "icon": "https://ducknap.games/assets/studio/fox-on-ice-icon.png"
+    },
+    {
+      "id": "farm-pals-forever",
+      "name": "Farm Pals Forever",
+      "description": "Làm quen với Farm Pals Forever, game nông trại thư giãn với 100 loại cây trồng và 20 hàng xóm động vật. Trồng cây, vun đắp tình bạn và liên hệ Duck Nap Games để biết thông tin phát hành.",
+      "genre": "Nông trại thư giãn",
+      "status": "Sắp ra mắt",
+      "features": [
+        "100 loại cây trồng",
+        "20 hàng xóm động vật"
+      ],
+      "url": "https://ducknap.games/vi/games/farm-pals-forever/",
+      "icon": "https://ducknap.games/assets/studio/farm-pals-icon.webp"
+    }
+  ],
+  "language": "vi"
+}

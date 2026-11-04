@@ -1,0 +1,54 @@
+{
+  "name": "Duck Nap Games",
+  "website": "https://ducknap.games/pl/",
+  "contact": "ducknapgames@gmail.com",
+  "games": [
+    {
+      "id": "whose-stuff",
+      "name": "Whose Stuff? Character Quiz",
+      "description": "Odgadnij 100 postaci po ich kultowych przedmiotach w Whose Stuff? Character Quiz. Graj na Androidzie, rozwiązuj zagadki offline i wybieraj spośród 16 języków.",
+      "genre": "Quiz postaci",
+      "status": "Dostępna w Google Play.",
+      "features": [
+        "100 postaci do odkrycia",
+        "16 języków",
+        "Offline graj we własnym tempie",
+        "Gra na Androida zawiera reklamy i opcjonalne zakupy w aplikacji. Można grać offline; reklamy, zakupy i usługi online wymagają połączenia."
+      ],
+      "url": "https://ducknap.games/pl/games/whose-stuff/",
+      "play_url": "https://play.google.com/store/apps/details?id=com.ducknapgames.whosestuff",
+      "platform": "Android",
+      "icon": "https://ducknap.games/assets/studio/whose-stuff-icon.webp"
+    },
+    {
+      "id": "fox-on-ice",
+      "name": "Fox on Ice",
+      "description": "Ślizgaj się lisem po lodzie, omijaj patrolujące husky i dotrzyj do nory. Odkryj Fox on Ice: 50 poziomów, 10 rozdziałów, codzienne łamigłówki i demo w przeglądarce.",
+      "genre": "Łamigłówka z poślizgiem",
+      "status": "Demo dostępne w przeglądarce.",
+      "features": [
+        "50 poziomów",
+        "10 rozdziałów",
+        "Codzienne łamigłówki"
+      ],
+      "url": "https://ducknap.games/pl/games/fox-on-ice/",
+      "play_url": "https://fox-on-ice.ducknap.games/",
+      "platform": "Przeglądarka internetowa",
+      "icon": "https://ducknap.games/assets/studio/fox-on-ice-icon.png"
+    },
+    {
+      "id": "farm-pals-forever",
+      "name": "Farm Pals Forever",
+      "description": "Poznaj Farm Pals Forever, przytulną grę farmerską ze 100 uprawami i 20 zwierzęcymi sąsiadami. Uprawiaj rośliny, pielęgnuj przyjaźnie i zapytaj Duck Nap Games o dostępność.",
+      "genre": "Przytulna gra farmerska",
+      "status": "Wkrótce",
+      "features": [
+        "100 upraw",
+        "20 zwierzęcych sąsiadów"
+      ],
+      "url": "https://ducknap.games/pl/games/farm-pals-forever/",
+      "icon": "https://ducknap.games/assets/studio/farm-pals-icon.webp"
+    }
+  ],
+  "language": "pl"
+}

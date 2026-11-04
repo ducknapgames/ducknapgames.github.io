@@ -1,4 +1,7 @@
 (() => {
+  let translations = {};
+  try { translations = JSON.parse(document.getElementById('site-translations')?.textContent || '{}'); } catch (_) {}
+  const t = text => translations[text] || text;
   const root = document.getElementById("answer-options");
   const image = document.getElementById("clue-image");
   const count = document.getElementById("clue-count");
@@ -83,7 +86,7 @@
     if (!button || found) return;
     if (button.dataset.answer !== clues[index].answer) {
       button.classList.add("incorrect");
-      feedback.textContent = "Not quite. Try another character.";
+      feedback.textContent = t("Not quite. Try another character.");
       if (!reducedMotion.matches) {
         button.animate(
           [{ transform: "translateX(0)" }, { transform: "translateX(-5px)" }, { transform: "translateX(5px)" }, { transform: "translateX(0)" }],
@@ -96,7 +99,7 @@
     root.querySelectorAll("button").forEach((choice) => { choice.disabled = true; });
     button.classList.add("correct");
     world.classList.add("found");
-    feedback.textContent = `That’s ${clues[index].answer}! You know your stuff.`;
+    feedback.textContent = t('That’s {name}! You know your stuff.').replace('{name}', t(clues[index].answer));
     animateClue(
       [{ transform: "scale(1) rotate(-2deg)" }, { transform: "scale(1.1) rotate(5deg)" }, { transform: "scale(1) rotate(-2deg)" }],
       { duration: 430, easing: "cubic-bezier(.2,.8,.2,1)" },
@@ -104,7 +107,7 @@
     celebrate();
     next.hidden = false;
     next.firstChild.textContent =
-      index === clues.length - 1 ? "Try the clues again " : "Next clue ";
+      t(index === clues.length - 1 ? "Try the clues again" : "Next clue") + ' ';
     next.focus({ preventScroll: true });
   });
   next.addEventListener("click", () => {
@@ -113,7 +116,7 @@
     world.classList.remove("found");
     const clue = clues[index];
     image.src = `/assets/studio/${clue.image}.webp`;
-    image.alt = clue.alt;
+    image.alt = t(clue.alt);
     const shownIndex = index;
     image.decode().catch(() => {}).then(() => {
       if (index !== shownIndex) return;
@@ -123,17 +126,17 @@
       );
     });
     count.textContent = `${String(index + 1).padStart(2, "0")} / 03`;
-    card.querySelector(".clue-top > span").textContent = index === 0 ? "YOUR FIRST CLUE" : "YOUR NEXT CLUE";
+    card.querySelector(".clue-top > span").textContent = t(index === 0 ? "YOUR FIRST CLUE" : "YOUR NEXT CLUE");
     root.replaceChildren(
       ...clue.choices.map((name) => {
         const button = document.createElement("button");
         button.type = "button";
         button.dataset.answer = name;
-        button.textContent = name;
+        button.textContent = t(name);
         return button;
       }),
     );
-    feedback.textContent = "Who does this belong to?";
+    feedback.textContent = t("Who does this belong to?");
     next.hidden = true;
     root.querySelector("button").focus({ preventScroll: true });
   });

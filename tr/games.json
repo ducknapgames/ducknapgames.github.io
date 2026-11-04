@@ -1,0 +1,54 @@
+{
+  "name": "Duck Nap Games",
+  "website": "https://ducknap.games/tr/",
+  "contact": "ducknapgames@gmail.com",
+  "games": [
+    {
+      "id": "whose-stuff",
+      "name": "Whose Stuff? Character Quiz",
+      "description": "Whose Stuff? Character Quiz'de 100 karakteri ikonik eşyalarından tanıyın. Android'de oynayın, çevrimdışı bulmacaların tadını çıkarın ve 16 dilden birini seçin.",
+      "genre": "Karakter bilmecesi",
+      "status": "Google Play'de mevcut.",
+      "features": [
+        "100 bulunacak karakter",
+        "16 dil",
+        "Çevrimdışı kendi hızında oyna",
+        "Android oyunu reklamlar ve isteğe bağlı uygulama içi satın almalar içerir. Çevrimdışı oynanabilir; reklamlar, satın almalar ve çevrimiçi hizmetler bağlantı gerektirir."
+      ],
+      "url": "https://ducknap.games/tr/games/whose-stuff/",
+      "play_url": "https://play.google.com/store/apps/details?id=com.ducknapgames.whosestuff",
+      "platform": "Android",
+      "icon": "https://ducknap.games/assets/studio/whose-stuff-icon.webp"
+    },
+    {
+      "id": "fox-on-ice",
+      "name": "Fox on Ice",
+      "description": "Tilkinizle buzda kayın, devriye gezen husky'lerden kaçının ve ine ulaşın. Fox on Ice'ı keşfedin: 50 bölüm, 10 kısım, günlük bulmacalar ve tarayıcı demosu.",
+      "genre": "Kaydırma bulmacası",
+      "status": "Tarayıcı demosu mevcut.",
+      "features": [
+        "50 bölüm",
+        "10 kısım",
+        "Günlük bulmacalar"
+      ],
+      "url": "https://ducknap.games/tr/games/fox-on-ice/",
+      "play_url": "https://fox-on-ice.ducknap.games/",
+      "platform": "Web tarayıcısı",
+      "icon": "https://ducknap.games/assets/studio/fox-on-ice-icon.png"
+    },
+    {
+      "id": "farm-pals-forever",
+      "name": "Farm Pals Forever",
+      "description": "100 ekin ve 20 hayvan komşulu huzurlu çiftlik oyunu Farm Pals Forever ile tanışın. Ekinler yetiştirin, dostluklar büyütün ve erişim bilgisi için Duck Nap Games'e ulaşın.",
+      "genre": "Huzurlu çiftlik oyunu",
+      "status": "Yakında",
+      "features": [
+        "100 ekin",
+        "20 hayvan komşu"
+      ],
+      "url": "https://ducknap.games/tr/games/farm-pals-forever/",
+      "icon": "https://ducknap.games/assets/studio/farm-pals-icon.webp"
+    }
+  ],
+  "language": "tr"
+}

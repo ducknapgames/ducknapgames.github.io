@@ -1,0 +1,54 @@
+{
+  "name": "Duck Nap Games",
+  "website": "https://ducknap.games/de/",
+  "contact": "ducknapgames@gmail.com",
+  "games": [
+    {
+      "id": "whose-stuff",
+      "name": "Whose Stuff? Character Quiz",
+      "description": "Erkenne 100 Charaktere an ihren berühmten Gegenständen in Whose Stuff? Character Quiz. Spiele auf Android, löse Rätsel offline und wähle aus 16 Sprachen.",
+      "genre": "Charakterquiz",
+      "status": "Auf Google Play verfügbar.",
+      "features": [
+        "100 Charaktere entdecken",
+        "16 Sprachen",
+        "Offline in deinem Tempo spielen",
+        "Das Android-Spiel enthält Werbung und optionale In-App-Käufe. Du kannst offline spielen; Werbung, Käufe und Onlinedienste benötigen eine Verbindung."
+      ],
+      "url": "https://ducknap.games/de/games/whose-stuff/",
+      "play_url": "https://play.google.com/store/apps/details?id=com.ducknapgames.whosestuff",
+      "platform": "Android",
+      "icon": "https://ducknap.games/assets/studio/whose-stuff-icon.webp"
+    },
+    {
+      "id": "fox-on-ice",
+      "name": "Fox on Ice",
+      "description": "Lass deinen Fuchs über das Eis gleiten, weiche patrouillierenden Huskys aus und erreiche den Bau. Entdecke Fox on Ice: 50 Level, 10 Kapitel, tägliche Rätsel und eine Browser-Demo.",
+      "genre": "Schiebepuzzle",
+      "status": "Browser-Demo verfügbar.",
+      "features": [
+        "50 Level",
+        "10 Kapitel",
+        "Täglich neue Rätsel"
+      ],
+      "url": "https://ducknap.games/de/games/fox-on-ice/",
+      "play_url": "https://fox-on-ice.ducknap.games/",
+      "platform": "Webbrowser",
+      "icon": "https://ducknap.games/assets/studio/fox-on-ice-icon.png"
+    },
+    {
+      "id": "farm-pals-forever",
+      "name": "Farm Pals Forever",
+      "description": "Entdecke Farm Pals Forever, ein gemütliches Farmspiel mit 100 Nutzpflanzen und 20 tierischen Nachbarn. Lass Pflanzen und Freundschaften wachsen und frage Duck Nap Games nach der Verfügbarkeit.",
+      "genre": "Gemütliches Farmleben",
+      "status": "Demnächst",
+      "features": [
+        "100 Nutzpflanzen",
+        "20 tierische Nachbarn"
+      ],
+      "url": "https://ducknap.games/de/games/farm-pals-forever/",
+      "icon": "https://ducknap.games/assets/studio/farm-pals-icon.webp"
+    }
+  ],
+  "language": "de"
+}

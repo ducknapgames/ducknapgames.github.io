@@ -1,0 +1,54 @@
+{
+  "name": "Duck Nap Games",
+  "website": "https://ducknap.games/id/",
+  "contact": "ducknapgames@gmail.com",
+  "games": [
+    {
+      "id": "whose-stuff",
+      "name": "Whose Stuff? Character Quiz",
+      "description": "Temukan 100 karakter dari barang khasnya di Whose Stuff? Character Quiz. Mainkan di Android, nikmati puzzle offline, dan pilih dari 16 bahasa.",
+      "genre": "Kuis karakter",
+      "status": "Tersedia di Google Play.",
+      "features": [
+        "100 karakter untuk ditemukan",
+        "16 bahasa",
+        "Offline main sesuai ritmemu",
+        "Game Android ini berisi iklan dan pembelian dalam aplikasi yang opsional. Kamu bisa bermain offline; iklan, pembelian, dan layanan online memerlukan koneksi."
+      ],
+      "url": "https://ducknap.games/id/games/whose-stuff/",
+      "play_url": "https://play.google.com/store/apps/details?id=com.ducknapgames.whosestuff",
+      "platform": "Android",
+      "icon": "https://ducknap.games/assets/studio/whose-stuff-icon.webp"
+    },
+    {
+      "id": "fox-on-ice",
+      "name": "Fox on Ice",
+      "description": "Luncurkan rubahmu di atas es, hindari husky yang berpatroli, dan capai sarang. Jelajahi Fox on Ice: 50 level, 10 bab, puzzle harian, dan demo di browser.",
+      "genre": "Puzzle geser",
+      "status": "Demo tersedia di browser.",
+      "features": [
+        "50 level",
+        "10 bab",
+        "Puzzle harian"
+      ],
+      "url": "https://ducknap.games/id/games/fox-on-ice/",
+      "play_url": "https://fox-on-ice.ducknap.games/",
+      "platform": "Browser web",
+      "icon": "https://ducknap.games/assets/studio/fox-on-ice-icon.png"
+    },
+    {
+      "id": "farm-pals-forever",
+      "name": "Farm Pals Forever",
+      "description": "Kenali Farm Pals Forever, game pertanian santai dengan 100 tanaman dan 20 tetangga hewan. Tanam hasil bumi, tumbuhkan persahabatan, dan hubungi Duck Nap Games untuk mengetahui ketersediaannya.",
+      "genre": "Pertanian santai",
+      "status": "Segera hadir",
+      "features": [
+        "100 tanaman",
+        "20 tetangga hewan"
+      ],
+      "url": "https://ducknap.games/id/games/farm-pals-forever/",
+      "icon": "https://ducknap.games/assets/studio/farm-pals-icon.webp"
+    }
+  ],
+  "language": "id"
+}

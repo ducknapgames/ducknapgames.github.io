@@ -1,0 +1,151 @@
+/* Language controls share the studio palette and remain secondary to the games. */
+/* Keep the page width unchanged when the modal locks background scrolling. */
+html { scrollbar-gutter: stable; }
+.header .nav { gap: 24px; }
+.header-preferences { position: relative; flex: none; line-height: 1.4; z-index: 20; }
+.preferences-trigger { display: inline-flex; align-items: center; justify-content: center; gap: 8px; min-height: 44px; padding: 8px 12px; border: 1px solid var(--line); border-radius: 12px; background: transparent; color: var(--ink); font: inherit; font-size: 13px; font-weight: 700; cursor: pointer; }
+.preferences-trigger > svg { display: block; width: 20px; height: 20px; flex: none; }
+.preferences-trigger:hover { background: var(--sand); }
+.preferences-panel { position: absolute; inset-inline-end: 0; top: calc(100% + 14px); width: 310px; max-width: calc(100vw - 32px); padding: 20px; border: 1px solid var(--line); border-radius: 20px; background: var(--paper); color: var(--ink); box-shadow: 0 12px 36px #0002; }
+.preferences-panel[hidden] { display: none; }
+.mobile-menu-links, .mobile-menu-backdrop, .preferences-trigger > .mobile-menu-icon { display: none; }
+.menu-cross { display: none; }
+.preferences-panel h2 { font: 600 22px/1.2 var(--display); letter-spacing: -.3px; margin: 0 0 16px; }
+.preferences-language { display: flex; align-items: center; justify-content: space-between; gap: 12px; width: 100%; min-height: 64px; padding: 0 0 16px; margin: 0 0 16px; border: 0; border-bottom: 1px solid var(--line); border-radius: 0; background: transparent; color: var(--ink); text-align: start; font: inherit; cursor: pointer; }
+.preferences-language:hover .preferences-value { text-decoration: underline; text-underline-offset: 4px; }
+.preferences-copy { display: flex; flex-direction: column; gap: 6px; min-width: 0; }
+.preferences-label { font-size: 13px; color: var(--muted); }
+.preferences-value { display: flex; align-items: center; gap: 8px; font-size: 14px; font-weight: 700; }
+.preferences-chevron { display: block; width: 16px; height: 16px; flex: none; }
+html[dir="rtl"] .preferences-chevron { transform: rotate(180deg); }
+.preferences-appearance { display: flex; align-items: center; justify-content: space-between; gap: 16px; font-size: 14px; min-height: 44px; }
+.header .preferences-panel .theme-toggle { position: relative; inset: auto; display: inline-flex; flex: none; margin: 0; }
+@media(max-width: 600px) {
+  .header { display: flex; align-items: center; justify-content: space-between; width: calc(100% - 40px); min-height: 82px; padding-block: 18px; z-index: 40; }
+  .header .nav { width: auto; margin: 0; }
+  .header .nav > a, .header .nav > a:nth-child(2) { display: none; }
+  .header .header-preferences { position: static; }
+  .preferences-trigger { min-width: 44px; width: 44px; height: 44px; padding: 10px; }
+  .preferences-trigger > svg, .preferences-trigger > span { display: none; }
+  .preferences-trigger > .mobile-menu-icon { display: block; width: 22px; height: 22px; }
+  .preferences-trigger[aria-expanded="true"] .menu-bars { display: none; }
+  .preferences-trigger[aria-expanded="true"] .menu-cross { display: block; }
+  .preferences-panel { z-index: 42; top: 100%; inset-inline: -20px; width: auto; max-width: none; max-height: calc(100dvh - 82px); overflow-y: auto; overscroll-behavior: contain; padding: 12px 24px 22px; border-radius: 0 0 24px 24px; box-shadow: 0 16px 32px #0002; }
+  .preferences-panel h2 { display: none; }
+  .mobile-menu-links { display: block; padding-bottom: 16px; margin-bottom: 10px; border-bottom: 1px solid var(--line); }
+  .mobile-menu-links a { display: flex; align-items: center; justify-content: space-between; gap: 16px; min-height: 64px; padding: 10px 0; font: 600 27px/1.25 var(--display); letter-spacing: -.5px; color: var(--ink); text-decoration: none; }
+  .mobile-menu-links a > span { flex: none; color: var(--muted); font: 24px/1 sans-serif; }
+  .mobile-menu-links a:hover { color: var(--apricot); }
+  .mobile-menu-links .nav-contact { border: 0; }
+  .preferences-language { min-height: 58px; padding: 0; margin: 0; border: 0; }
+  .preferences-copy { flex-direction: row; align-items: center; justify-content: space-between; flex: 1; gap: 16px; }
+  .preferences-label { font-size: 14px; font-weight: 400; color: var(--ink); }
+  .preferences-value { font-weight: 400; }
+  .preferences-appearance { min-height: 58px; }
+  .mobile-menu-backdrop:not([hidden]) { display: block; position: fixed; inset: 82px 0 0; z-index: -1; background: #0009; }
+  html:has(.mobile-menu-open), html:has(.mobile-menu-open) body { overflow: hidden; }
+  html[dir="rtl"] .mobile-menu-links a { letter-spacing: normal; }
+  html[dir="rtl"] .mobile-menu-links a > span { transform: scaleX(-1); }
+}
+.theme-toggle { direction: ltr; }
+#clue-count,.floating-icon strong { direction: ltr; unicode-bidi: isolate; }
+.language-dialog { width: min(640px, calc(100% - 32px)); max-height: min(760px, calc(100dvh - 40px)); padding: 28px; border: 1px solid var(--line); border-radius: 24px; color: var(--ink); background: var(--paper); box-shadow: 0 24px 80px #0004; overflow: auto; overscroll-behavior: contain; }
+.language-dialog::backdrop { background: #141019a8; }
+html:has(.language-dialog[open]) { overflow: hidden; }
+.language-dialog-header { display: flex; align-items: center; justify-content: space-between; gap: 16px; margin-bottom: 20px; }
+.language-dialog-header h2 { font: 600 28px/1.25 var(--display); letter-spacing: -.6px; margin: 0; }
+.language-close { display: grid; place-items: center; width: 44px; height: 44px; padding: 10px; border: 0; border-radius: 50%; background: var(--sand); color: var(--ink); flex: none; cursor: pointer; }
+.language-close svg { width: 24px; height: 24px; }
+.language-search-wrap { display: flex; align-items: center; gap: 10px; padding: 0 14px; margin-bottom: 20px; border: 1px solid var(--line); border-radius: 12px; background: var(--sand); }
+.language-search-wrap:focus-within { outline: 2px solid var(--ink); outline-offset: 2px; }
+.language-search-wrap > svg { width: 20px; height: 20px; color: var(--muted); flex: none; }
+.language-search { width: 100%; min-width: 0; min-height: 48px; padding: 10px 0; border: 0; outline: 0; color: var(--ink); background: transparent; font: inherit; }
+.language-search::placeholder { color: var(--muted); opacity: 1; }
+.language-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 4px; }
+.language-option { position: relative; display: grid; grid-template-columns: 36px minmax(0, 1fr); align-items: center; gap: 12px; min-height: 68px; padding: 10px 36px 10px 14px; border: 1px solid transparent; border-radius: 12px; text-decoration: none; line-height: 1.35; }
+.language-copy { display: flex; flex-direction: column; align-items: flex-start; gap: 2px; min-width: 0; }
+.language-flag { display: grid; place-items: center; width: 36px; height: 28px; }
+.language-flag img { width: 30px; height: 22px; object-fit: contain; display: block; }
+.language-current-flag { display: block; width: 28px; height: 22px; object-fit: contain; flex: none; }
+.language-option:hover { background: var(--sand); text-decoration: none; }
+.language-option[aria-current] { border-color: var(--apricot); background: var(--sand); }
+.language-name { font-weight: 700; font-size: 16px; }
+.language-description, .language-recommendation { color: var(--muted); font-size: 12px; }
+.language-check { position: absolute; inset-inline-end: 14px; top: 15px; color: var(--ink); }
+.language-empty { padding: 28px 0; text-align: center; color: var(--muted); }
+.language-option[hidden], .language-empty[hidden] { display: none; }
+html:not([lang="en"]) .hero h1 { font-size: clamp(48px,5.3vw,76px); letter-spacing: -1.7px; line-height: 1.12; }
+html:not([lang="en"]) .hero-actions { flex-wrap: wrap; }
+html:not([lang="en"]) .game-facts { flex-wrap: wrap; }
+html:not([lang="en"]) .footer-inner > p { white-space: normal; }
+html:not([lang="en"]) .studio-home .floating-icon span { max-width: 250px; }
+html:not([lang="en"]) .studio-home .clue-top { letter-spacing: .3px; }
+html:not([lang="en"]) .studio-home .clue-result { min-height: 100px; }
+.studio-home .clue-brand-row { position: absolute; inset: 18px 16px auto 24px; display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+.studio-home .clue-brand-row .floating-icon { position: static; flex: 1; min-width: 0; gap: 10px; }
+.studio-home .clue-brand-row .floating-icon img { flex: none; }
+.studio-home .clue-brand-row .floating-icon > span { max-width: 190px; line-height: 1.4; }
+.studio-home .clue-brand-row .floating-icon strong { display: inline-block; white-space: nowrap; }
+.studio-home .clue-brand-row .play-sticker { position: static; flex: none; max-width: 124px; padding: 10px; font-size: 10px; text-align: center; }
+/* Let the browser's native script shaping handle Arabic and complex scripts. */
+html:lang(ar) { --display: "Segoe UI", Tahoma, system-ui, sans-serif; }
+html:lang(ja),html:lang(ko),html:lang(zh),html:lang(th) { --display: system-ui, sans-serif; }
+html[dir="rtl"] .brand { direction: ltr; }
+html[dir="rtl"] .studio-home .game-content { padding-inline: 44px 0; }
+html[dir="rtl"] .hero h1,html[dir="rtl"] .eyebrow,html[dir="rtl"] .game-category,html[dir="rtl"] .clue-top { letter-spacing: normal; }
+html[dir="rtl"] .game-art-scene { direction: ltr; }
+html[dir="rtl"] .scene-note { direction: rtl; text-align: right; }
+html[dir="rtl"] .language-option { padding-inline: 14px 36px; }
+html[dir="rtl"] .contact-email { direction: ltr; }
+html[dir="rtl"] .contact-layout,html[dir="rtl"] .studio-copy { text-align: start; }
+@media (max-width: 1050px) {
+  .header .nav { gap: 14px; }
+  .header .brand { font-size: 23px; }
+  .header .brand-mark { width: 46px; }
+  .studio-home .clue-brand-row { inset-inline: 16px 12px; gap: 8px; }
+  .studio-home .clue-brand-row .floating-icon img { width: 48px; height: 48px; }
+  .studio-home .clue-brand-row .floating-icon > span { max-width: 124px; font-size: 8px; }
+  .studio-home .clue-brand-row .floating-icon strong { font-size: 17px; }
+  .studio-home .clue-brand-row .play-sticker { max-width: 96px; padding: 8px; font-size: 9px; }
+}
+@media (max-width: 800px) and (min-width: 601px) {
+  .header { flex-wrap: wrap; height: auto; padding-block: 20px; gap: 16px; }
+  .header .nav { width: 100%; justify-content: space-between; }
+}
+@media (max-width: 600px) {
+  .header .nav { gap: 12px; }
+  .header .brand { font-size: 23px; gap: 8px; }
+  .header .brand-mark { width: 42px; }
+  .language-dialog { padding: 20px; border-radius: 20px; max-height: calc(100dvh - 32px); }
+  .language-dialog-header { gap: 10px; margin-bottom: 16px; }
+  .language-dialog-header h2 { font-size: 25px; }
+  .language-search-wrap { margin-bottom: 12px; }
+  .language-grid { gap: 4px; }
+  .language-option { padding: 12px 26px 12px 10px; min-height: 76px; }
+  .language-name { font-size: 15px; }
+  .language-description,.language-recommendation { font-size: 11px; }
+  .language-check { inset-inline-end: 8px; }
+  html:not([lang="en"]) .hero h1 { font-size: clamp(36px,10vw,52px); letter-spacing: -1px; }
+  html:not([lang="en"]) .studio-home .hero-actions { display: flex; flex-direction: column; align-items: stretch; }
+  html:not([lang="en"]) .studio-home .hero-actions .button,html:not([lang="en"]) .studio-home .hero-actions .text-link { white-space: normal; text-align: center; }
+  html:not([lang="en"]) .studio-home .clue-feedback { line-height: 1.5; }
+  html:not([lang="en"]) .studio-home .clue-top { font-size: 10px; }
+  .studio-home .clue-brand-row { inset: 10px 10px auto 14px; gap: 6px; }
+  .studio-home .clue-brand-row .floating-icon { gap: 6px; }
+  .studio-home .clue-brand-row .floating-icon img { width: 40px; height: 40px; }
+  .studio-home .clue-brand-row .floating-icon > span { max-width: 106px; font-size: 8px; }
+  .studio-home .clue-brand-row .floating-icon strong { font-size: 15px; }
+  .studio-home .clue-brand-row .play-sticker { max-width: 78px; padding: 7px; font-size: 8px; }
+  html:not([lang="en"]) .game-legal { overflow-wrap: anywhere; }
+  html[dir="rtl"] .studio-home .game-content { padding-inline: 0; }
+  html[dir="rtl"] .footer-inner > p { text-align: right; }
+}
+@media (max-width: 480px) {
+  .language-grid { grid-template-columns: minmax(0, 1fr); }
+  .language-option { min-height: 64px; padding-inline: 10px 28px; }
+  html[dir="rtl"] .language-option { padding-inline: 10px 28px; }
+}
+@media (max-width: 379px) {
+  .header .brand { font-size: 21px; gap: 6px; }
+  .header .brand-mark { width: 36px; }
+}

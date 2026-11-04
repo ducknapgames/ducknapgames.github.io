@@ -1,0 +1,54 @@
+{
+  "name": "Duck Nap Games",
+  "website": "https://ducknap.games/fr/",
+  "contact": "ducknapgames@gmail.com",
+  "games": [
+    {
+      "id": "whose-stuff",
+      "name": "Whose Stuff? Character Quiz",
+      "description": "Retrouvez 100 personnages grâce à leurs objets emblématiques dans Whose Stuff? Character Quiz. Jouez sur Android, profitez des énigmes hors ligne et choisissez parmi 16 langues.",
+      "genre": "Quiz de personnages",
+      "status": "Disponible sur Google Play.",
+      "features": [
+        "100 personnages à trouver",
+        "16 langues",
+        "Hors ligne jouez à votre rythme",
+        "Le jeu Android contient des publicités et des achats intégrés facultatifs. Vous pouvez jouer hors ligne ; les publicités, achats et services en ligne nécessitent une connexion."
+      ],
+      "url": "https://ducknap.games/fr/games/whose-stuff/",
+      "play_url": "https://play.google.com/store/apps/details?id=com.ducknapgames.whosestuff",
+      "platform": "Android",
+      "icon": "https://ducknap.games/assets/studio/whose-stuff-icon.webp"
+    },
+    {
+      "id": "fox-on-ice",
+      "name": "Fox on Ice",
+      "description": "Faites glisser votre renard sur la glace, évitez les huskies en patrouille et atteignez le terrier. Découvrez Fox on Ice : 50 niveaux, 10 chapitres, des énigmes quotidiennes et une démo sur navigateur.",
+      "genre": "Casse-tête de glisse",
+      "status": "Démo disponible sur navigateur.",
+      "features": [
+        "50 niveaux",
+        "10 chapitres",
+        "Chaque jour des énigmes"
+      ],
+      "url": "https://ducknap.games/fr/games/fox-on-ice/",
+      "play_url": "https://fox-on-ice.ducknap.games/",
+      "platform": "Navigateur web",
+      "icon": "https://ducknap.games/assets/studio/fox-on-ice-icon.png"
+    },
+    {
+      "id": "farm-pals-forever",
+      "name": "Farm Pals Forever",
+      "description": "Découvrez Farm Pals Forever, un jeu de ferme cosy avec 100 cultures et 20 voisins animaux. Cultivez la terre et les amitiés, et contactez Duck Nap Games pour connaître sa disponibilité.",
+      "genre": "Ferme cosy",
+      "status": "Bientôt",
+      "features": [
+        "100 cultures",
+        "20 voisins animaux"
+      ],
+      "url": "https://ducknap.games/fr/games/farm-pals-forever/",
+      "icon": "https://ducknap.games/assets/studio/farm-pals-icon.webp"
+    }
+  ],
+  "language": "fr"
+}

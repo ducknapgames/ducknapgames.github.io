@@ -1,0 +1,54 @@
+{
+  "name": "Duck Nap Games",
+  "website": "https://ducknap.games/nl/",
+  "contact": "ducknapgames@gmail.com",
+  "games": [
+    {
+      "id": "whose-stuff",
+      "name": "Whose Stuff? Character Quiz",
+      "description": "Vind 100 personages aan de hand van hun iconische spullen in Whose Stuff? Character Quiz. Speel op Android, geniet van offline puzzels en kies uit 16 talen.",
+      "genre": "Personagequiz",
+      "status": "Beschikbaar op Google Play.",
+      "features": [
+        "100 personages om te vinden",
+        "16 talen",
+        "Offline speel in je eigen tempo",
+        "De Android-game bevat advertenties en optionele in-app aankopen. Offline spelen is mogelijk; advertenties, aankopen en online diensten vereisen een verbinding."
+      ],
+      "url": "https://ducknap.games/nl/games/whose-stuff/",
+      "play_url": "https://play.google.com/store/apps/details?id=com.ducknapgames.whosestuff",
+      "platform": "Android",
+      "icon": "https://ducknap.games/assets/studio/whose-stuff-icon.webp"
+    },
+    {
+      "id": "fox-on-ice",
+      "name": "Fox on Ice",
+      "description": "Laat je vos over het ijs glijden, ontwijk patrouillerende husky's en bereik het hol. Ontdek Fox on Ice: 50 levels, 10 hoofdstukken, dagelijkse puzzels en een browserdemo.",
+      "genre": "Schuifpuzzel",
+      "status": "Browserdemo beschikbaar.",
+      "features": [
+        "50 levels",
+        "10 hoofdstukken",
+        "Dagelijkse puzzels"
+      ],
+      "url": "https://ducknap.games/nl/games/fox-on-ice/",
+      "play_url": "https://fox-on-ice.ducknap.games/",
+      "platform": "Webbrowser",
+      "icon": "https://ducknap.games/assets/studio/fox-on-ice-icon.png"
+    },
+    {
+      "id": "farm-pals-forever",
+      "name": "Farm Pals Forever",
+      "description": "Maak kennis met Farm Pals Forever, een knusse boerderijgame met 100 gewassen en 20 dierenburen. Laat gewassen en vriendschappen groeien en vraag Duck Nap Games naar de beschikbaarheid.",
+      "genre": "Knusse boerderijgame",
+      "status": "Binnenkort",
+      "features": [
+        "100 gewassen",
+        "20 dierenburen"
+      ],
+      "url": "https://ducknap.games/nl/games/farm-pals-forever/",
+      "icon": "https://ducknap.games/assets/studio/farm-pals-icon.webp"
+    }
+  ],
+  "language": "nl"
+}

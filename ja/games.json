@@ -1,0 +1,54 @@
+{
+  "name": "Duck Nap Games",
+  "website": "https://ducknap.games/ja/",
+  "contact": "ducknapgames@gmail.com",
+  "games": [
+    {
+      "id": "whose-stuff",
+      "name": "Whose Stuff? Character Quiz",
+      "description": "Whose Stuff? Character Quizで、おなじみの持ち物から100人のキャラクターを当てよう。Androidでオフラインパズルを楽しめます。16言語に対応。",
+      "genre": "キャラクタークイズ",
+      "status": "Google Playで配信中。",
+      "features": [
+        "100 人のキャラクター",
+        "16 言語に対応",
+        "オフライン 自分のペースで遊べる",
+        "Android版には広告と任意のアプリ内購入が含まれます。ゲームはオフラインでも遊べますが、広告、購入、オンラインサービスには通信接続が必要です。"
+      ],
+      "url": "https://ducknap.games/ja/games/whose-stuff/",
+      "play_url": "https://play.google.com/store/apps/details?id=com.ducknapgames.whosestuff",
+      "platform": "Android",
+      "icon": "https://ducknap.games/assets/studio/whose-stuff-icon.webp"
+    },
+    {
+      "id": "fox-on-ice",
+      "name": "Fox on Ice",
+      "description": "キツネを氷の上で滑らせ、見回り中のハスキーを避けて巣穴へ。Fox on Iceには50ステージ、10チャプター、デイリーパズル、ブラウザー体験版があります。",
+      "genre": "スライドパズル",
+      "status": "ブラウザー体験版を公開中。",
+      "features": [
+        "50 ステージ",
+        "10 チャプター",
+        "日替わり パズル"
+      ],
+      "url": "https://ducknap.games/ja/games/fox-on-ice/",
+      "play_url": "https://fox-on-ice.ducknap.games/",
+      "platform": "ウェブブラウザー",
+      "icon": "https://ducknap.games/assets/studio/fox-on-ice-icon.png"
+    },
+    {
+      "id": "farm-pals-forever",
+      "name": "Farm Pals Forever",
+      "description": "100種類の作物と20人の動物のご近所さんが待つ、ほのぼの農場ゲームFarm Pals Forever。作物と友情を育もう。提供状況はDuck Nap Gamesにお問い合わせください。",
+      "genre": "ほのぼの農場",
+      "status": "近日公開",
+      "features": [
+        "100 種類の作物",
+        "20 人の動物のご近所さん"
+      ],
+      "url": "https://ducknap.games/ja/games/farm-pals-forever/",
+      "icon": "https://ducknap.games/assets/studio/farm-pals-icon.webp"
+    }
+  ],
+  "language": "ja"
+}

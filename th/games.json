@@ -1,0 +1,54 @@
+{
+  "name": "Duck Nap Games",
+  "website": "https://ducknap.games/th/",
+  "contact": "ducknapgames@gmail.com",
+  "games": [
+    {
+      "id": "whose-stuff",
+      "name": "Whose Stuff? Character Quiz",
+      "description": "ทายตัวละคร 100 ตัวจากของคู่ใจใน Whose Stuff? Character Quiz เล่นบน Android สนุกกับพัซเซิลออฟไลน์ และเลือกได้ 16 ภาษา",
+      "genre": "เกมทายตัวละคร",
+      "status": "เปิดให้เล่นบน Google Play แล้ว",
+      "features": [
+        "100 ตัวละครให้ค้นหา",
+        "16 ภาษา",
+        "ออฟไลน์ เล่นในจังหวะของคุณ",
+        "เกม Android มีโฆษณาและการซื้อในแอปแบบเลือกได้ เล่นออฟไลน์ได้ แต่โฆษณา การซื้อ และบริการออนไลน์ต้องเชื่อมต่ออินเทอร์เน็ต"
+      ],
+      "url": "https://ducknap.games/th/games/whose-stuff/",
+      "play_url": "https://play.google.com/store/apps/details?id=com.ducknapgames.whosestuff",
+      "platform": "Android",
+      "icon": "https://ducknap.games/assets/studio/whose-stuff-icon.webp"
+    },
+    {
+      "id": "fox-on-ice",
+      "name": "Fox on Ice",
+      "description": "พาจิ้งจอกลื่นบนน้ำแข็ง หลบฮัสกี้ลาดตระเวน แล้วกลับถึงโพรง พบกับ Fox on Ice ที่มี 50 ด่าน 10 บท พัซเซิลรายวัน และเวอร์ชันทดลองบนเบราว์เซอร์",
+      "genre": "พัซเซิลเลื่อน",
+      "status": "มีเวอร์ชันทดลองบนเบราว์เซอร์แล้ว",
+      "features": [
+        "50 ด่าน",
+        "10 บท",
+        "ทุกวัน พัซเซิล"
+      ],
+      "url": "https://ducknap.games/th/games/fox-on-ice/",
+      "play_url": "https://fox-on-ice.ducknap.games/",
+      "platform": "เว็บเบราว์เซอร์",
+      "icon": "https://ducknap.games/assets/studio/fox-on-ice-icon.png"
+    },
+    {
+      "id": "farm-pals-forever",
+      "name": "Farm Pals Forever",
+      "description": "พบกับ Farm Pals Forever เกมทำฟาร์มแสนอบอุ่นที่มีพืชผล 100 ชนิดและเพื่อนบ้านสัตว์ 20 ตัว ปลูกพืชและมิตรภาพ ติดต่อ Duck Nap Games เพื่อสอบถามการเปิดให้เล่น",
+      "genre": "ฟาร์มแสนอบอุ่น",
+      "status": "เร็ว ๆ นี้",
+      "features": [
+        "100 พืชผล",
+        "20 เพื่อนบ้านสัตว์"
+      ],
+      "url": "https://ducknap.games/th/games/farm-pals-forever/",
+      "icon": "https://ducknap.games/assets/studio/farm-pals-icon.webp"
+    }
+  ],
+  "language": "th"
+}

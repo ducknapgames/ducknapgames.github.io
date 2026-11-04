@@ -74,12 +74,9 @@
   preferences.addEventListener('focusout', event => {
     if (!preferences.contains(event.relatedTarget)) closePreferences();
   });
-  const search = dialog.querySelector('.language-search');
   const options = [...dialog.querySelectorAll('.language-option')];
-  const empty = dialog.querySelector('.language-empty');
   let copy = {};
   try { copy = JSON.parse(document.getElementById('site-translations')?.textContent || '{}'); } catch (_) {}
-  const fold = value => value.normalize('NFD').replace(/\p{Diacritic}/gu, '').toLocaleLowerCase();
   const recommended = (navigator.languages || [navigator.language]).map(value => {
     const lc = value.toLowerCase();
     if (/^zh(-hant|-tw|-hk|-mo)/.test(lc)) return 'zh-Hant';
@@ -106,9 +103,6 @@
   };
   toggle.addEventListener('click', () => {
     closePreferences();
-    search.value = '';
-    options.forEach(option => { option.hidden = false; });
-    empty.hidden = true;
     const fragment = visibleFragment();
     options.forEach(option => {
       const target = new URL(option.href);
@@ -116,7 +110,7 @@
       option.href = target.href;
     });
     dialog.showModal();
-    search.focus({ preventScroll: true });
+    dialog.querySelector('.language-close').focus({ preventScroll: true });
   });
   const close = () => { dialog.close(); trigger.focus({ preventScroll: true }); };
   dialog.querySelector('.language-close').addEventListener('click', close);
@@ -126,15 +120,6 @@
     if (event.clientX < bounds.left || event.clientX > bounds.right || event.clientY < bounds.top || event.clientY > bounds.bottom) close();
   });
   dialog.addEventListener('cancel', event => { event.preventDefault(); close(); });
-  search.addEventListener('input', () => {
-    const query = fold(search.value.trim());
-    let count = 0;
-    options.forEach(option => {
-      option.hidden = !fold(option.dataset.search).includes(query);
-      if (!option.hidden) count++;
-    });
-    empty.hidden = count > 0;
-  });
   // The theme script runs in the head. Keep its changing accessible title translated.
   const theme = document.querySelector('.theme-toggle');
   if (theme) {

@@ -117,7 +117,7 @@ def render(page,code,t,available):
     html=re.sub(r'(<script type="application/ld\+json">)(.*?)(</script>)',lambda m:m[1]+json.dumps(schema_translate(json.loads(m[2]),code,t),ensure_ascii=False)+m[3],html,flags=re.S)
     alternates='\n'.join(f'<link rel="alternate" hreflang="{lc}" href="{BASE+localized(route,lc)}">' for lc in available)
     alternates+=f'\n<link rel="alternate" hreflang="x-default" href="{BASE+route}">'
-    html=html.replace('</head>',alternates+'\n<link rel="stylesheet" href="/assets/languages.css?v=language-picker-3">\n<link rel="stylesheet" href="/assets/header.css?v=floating-c-4">\n<script src="/assets/languages.js?v=language-picker-3" defer></script>\n<script src="/assets/header.js?v=floating-c-4" defer></script>\n</head>')
+    html=html.replace('</head>',alternates+'\n<link rel="stylesheet" href="/assets/languages.css?v=language-picker-3">\n<link rel="stylesheet" href="/assets/header.css?v=floating-c-5">\n<script src="/assets/languages.js?v=language-picker-3" defer></script>\n<script src="/assets/header.js?v=floating-c-5" defer></script>\n</head>')
     button,dialog=picker(code,route,t)
     tr=lambda s:escape(t[KEYS[s]])
     trigger=f'<button class="preferences-trigger" type="button" aria-label="{tr("Preferences")}" aria-expanded="false" aria-controls="preferences-panel"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" aria-hidden="true"><path d="M4 7h8m4 0h4M4 17h3m4 0h9"/><circle cx="14" cy="7" r="2"/><circle cx="9" cy="17" r="2"/></svg><span dir="ltr">{code.upper()}</span></button>'

@@ -1,6 +1,5 @@
 /* Floating navigation: original layout at the top, compact surface when returning. */
 html { scroll-padding-top: 112px; }
-html:not([data-theme="dark"]) .header { --line: #bfb3a8; }
 .header-space { position: relative; }
 .header.scroll-header {
   position: absolute;

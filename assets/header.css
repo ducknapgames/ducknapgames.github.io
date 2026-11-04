@@ -31,6 +31,10 @@ body > .mobile-menu-backdrop:not([hidden]) { z-index: 50; inset: 0; }
 }
 @media (max-width: 600px) {
   html { scroll-padding-top: 90px; }
+  /* The dropdown belongs to the inset header, rather than the viewport edges. */
+  .header.scroll-header .preferences-panel {
+    inset-inline: 0;
+  }
   .header.scroll-header.header-floating {
     top: 10px;
     width: calc(100% - 24px);
